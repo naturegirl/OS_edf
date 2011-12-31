@@ -13,6 +13,7 @@
 #include <swap.h>
 #include <proc.h>
 #include <sched.h>
+#include <stdlib.h>
 
 int kern_init(void) __attribute__((noreturn));
 

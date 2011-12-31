@@ -21,6 +21,16 @@ sys_fork(uint32_t arg[]) {
 }
 
 static uint32_t
+sys_forkRT(uint32_t arg[]) {
+	int ct = (int)arg[2];		// are the 3rd and 4rd argument. stack and tf have also been passed
+	int pt = (int)arg[3];
+    struct trapframe *tf = current->tf;
+    uintptr_t stack = tf->tf_esp;
+    return do_forkRT(0, stack, tf, ct, pt);
+}
+
+
+static uint32_t
 sys_wait(uint32_t arg[]) {
     int pid = (int)arg[0];
     int *store = (int *)arg[1];
@@ -140,6 +150,7 @@ static uint32_t (*syscalls[])(uint32_t arg[]) = {
     [SYS_shmem]             sys_shmem,
     [SYS_putc]              sys_putc,
     [SYS_pgdir]             sys_pgdir,
+    [SYS_forkRT]				sys_forkRT,
 };
 
 #define NUM_SYSCALLS        ((sizeof(syscalls)) / (sizeof(syscalls[0])))

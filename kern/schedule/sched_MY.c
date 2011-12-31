@@ -52,7 +52,7 @@ MY_pick_next(struct run_queue *rq) {
 		if (proc->deadline <= closestDeadline)		// has closer deadline
 			pickNext = proc;
 	}
-	cprintf("sched_MY: picked next PID %d deadline %d\n", pickNext->pid, pickNext->deadline);
+	//cprintf("sched_MY: picked next PID %d deadline %d\n", pickNext->pid, pickNext->deadline);
     return pickNext;
 }
 

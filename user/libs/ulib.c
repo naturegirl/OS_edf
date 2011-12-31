@@ -32,6 +32,18 @@ fork(void) {
     return ret;
 }
 
+// add my own fork, for RT process.
+// is creation of RT process dependent on parent?
+int
+forkRT(int ct, int pt) {
+	int ret;
+	lock_fork();
+	ret = sys_forkRT(ct,pt);		// into kernel
+	unlock_fork();
+	return ret;
+
+}
+
 int
 wait(void) {
     return sys_wait(0, NULL);

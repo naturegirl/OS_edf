@@ -25,6 +25,7 @@ void __panic(const char *file, int line, const char *fmt, ...) __attribute__((no
 
 void exit(int error_code) __attribute__((noreturn));
 int fork(void);
+int forkRT(int ct, int pt) ;		// computation time, period time
 int wait(void);
 int waitpid(int pid, int *store);
 void yield(void);

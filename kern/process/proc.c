@@ -427,6 +427,11 @@ do_fork(uint32_t clone_flags, uintptr_t stack, struct trapframe *tf) {
     proc->time_slice = current->time_slice / 2;
     current->time_slice -= proc->time_slice;
     proc->deadline = rand() % (PROC_MAX_DEADLINE-1) + 1;		// arbitrary
+    proc->isRT = rand() % 3;		// is RT with chance 1/3
+    if (proc->isRT == 0)
+    	proc->isRT = 1;		// true
+    else
+    	proc->isRT = 0;		// false
 
     if (setup_kstack(proc) != 0) {
         goto bad_fork_cleanup_proc;
@@ -446,7 +451,7 @@ do_fork(uint32_t clone_flags, uintptr_t stack, struct trapframe *tf) {
             list_add_before(&(current->thread_group), &(proc->thread_group));
         }
     }
-    cprintf("do_fork() : %d\ deadline %d\n", proc->pid, proc->deadline);
+    cprintf("do_fork() : %d deadline %d isRT %d\n", proc->pid, proc->deadline, proc->isRT);
     local_intr_restore(intr_flag);
     wakeup_proc(proc);
 
@@ -461,13 +466,19 @@ bad_fork_cleanup_proc:
     goto fork_out;
 }
 
+int
+do_forkRT(uint32_t clone_flags, uintptr_t stack, struct trapframe *tf, int ct, int pt) {
+	cprintf("in do_forkRT with ct %d pt %d\n", ct, pt);
+	return 0;
+}
+
 // __do_exit - cause a thread exit (use do_exit, do_exit_thread instead)
 //   1. call exit_mmap & put_pgdir & mm_destroy to free the almost all memory space of process
 //   2. set process' state as PROC_ZOMBIE, then call wakeup_proc(parent) to ask parent reclaim itself.
 //   3. call scheduler to switch to other process
 static int
 __do_exit(void) {
-	cprintf("proc.c: exit pid: %d deadline:%d\n", current->pid, current->deadline);
+	//cprintf("proc.c: exit pid: %d deadline:%d\n", current->pid, current->deadline);
 
     if (current == idleproc) {
         panic("idleproc exit.\n");

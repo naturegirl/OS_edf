@@ -3,8 +3,7 @@
 
 int
 main(void) {
-	fork();
-	fork();
+	forkRT(12,14);
 	double x = 0;
 	double y = 0;
 	double z;

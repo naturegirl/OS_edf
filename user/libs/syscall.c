@@ -42,6 +42,12 @@ sys_fork(void) {
 }
 
 int
+sys_forkRT(void) {
+	return syscall(SYS_forkRT);
+}
+
+
+int
 sys_wait(int pid, int *store) {
     return syscall(SYS_wait, pid, store);
 }

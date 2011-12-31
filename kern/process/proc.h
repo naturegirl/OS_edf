@@ -46,7 +46,7 @@ struct proc_struct {
     int pid;                                    // Process ID
     int runs;                                   // the running times of Proces
     uintptr_t kstack;                           // Process kernel stack
-    volatile bool need_resched;                 // bool value: need to be rescheduled to release CPU?
+    volatile bool need_resched;                 // bool value: need to be rescheduled to release CPU?, volatile to tell the compiler not to optimize
     struct proc_struct *parent;                 // the parent process
     struct mm_struct *mm;                       // Process's memory management field
     struct context context;                     // Switch here to run process
@@ -63,7 +63,9 @@ struct proc_struct {
     struct run_queue *rq;                       // running queue that contains Process
     list_entry_t run_link;                      // the entry linked in run queue
     int time_slice;                             // time slice for occupying the CPU
+
     int deadline;								// for EDF, num between 1~7. Should not be zero!
+    bool isRT;								// is a real time proc. Assume in RT system there are RT and nonRT processes
 };
 
 #define PF_EXITING                  0x00000001      // getting shutdown
@@ -91,6 +93,7 @@ void cpu_idle(void) __attribute__((noreturn));
 struct proc_struct *find_proc(int pid);
 void may_killed(void);
 int do_fork(uint32_t clone_flags, uintptr_t stack, struct trapframe *tf);
+int do_forkRT(uint32_t clone_flags, uintptr_t stack, struct trapframe *tf, int ct, int pt);	// by me
 int do_exit(int error_code);
 int do_exit_thread(int error_code);
 int do_execve(const char *name, size_t len, unsigned char *binary, size_t size);
