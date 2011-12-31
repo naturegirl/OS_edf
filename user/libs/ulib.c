@@ -34,6 +34,7 @@ fork(void) {
 
 // add my own fork, for RT process.
 // is creation of RT process dependent on parent?
+// compute time and period time, where ct <= pt
 int
 forkRT(int ct, int pt) {
 	int ret;

@@ -49,6 +49,7 @@ MY_pick_next(struct run_queue *rq) {
     int closestDeadline = PROC_MAX_DEADLINE;
 	for(le = list_next(&(rq->run_list)); le->next != start; le = list_next(le)) {
 		proc = le2proc(le, run_link);
+		//cprintf("PID: %d isRT %d\n", proc->pid, proc->isRT);
 		if (proc->deadline <= closestDeadline)		// has closer deadline
 			pickNext = proc;
 	}
@@ -58,11 +59,19 @@ MY_pick_next(struct run_queue *rq) {
 
 static void
 MY_proc_tick(struct run_queue *rq, struct proc_struct *proc) {
+	if (proc->isRT == TRUE) {
+		if (proc->ct < proc->compute_time) {
+			cprintf("sched_MY: tick: pid %d ct %d\n", proc->pid, proc->ct);
+			proc->ct ++;		// current proc executing
+		}
+		if (proc->ct == proc->compute_time)
+			proc->need_resched = TRUE;
+	}
     if (proc->time_slice > 0) {
         proc->time_slice --;
     }
     if (proc->time_slice == 0) {
-        proc->need_resched = 1;
+        proc->need_resched = TRUE;
     }
 }
 

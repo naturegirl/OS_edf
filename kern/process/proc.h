@@ -66,6 +66,10 @@ struct proc_struct {
 
     int deadline;								// for EDF, num between 1~7. Should not be zero!
     bool isRT;								// is a real time proc. Assume in RT system there are RT and nonRT processes
+    int compute_time;			// worst case computation time. Constant!
+    int period_time;			// period for arrival of this process. Periodic processes? Constant
+    int ct;				// changing ct. Increases with each period (0~compute_time)
+    int pt;				// changing pt to represent deadline. Decreases with each period (period_time~0)
 };
 
 #define PF_EXITING                  0x00000001      // getting shutdown

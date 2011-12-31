@@ -8,6 +8,7 @@
 #include <elf.h>
 #include <vmm.h>
 #include <trap.h>
+#include <types.h>
 #include <unistd.h>
 #include <stdio.h>
 #include <stdlib.h>
@@ -427,11 +428,7 @@ do_fork(uint32_t clone_flags, uintptr_t stack, struct trapframe *tf) {
     proc->time_slice = current->time_slice / 2;
     current->time_slice -= proc->time_slice;
     proc->deadline = rand() % (PROC_MAX_DEADLINE-1) + 1;		// arbitrary
-    proc->isRT = rand() % 3;		// is RT with chance 1/3
-    if (proc->isRT == 0)
-    	proc->isRT = 1;		// true
-    else
-    	proc->isRT = 0;		// false
+    proc->isRT = FALSE;
 
     if (setup_kstack(proc) != 0) {
         goto bad_fork_cleanup_proc;
@@ -451,7 +448,6 @@ do_fork(uint32_t clone_flags, uintptr_t stack, struct trapframe *tf) {
             list_add_before(&(current->thread_group), &(proc->thread_group));
         }
     }
-    cprintf("do_fork() : %d deadline %d isRT %d\n", proc->pid, proc->deadline, proc->isRT);
     local_intr_restore(intr_flag);
     wakeup_proc(proc);
 
@@ -469,7 +465,65 @@ bad_fork_cleanup_proc:
 int
 do_forkRT(uint32_t clone_flags, uintptr_t stack, struct trapframe *tf, int ct, int pt) {
 	cprintf("in do_forkRT with ct %d pt %d\n", ct, pt);
-	return 0;
+    int ret = -E_NO_FREE_PROC;
+    struct proc_struct *proc;
+    if (nr_process >= MAX_PROCESS) {
+        goto fork_out;
+    }
+
+    ret = -E_NO_MEM;
+
+    if ((proc = alloc_proc()) == NULL) {
+        goto fork_out;
+    }
+
+    proc->parent = current;
+    list_init(&(proc->thread_group));
+    assert(current->wait_state == 0);
+
+    assert(current->time_slice >= 0);
+    // every one gets half of it
+    proc->time_slice = current->time_slice / 2;
+    current->time_slice -= proc->time_slice;
+
+    // assign my EDF related values
+    proc->deadline = rand() % (PROC_MAX_DEADLINE-1) + 1;		// arbitrary
+    proc->isRT = TRUE;
+    proc->compute_time = ct;
+    proc->period_time = pt;
+    proc->ct = 0;		// not started to compute yet
+    proc->pt = pt;		// first period has already to be finished by then!
+
+    if (setup_kstack(proc) != 0) {
+        goto bad_fork_cleanup_proc;
+    }
+    if (copy_mm(clone_flags, proc) != 0) {
+        goto bad_fork_cleanup_kstack;
+    }
+    copy_thread(proc, stack, tf);
+
+    bool intr_flag;
+    local_intr_save(intr_flag);
+    {
+        proc->pid = get_pid();
+        hash_proc(proc);
+        set_links(proc);
+        if (clone_flags & CLONE_THREAD) {
+            list_add_before(&(current->thread_group), &(proc->thread_group));
+        }
+    }
+    local_intr_restore(intr_flag);
+    wakeup_proc(proc);
+
+    ret = proc->pid;
+fork_out:
+    return ret;
+
+bad_fork_cleanup_kstack:
+    put_kstack(proc);
+bad_fork_cleanup_proc:
+    kfree(proc);
+    goto fork_out;
 }
 
 // __do_exit - cause a thread exit (use do_exit, do_exit_thread instead)
