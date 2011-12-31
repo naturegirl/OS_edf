@@ -67,12 +67,31 @@ MY_proc_tick(struct run_queue *rq, struct proc_struct *proc) {
 		if (proc->ct == proc->compute_time)
 			proc->need_resched = TRUE;
 	}
+
+	tick_decrease_RT_pt(rq);		// decrease pt of all RT procs in rq
+
     if (proc->time_slice > 0) {
         proc->time_slice --;
     }
     if (proc->time_slice == 0) {
         proc->need_resched = TRUE;
     }
+}
+
+// decrease the pt of all RT procs in runqueue
+static void tick_decrease_RT_pt(struct run_queue *rq) {
+	struct proc_struct *proc;			// proc iterator
+	list_entry_t *le;					// list iterator
+	list_entry_t *start = list_next(&(rq->run_list));	// temporary use
+	for(le = list_next(&(rq->run_list)); le->next != start; le = list_next(le)) {
+		proc = le2proc(le, run_link);
+		if (proc->isRT) {
+			cprintf("tick_decrease: pid %d pt %d\n", proc->pid, proc->pt);
+			proc->pt--;		// for all RT procs the pt has decreased one!
+			if (proc->pt < 0)
+				panic("pt of RT proc %d < 0! RT schedule failure!", proc->pid);
+		}
+	}
 }
 
 struct sched_class MY_sched_class = {
