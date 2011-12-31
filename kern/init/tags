@@ -1,0 +1,15 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+REALLOC	entry.S	/^#define REALLOC(x) (x - KERNBASE)$/;"	d
+__gdt	entry.S	/^__gdt:$/;"	l
+__gdtdesc	entry.S	/^__gdtdesc:$/;"	l
+bootstack	entry.S	/^bootstack:$/;"	l
+bootstacktop	entry.S	/^bootstacktop:$/;"	l
+kern_entry	entry.S	/^kern_entry:$/;"	l
+kern_init	init.c	/^kern_init(void) {$/;"	f
+relocated	entry.S	/^relocated:$/;"	l
+spin	entry.S	/^spin:$/;"	l

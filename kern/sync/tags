@@ -1,0 +1,38 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+__KERN_SYNC_SYNC_H__	sync.h	2;"	d
+__KERN_SYNC_WAIT_H__	wait.h	2;"	d
+__intr_restore	sync.h	/^__intr_restore(bool flag) {$/;"	f
+__intr_save	sync.h	/^__intr_save(void) {$/;"	f
+le2wait	wait.h	19;"	d
+local_intr_restore	sync.h	28;"	d
+local_intr_save	sync.h	27;"	d
+lock	sync.h	/^lock(lock_t *lock) {$/;"	f
+lock_init	sync.h	/^lock_init(lock_t *lock) {$/;"	f
+lock_t	sync.h	/^typedef volatile bool lock_t;$/;"	t
+proc	wait.h	/^    struct proc_struct *proc;$/;"	m	struct:__anon2	typeref:struct:__anon2::proc_struct
+try_lock	sync.h	/^try_lock(lock_t *lock) {$/;"	f
+unlock	sync.h	/^unlock(lock_t *lock) {$/;"	f
+wait_head	wait.h	/^    list_entry_t wait_head;$/;"	m	struct:__anon1
+wait_in_queue	wait.c	/^wait_in_queue(wait_t *wait) {$/;"	f
+wait_init	wait.c	/^wait_init(wait_t *wait, struct proc_struct *proc) {$/;"	f
+wait_link	wait.h	/^    list_entry_t wait_link;$/;"	m	struct:__anon2
+wait_queue	wait.h	/^    wait_queue_t *wait_queue;$/;"	m	struct:__anon2
+wait_queue_add	wait.c	/^wait_queue_add(wait_queue_t *queue, wait_t *wait) {$/;"	f
+wait_queue_del	wait.c	/^wait_queue_del(wait_queue_t *queue, wait_t *wait) {$/;"	f
+wait_queue_empty	wait.c	/^wait_queue_empty(wait_queue_t *queue) {$/;"	f
+wait_queue_first	wait.c	/^wait_queue_first(wait_queue_t *queue) {$/;"	f
+wait_queue_init	wait.c	/^wait_queue_init(wait_queue_t *queue) {$/;"	f
+wait_queue_last	wait.c	/^wait_queue_last(wait_queue_t *queue) {$/;"	f
+wait_queue_next	wait.c	/^wait_queue_next(wait_queue_t *queue, wait_t *wait) {$/;"	f
+wait_queue_prev	wait.c	/^wait_queue_prev(wait_queue_t *queue, wait_t *wait) {$/;"	f
+wait_queue_t	wait.h	/^} wait_queue_t;$/;"	t	typeref:struct:__anon1
+wait_t	wait.h	/^} wait_t;$/;"	t	typeref:struct:__anon2
+wakeup_first	wait.c	/^wakeup_first(wait_queue_t *queue, uint32_t wakeup_flags, bool del) {$/;"	f
+wakeup_flags	wait.h	/^    uint32_t wakeup_flags;$/;"	m	struct:__anon2
+wakeup_queue	wait.c	/^wakeup_queue(wait_queue_t *queue, uint32_t wakeup_flags, bool del) {$/;"	f
+wakeup_wait	wait.c	/^wakeup_wait(wait_queue_t *queue, wait_t *wait, uint32_t wakeup_flags, bool del) {$/;"	f

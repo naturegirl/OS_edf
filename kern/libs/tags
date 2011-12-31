@@ -1,0 +1,59 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+BUFSIZE	readline.c	3;"	d
+COMPARE	rb_tree.c	105;"	d
+FUNC_ROTATE	rb_tree.c	103;"	d
+FUNC_ROTATE	rb_tree.c	79;"	d
+RB_DELETE_FIXUP_SUB	rb_tree.c	250;"	d
+RB_DELETE_FIXUP_SUB	rb_tree.c	288;"	d
+RB_INSERT_SUB	rb_tree.c	140;"	d
+RB_INSERT_SUB	rb_tree.c	171;"	d
+__KERN_LIBS_RB_TREE_H__	rb_tree.h	2;"	d
+buf	readline.c	/^static char buf[BUFSIZE];$/;"	v
+check_compare1	rb_tree.c	/^check_compare1(rb_node *node1, rb_node *node2) {$/;"	f
+check_compare2	rb_tree.c	/^check_compare2(rb_node *node, void *key) {$/;"	f
+check_data	rb_tree.c	/^struct check_data {$/;"	s
+check_rb_tree	rb_tree.c	/^check_rb_tree(void) {$/;"	f
+check_safe_kmalloc	rb_tree.c	/^check_safe_kmalloc(size_t size) {$/;"	f
+check_tree	rb_tree.c	/^check_tree(rb_tree *tree, rb_node *node) {$/;"	f
+compare	rb_tree.h	/^    int (*compare)(rb_node *node1, rb_node *node2);$/;"	m	struct:rb_tree
+cprintf	stdio.c	/^cprintf(const char *fmt, ...) {$/;"	f
+cputch	stdio.c	/^cputch(int c, int *cnt) {$/;"	f
+cputchar	stdio.c	/^cputchar(int c) {$/;"	f
+cputs	stdio.c	/^cputs(const char *str) {$/;"	f
+data	rb_tree.c	/^    long data;$/;"	m	struct:check_data
+getchar	stdio.c	/^getchar(void) {$/;"	f
+left	rb_tree.h	/^    struct rb_node *left, *right;$/;"	m	struct:rb_node	typeref:struct:rb_node::rb_node
+nil	rb_tree.h	/^    struct rb_node *nil, *root;$/;"	m	struct:rb_tree	typeref:struct:rb_tree::rb_node
+parent	rb_tree.h	/^    struct rb_node *parent;$/;"	m	struct:rb_node	typeref:struct:rb_node::rb_node
+rb_delete	rb_tree.c	/^rb_delete(rb_tree *tree, rb_node *node) {$/;"	f
+rb_delete_fixup	rb_tree.c	/^rb_delete_fixup(rb_tree *tree, rb_node *node) {$/;"	f
+rb_insert	rb_tree.c	/^rb_insert(rb_tree *tree, rb_node *node) {$/;"	f
+rb_insert_binary	rb_tree.c	/^rb_insert_binary(rb_tree *tree, rb_node *node) {$/;"	f
+rb_link	rb_tree.c	/^    rb_node rb_link;$/;"	m	struct:check_data
+rb_node	rb_tree.h	/^typedef struct rb_node {$/;"	s
+rb_node	rb_tree.h	/^} rb_node;$/;"	t	typeref:struct:rb_node
+rb_node_create	rb_tree.c	/^rb_node_create(void) {$/;"	f
+rb_node_left	rb_tree.c	/^rb_node_left(rb_tree *tree, rb_node *node) {$/;"	f
+rb_node_next	rb_tree.c	/^rb_node_next(rb_tree *tree, rb_node *node) {$/;"	f
+rb_node_prev	rb_tree.c	/^rb_node_prev(rb_tree *tree, rb_node *node) {$/;"	f
+rb_node_right	rb_tree.c	/^rb_node_right(rb_tree *tree, rb_node *node) {$/;"	f
+rb_node_root	rb_tree.c	/^rb_node_root(rb_tree *tree) {$/;"	f
+rb_search	rb_tree.c	/^rb_search(rb_tree *tree, int (*compare)(rb_node *node, void *key), void *key) {$/;"	f
+rb_tree	rb_tree.h	/^typedef struct rb_tree {$/;"	s
+rb_tree	rb_tree.h	/^} rb_tree;$/;"	t	typeref:struct:rb_tree
+rb_tree_create	rb_tree.c	/^rb_tree_create(int (*compare)(rb_node *node1, rb_node *node2)) {$/;"	f
+rb_tree_destroy	rb_tree.c	/^rb_tree_destroy(rb_tree *tree) {$/;"	f
+rb_tree_empty	rb_tree.c	/^rb_tree_empty(rb_tree *tree) {$/;"	f
+rb_tree_predecessor	rb_tree.c	/^rb_tree_predecessor(rb_tree *tree, rb_node *node) {$/;"	f
+rb_tree_successor	rb_tree.c	/^rb_tree_successor(rb_tree *tree, rb_node *node) {$/;"	f
+rbn2data	rb_tree.c	419;"	d
+readline	readline.c	/^readline(const char *prompt) {$/;"	f
+red	rb_tree.h	/^    bool red;                           \/\/ if red = 0, it's a black node$/;"	m	struct:rb_node
+right	rb_tree.h	/^    struct rb_node *left, *right;$/;"	m	struct:rb_node	typeref:struct:rb_node::
+root	rb_tree.h	/^    struct rb_node *nil, *root;$/;"	m	struct:rb_tree	typeref:struct:rb_tree::
+vcprintf	stdio.c	/^vcprintf(const char *fmt, va_list ap) {$/;"	f

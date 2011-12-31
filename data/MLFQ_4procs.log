@@ -1,0 +1,8 @@
+start 4.
+start 5.
+exit 5
+start 6.
+exit 6
+start 3.
+exit 3
+exit 4

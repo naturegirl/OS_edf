@@ -1,0 +1,55 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+MLFQ_dequeue	sched_MLFQ.c	/^MLFQ_dequeue(struct run_queue *rq, struct proc_struct *proc) {$/;"	f
+MLFQ_enqueue	sched_MLFQ.c	/^MLFQ_enqueue(struct run_queue *rq, struct proc_struct *proc) {$/;"	f
+MLFQ_init	sched_MLFQ.c	/^MLFQ_init(struct run_queue *rq) {$/;"	f
+MLFQ_pick_next	sched_MLFQ.c	/^MLFQ_pick_next(struct run_queue *rq) {$/;"	f
+MLFQ_proc_tick	sched_MLFQ.c	/^MLFQ_proc_tick(struct run_queue *rq, struct proc_struct *proc) {$/;"	f
+MLFQ_sched_class	sched_MLFQ.c	/^struct sched_class MLFQ_sched_class = {$/;"	v	typeref:struct:sched_class
+RR_dequeue	sched_RR.c	/^RR_dequeue(struct run_queue *rq, struct proc_struct *proc) {$/;"	f
+RR_enqueue	sched_RR.c	/^RR_enqueue(struct run_queue *rq, struct proc_struct *proc) {$/;"	f
+RR_init	sched_RR.c	/^RR_init(struct run_queue *rq) {$/;"	f
+RR_pick_next	sched_RR.c	/^RR_pick_next(struct run_queue *rq) {$/;"	f
+RR_proc_tick	sched_RR.c	/^RR_proc_tick(struct run_queue *rq, struct proc_struct *proc) {$/;"	f
+RR_sched_class	sched_RR.c	/^struct sched_class RR_sched_class = {$/;"	v	typeref:struct:sched_class
+__KERN_SCHEDULE_SCHED_H__	sched.h	2;"	d
+__KERN_SCHEDULE_SCHED_MLFQ_H__	sched_MLFQ.h	2;"	d
+__KERN_SCHEDULE_SCHED_RR_H__	sched_RR.h	2;"	d
+__rq	sched.c	/^static struct run_queue __rq[4];$/;"	v	typeref:struct:run_queue
+add_timer	sched.c	/^add_timer(timer_t *timer) {$/;"	f
+del_timer	sched.c	/^del_timer(timer_t *timer) {$/;"	f
+dequeue	sched.h	/^    void (*dequeue)(struct run_queue *rq, struct proc_struct *proc);$/;"	m	struct:sched_class
+enqueue	sched.h	/^    void (*enqueue)(struct run_queue *rq, struct proc_struct *proc);$/;"	m	struct:sched_class
+expires	sched.h	/^    unsigned int expires;$/;"	m	struct:__anon1
+init	sched.h	/^    void (*init)(struct run_queue *rq);$/;"	m	struct:sched_class
+le2rq	sched.h	60;"	d
+le2timer	sched.h	15;"	d
+max_time_slice	sched.h	/^    int max_time_slice;$/;"	m	struct:run_queue
+name	sched.h	/^    const char *name;$/;"	m	struct:sched_class
+pick_next	sched.h	/^    struct proc_struct *(*pick_next)(struct run_queue *rq);$/;"	m	struct:sched_class	typeref:struct:sched_class::pick_next
+proc	sched.h	/^    struct proc_struct *proc;$/;"	m	struct:__anon1	typeref:struct:__anon1::proc_struct
+proc_num	sched.h	/^    unsigned int proc_num;$/;"	m	struct:run_queue
+proc_tick	sched.h	/^    void (*proc_tick)(struct run_queue *rq, struct proc_struct *proc);$/;"	m	struct:sched_class
+rq	sched.c	/^static struct run_queue *rq;$/;"	v	typeref:struct:run_queue
+rq_link	sched.h	/^    list_entry_t rq_link;$/;"	m	struct:run_queue
+run_list	sched.h	/^    list_entry_t run_list;$/;"	m	struct:run_queue
+run_queue	sched.h	/^struct run_queue {$/;"	s
+run_timer_list	sched.c	/^run_timer_list(void) {$/;"	f
+sched_class	sched.c	/^static struct sched_class *sched_class;$/;"	v	typeref:struct:sched_class
+sched_class	sched.h	/^struct sched_class {$/;"	s
+sched_class	sched_MLFQ.c	/^static struct sched_class *sched_class;$/;"	v	typeref:struct:sched_class
+sched_class_dequeue	sched.c	/^sched_class_dequeue(struct proc_struct *proc) {$/;"	f
+sched_class_enqueue	sched.c	/^sched_class_enqueue(struct proc_struct *proc) {$/;"	f
+sched_class_pick_next	sched.c	/^sched_class_pick_next(void) {$/;"	f
+sched_class_proc_tick	sched.c	/^sched_class_proc_tick(struct proc_struct *proc) {$/;"	f
+sched_init	sched.c	/^sched_init(void) {$/;"	f
+schedule	sched.c	/^schedule(void) {$/;"	f
+timer_init	sched.h	/^timer_init(timer_t *timer, struct proc_struct *proc, int expires) {$/;"	f
+timer_link	sched.h	/^    list_entry_t timer_link;$/;"	m	struct:__anon1
+timer_list	sched.c	/^static list_entry_t timer_list;$/;"	v
+timer_t	sched.h	/^} timer_t;$/;"	t	typeref:struct:__anon1
+wakeup_proc	sched.c	/^wakeup_proc(struct proc_struct *proc) {$/;"	f

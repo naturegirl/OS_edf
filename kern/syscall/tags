@@ -1,0 +1,27 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+NUM_SYSCALLS	syscall.c	145;"	d
+__KERN_SYSCALL_SYSCALL_H__	syscall.h	2;"	d
+sys_brk	syscall.c	/^sys_brk(uint32_t arg[]) {$/;"	f
+sys_clone	syscall.c	/^sys_clone(uint32_t arg[]) {$/;"	f
+sys_exec	syscall.c	/^sys_exec(uint32_t arg[]) {$/;"	f
+sys_exit	syscall.c	/^sys_exit(uint32_t arg[]) {$/;"	f
+sys_exit_thread	syscall.c	/^sys_exit_thread(uint32_t arg[]) {$/;"	f
+sys_fork	syscall.c	/^sys_fork(uint32_t arg[]) {$/;"	f
+sys_getpid	syscall.c	/^sys_getpid(uint32_t arg[]) {$/;"	f
+sys_gettime	syscall.c	/^sys_gettime(uint32_t arg[]) {$/;"	f
+sys_kill	syscall.c	/^sys_kill(uint32_t arg[]) {$/;"	f
+sys_mmap	syscall.c	/^sys_mmap(uint32_t arg[]) {$/;"	f
+sys_munmap	syscall.c	/^sys_munmap(uint32_t arg[]) {$/;"	f
+sys_pgdir	syscall.c	/^sys_pgdir(uint32_t arg[]) {$/;"	f
+sys_putc	syscall.c	/^sys_putc(uint32_t arg[]) {$/;"	f
+sys_shmem	syscall.c	/^sys_shmem(uint32_t arg[]) {$/;"	f
+sys_sleep	syscall.c	/^sys_sleep(uint32_t arg[]) {$/;"	f
+sys_wait	syscall.c	/^sys_wait(uint32_t arg[]) {$/;"	f
+sys_yield	syscall.c	/^sys_yield(uint32_t arg[]) {$/;"	f
+syscall	syscall.c	/^syscall(void) {$/;"	f
+syscalls	syscall.c	/^static uint32_t (*syscalls[])(uint32_t arg[]) = {$/;"	v

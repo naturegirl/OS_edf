@@ -1,0 +1,216 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ALT	console.c	260;"	d
+BS_OCMD	kbdreg.h	23;"	d
+C	console.c	323;"	d
+CAPSLOCK	console.c	262;"	d
+CGA_BASE	console.c	45;"	d
+CGA_BUF	console.c	46;"	d
+CMDBYTE	kbdreg.h	60;"	d
+COM1	console.c	21;"	d
+COM_DLL	console.c	25;"	d
+COM_DLM	console.c	26;"	d
+COM_FCR	console.c	30;"	d
+COM_IER	console.c	27;"	d
+COM_IER_RDI	console.c	28;"	d
+COM_IIR	console.c	29;"	d
+COM_LCR	console.c	31;"	d
+COM_LCR_DLAB	console.c	32;"	d
+COM_LCR_WLEN8	console.c	33;"	d
+COM_LSR	console.c	38;"	d
+COM_LSR_DATA	console.c	39;"	d
+COM_LSR_TSRE	console.c	41;"	d
+COM_LSR_TXRDY	console.c	40;"	d
+COM_MCR	console.c	34;"	d
+COM_MCR_DTR	console.c	36;"	d
+COM_MCR_OUT2	console.c	37;"	d
+COM_MCR_RTS	console.c	35;"	d
+COM_RX	console.c	23;"	d
+COM_TX	console.c	24;"	d
+CONSBUFSIZE	console.c	208;"	d
+CRT_COLS	console.c	48;"	d
+CRT_ROWS	console.c	47;"	d
+CRT_SIZE	console.c	49;"	d
+CTL	console.c	259;"	d
+E0ESC	console.c	266;"	d
+IDE_BSY	ide.c	22;"	d
+IDE_CMD_IDENTIFY	ide.c	30;"	d
+IDE_CMD_READ	ide.c	28;"	d
+IDE_CMD_WRITE	ide.c	29;"	d
+IDE_DF	ide.c	24;"	d
+IDE_DRDY	ide.c	23;"	d
+IDE_DRQ	ide.c	25;"	d
+IDE_ERR	ide.c	26;"	d
+IDE_IDENT_CAPABILITIES	ide.c	34;"	d
+IDE_IDENT_CMDSETS	ide.c	35;"	d
+IDE_IDENT_MAX_LBA	ide.c	36;"	d
+IDE_IDENT_MAX_LBA_EXT	ide.c	37;"	d
+IDE_IDENT_MODEL	ide.c	33;"	d
+IDE_IDENT_SECTORS	ide.c	32;"	d
+IO_BASE	ide.c	57;"	d
+IO_BASE0	ide.c	39;"	d
+IO_BASE1	ide.c	40;"	d
+IO_CTRL	ide.c	58;"	d
+IO_CTRL0	ide.c	41;"	d
+IO_CTRL1	ide.c	42;"	d
+IO_PIC1	picirq.c	6;"	d
+IO_PIC2	picirq.c	7;"	d
+IO_TIMER1	clock.c	11;"	d
+IRQ_OFFSET	picirq.h	7;"	d
+IRQ_SLAVE	picirq.c	9;"	d
+ISA_COMMAND	ide.c	19;"	d
+ISA_CTRL	ide.c	13;"	d
+ISA_CYL_HI	ide.c	17;"	d
+ISA_CYL_LO	ide.c	16;"	d
+ISA_DATA	ide.c	10;"	d
+ISA_ERROR	ide.c	11;"	d
+ISA_PRECOMP	ide.c	12;"	d
+ISA_SDH	ide.c	18;"	d
+ISA_SECCNT	ide.c	14;"	d
+ISA_SECTOR	ide.c	15;"	d
+ISA_STATUS	ide.c	20;"	d
+KBCMDP	kbdreg.h	29;"	d
+KBC_AUXDISABLE	kbdreg.h	32;"	d
+KBC_AUXECHO	kbdreg.h	36;"	d
+KBC_AUXENABLE	kbdreg.h	33;"	d
+KBC_AUXTEST	kbdreg.h	34;"	d
+KBC_AUXWRITE	kbdreg.h	37;"	d
+KBC_DISABLE	kbdreg.h	66;"	d
+KBC_ECHO	kbdreg.h	71;"	d
+KBC_ENABLE	kbdreg.h	67;"	d
+KBC_KBDDISABLE	kbdreg.h	40;"	d
+KBC_KBDECHO	kbdreg.h	35;"	d
+KBC_KBDENABLE	kbdreg.h	41;"	d
+KBC_KBDTEST	kbdreg.h	39;"	d
+KBC_MODEIND	kbdreg.h	70;"	d
+KBC_PULSE0	kbdreg.h	42;"	d
+KBC_PULSE1	kbdreg.h	43;"	d
+KBC_PULSE2	kbdreg.h	44;"	d
+KBC_PULSE3	kbdreg.h	45;"	d
+KBC_RAMREAD	kbdreg.h	30;"	d
+KBC_RAMWRITE	kbdreg.h	31;"	d
+KBC_RESEND	kbdreg.h	64;"	d
+KBC_RESET	kbdreg.h	63;"	d
+KBC_SELFTEST	kbdreg.h	38;"	d
+KBC_SETDEFAULT	kbdreg.h	65;"	d
+KBC_SETTABLE	kbdreg.h	69;"	d
+KBC_TYPEMATIC	kbdreg.h	68;"	d
+KBDATAP	kbdreg.h	47;"	d
+KBOUTP	kbdreg.h	48;"	d
+KBR_ACK	kbdreg.h	76;"	d
+KBR_BREAK	kbdreg.h	79;"	d
+KBR_ECHO	kbdreg.h	81;"	d
+KBR_EXTENDED	kbdreg.h	74;"	d
+KBR_FAILURE	kbdreg.h	78;"	d
+KBR_OVERRUN	kbdreg.h	77;"	d
+KBR_RESEND	kbdreg.h	75;"	d
+KBR_RSTDONE	kbdreg.h	80;"	d
+KBSTATP	kbdreg.h	19;"	d
+KBS_DIB	kbdreg.h	20;"	d
+KBS_IBF	kbdreg.h	21;"	d
+KBS_NOSEC	kbdreg.h	24;"	d
+KBS_PERR	kbdreg.h	27;"	d
+KBS_RERR	kbdreg.h	26;"	d
+KBS_TERR	kbdreg.h	25;"	d
+KBS_WARM	kbdreg.h	22;"	d
+KC8_CPU	kbdreg.h	57;"	d
+KC8_IGNSEC	kbdreg.h	56;"	d
+KC8_KDISABLE	kbdreg.h	55;"	d
+KC8_KENABLE	kbdreg.h	59;"	d
+KC8_MDISABLE	kbdreg.h	54;"	d
+KC8_MENABLE	kbdreg.h	58;"	d
+KC8_TRANS	kbdreg.h	53;"	d
+KEY_DEL	kbdreg.h	14;"	d
+KEY_DN	kbdreg.h	8;"	d
+KEY_END	kbdreg.h	6;"	d
+KEY_HOME	kbdreg.h	5;"	d
+KEY_INS	kbdreg.h	13;"	d
+KEY_LF	kbdreg.h	9;"	d
+KEY_PGDN	kbdreg.h	12;"	d
+KEY_PGUP	kbdreg.h	11;"	d
+KEY_RT	kbdreg.h	10;"	d
+KEY_UP	kbdreg.h	7;"	d
+K_LDCMDBYTE	kbdreg.h	51;"	d
+K_RDCMDBYTE	kbdreg.h	50;"	d
+LPTPORT	console.c	51;"	d
+MAX_DISK_NSECS	ide.c	46;"	d
+MAX_IDE	ide.c	44;"	d
+MAX_NSECS	ide.c	45;"	d
+MONO_BASE	console.c	43;"	d
+MONO_BUF	console.c	44;"	d
+NO	console.c	256;"	d
+NUMLOCK	console.c	263;"	d
+SCROLLLOCK	console.c	264;"	d
+SHIFT	console.c	258;"	d
+TIMER_16BIT	clock.c	24;"	d
+TIMER_DIV	clock.c	19;"	d
+TIMER_FREQ	clock.c	18;"	d
+TIMER_MODE	clock.c	21;"	d
+TIMER_RATEGEN	clock.c	23;"	d
+TIMER_SEL0	clock.c	22;"	d
+VALID_IDE	ide.c	47;"	d
+__KERN_DRIVER_CLOCK_H__	clock.h	2;"	d
+__KERN_DRIVER_CONSOLE_H__	console.h	2;"	d
+__KERN_DRIVER_IDE_H__	ide.h	2;"	d
+__KERN_DRIVER_INTR_H__	intr.h	2;"	d
+__KERN_DRIVER_KBDREG_H__	kbdreg.h	2;"	d
+__KERN_DRIVER_PICIRQ_H__	picirq.h	2;"	d
+addr_6845	console.c	/^static uint16_t addr_6845;$/;"	v
+base	ide.c	/^    unsigned short base;        \/\/ I\/O Base$/;"	m	struct:__anon2
+buf	console.c	/^    uint8_t buf[CONSBUFSIZE];$/;"	m	struct:__anon1
+cga_init	console.c	/^cga_init(void) {$/;"	f
+cga_putc	console.c	/^cga_putc(int c) {$/;"	f
+channels	ide.c	/^} channels[2] = {$/;"	v	typeref:struct:__anon2
+charcode	console.c	/^static uint8_t *charcode[4] = {$/;"	v
+clock_init	clock.c	/^clock_init(void) {$/;"	f
+cons	console.c	/^} cons;$/;"	v	typeref:struct:__anon1
+cons_getc	console.c	/^cons_getc(void) {$/;"	f
+cons_init	console.c	/^cons_init(void) {$/;"	f
+cons_intr	console.c	/^cons_intr(int (*proc)(void)) {$/;"	f
+cons_putc	console.c	/^cons_putc(int c) {$/;"	f
+crt_buf	console.c	/^static uint16_t *crt_buf;$/;"	v
+crt_pos	console.c	/^static uint16_t crt_pos;$/;"	v
+ctlmap	console.c	/^static uint8_t ctlmap[256] = {$/;"	v
+ctrl	ide.c	/^    unsigned short ctrl;        \/\/ Control Base$/;"	m	struct:__anon2
+delay	console.c	/^delay(void) {$/;"	f
+did_init	picirq.c	/^static bool did_init = 0;$/;"	v
+ide_device	ide.c	/^static struct ide_device {$/;"	s
+ide_device_size	ide.c	/^ide_device_size(unsigned short ideno) {$/;"	f
+ide_device_valid	ide.c	/^ide_device_valid(unsigned short ideno) {$/;"	f
+ide_devices	ide.c	/^} ide_devices[MAX_IDE];$/;"	v	typeref:struct:ide_device
+ide_init	ide.c	/^ide_init(void) {$/;"	f
+ide_read_secs	ide.c	/^ide_read_secs(unsigned short ideno, uint32_t secno, void *dst, size_t nsecs) {$/;"	f
+ide_wait_ready	ide.c	/^ide_wait_ready(unsigned short iobase, bool check_error) {$/;"	f
+ide_write_secs	ide.c	/^ide_write_secs(unsigned short ideno, uint32_t secno, const void *src, size_t nsecs) {$/;"	f
+intr_disable	intr.c	/^intr_disable(void) {$/;"	f
+intr_enable	intr.c	/^intr_enable(void) {$/;"	f
+irq_mask	picirq.c	/^static uint16_t irq_mask = 0xFFFF & ~(1 << IRQ_SLAVE);$/;"	v
+kbd_init	console.c	/^kbd_init(void) {$/;"	f
+kbd_intr	console.c	/^kbd_intr(void) {$/;"	f
+kbd_proc_data	console.c	/^kbd_proc_data(void) {$/;"	f
+lpt_putc	console.c	/^lpt_putc(int c) {$/;"	f
+lpt_putc_sub	console.c	/^lpt_putc_sub(int c) {$/;"	f
+model	ide.c	/^    unsigned char model[41];    \/\/ Model in String$/;"	m	struct:ide_device
+normalmap	console.c	/^static uint8_t normalmap[256] = {$/;"	v
+pic_enable	picirq.c	/^pic_enable(unsigned int irq) {$/;"	f
+pic_init	picirq.c	/^pic_init(void) {$/;"	f
+pic_setmask	picirq.c	/^pic_setmask(uint16_t mask) {$/;"	f
+rpos	console.c	/^    uint32_t rpos;$/;"	m	struct:__anon1
+serial_exists	console.c	/^static bool serial_exists = 0;$/;"	v
+serial_init	console.c	/^serial_init(void) {$/;"	f
+serial_intr	console.c	/^serial_intr(void) {$/;"	f
+serial_proc_data	console.c	/^serial_proc_data(void) {$/;"	f
+serial_putc	console.c	/^serial_putc(int c) {$/;"	f
+serial_putc_sub	console.c	/^serial_putc_sub(int c) {$/;"	f
+sets	ide.c	/^    unsigned int sets;          \/\/ Commend Sets Supported$/;"	m	struct:ide_device
+shiftcode	console.c	/^static uint8_t shiftcode[256] = {$/;"	v
+shiftmap	console.c	/^static uint8_t shiftmap[256] = {$/;"	v
+size	ide.c	/^    unsigned int size;          \/\/ Size in Sectors$/;"	m	struct:ide_device
+ticks	clock.c	/^volatile size_t ticks;$/;"	v
+togglecode	console.c	/^static uint8_t togglecode[256] = {$/;"	v
+valid	ide.c	/^    unsigned char valid;        \/\/ 0 or 1 (If Device Really Exists)$/;"	m	struct:ide_device
+wpos	console.c	/^    uint32_t wpos;$/;"	m	struct:__anon1

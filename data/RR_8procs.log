@@ -1,0 +1,17 @@
+start 3.
+start 4.
+start 5.
+exit 5
+start 6.
+exit 6
+exit 3
+start 7.
+exit 7
+start 8.
+exit 8
+exit 4
+start 9.
+exit 9
+start 10.
+exit 10
+ 

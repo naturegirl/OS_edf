@@ -1,0 +1,1453 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ALT	driver/console.c	260;"	d
+BS_OCMD	driver/kbdreg.h	23;"	d
+BUFCTL_END	mm/slab.c	64;"	d
+BUFSIZE	libs/readline.c	3;"	d
+BreakDescription	debug/kdebug.c	/^static const char *BreakDescription[] = {$/;"	v
+BreakLengthDescription	debug/kdebug.c	/^static const char *BreakLengthDescription[] = {$/;"	v
+C	driver/console.c	323;"	d
+CAPSLOCK	driver/console.c	262;"	d
+CGA_BASE	driver/console.c	45;"	d
+CGA_BUF	driver/console.c	46;"	d
+CMDBYTE	driver/kbdreg.h	60;"	d
+COM1	driver/console.c	21;"	d
+COMPARE	libs/rb_tree.c	105;"	d
+COM_DLL	driver/console.c	25;"	d
+COM_DLM	driver/console.c	26;"	d
+COM_FCR	driver/console.c	30;"	d
+COM_IER	driver/console.c	27;"	d
+COM_IER_RDI	driver/console.c	28;"	d
+COM_IIR	driver/console.c	29;"	d
+COM_LCR	driver/console.c	31;"	d
+COM_LCR_DLAB	driver/console.c	32;"	d
+COM_LCR_WLEN8	driver/console.c	33;"	d
+COM_LSR	driver/console.c	38;"	d
+COM_LSR_DATA	driver/console.c	39;"	d
+COM_LSR_TSRE	driver/console.c	41;"	d
+COM_LSR_TXRDY	driver/console.c	40;"	d
+COM_MCR	driver/console.c	34;"	d
+COM_MCR_DTR	driver/console.c	36;"	d
+COM_MCR_OUT2	driver/console.c	37;"	d
+COM_MCR_RTS	driver/console.c	35;"	d
+COM_RX	driver/console.c	23;"	d
+COM_TX	driver/console.c	24;"	d
+CONSBUFSIZE	driver/console.c	208;"	d
+CR0_AM	mm/mmu.h	259;"	d
+CR0_CD	mm/mmu.h	261;"	d
+CR0_EM	mm/mmu.h	254;"	d
+CR0_ET	mm/mmu.h	256;"	d
+CR0_MP	mm/mmu.h	253;"	d
+CR0_NE	mm/mmu.h	257;"	d
+CR0_NW	mm/mmu.h	260;"	d
+CR0_PE	mm/mmu.h	252;"	d
+CR0_PG	mm/mmu.h	262;"	d
+CR0_TS	mm/mmu.h	255;"	d
+CR0_WP	mm/mmu.h	258;"	d
+CR4_DE	mm/mmu.h	267;"	d
+CR4_MCE	mm/mmu.h	265;"	d
+CR4_PCE	mm/mmu.h	264;"	d
+CR4_PSE	mm/mmu.h	266;"	d
+CR4_PVI	mm/mmu.h	269;"	d
+CR4_TSD	mm/mmu.h	268;"	d
+CR4_VME	mm/mmu.h	270;"	d
+CRT_COLS	driver/console.c	48;"	d
+CRT_ROWS	driver/console.c	47;"	d
+CRT_SIZE	driver/console.c	49;"	d
+CTL	driver/console.c	259;"	d
+ClearPageActive	mm/memlayout.h	163;"	d
+ClearPageDirty	mm/memlayout.h	157;"	d
+ClearPageProperty	mm/memlayout.h	151;"	d
+ClearPageReserved	mm/memlayout.h	148;"	d
+ClearPageSlab	mm/memlayout.h	154;"	d
+ClearPageSwap	mm/memlayout.h	160;"	d
+DPL_KERNEL	mm/memlayout.h	20;"	d
+DPL_USER	mm/memlayout.h	21;"	d
+DR6_B0_BIT	debug/kdebug.h	19;"	d
+DR6_B1_BIT	debug/kdebug.h	20;"	d
+DR6_B2_BIT	debug/kdebug.h	21;"	d
+DR6_B3_BIT	debug/kdebug.h	22;"	d
+DR7_G0_BIT	debug/kdebug.h	26;"	d
+DR7_G1_BIT	debug/kdebug.h	28;"	d
+DR7_G2_BIT	debug/kdebug.h	30;"	d
+DR7_G3_BIT	debug/kdebug.h	32;"	d
+DR7_GDETECT	debug/kdebug.h	35;"	d
+DR7_GEXACT	debug/kdebug.h	34;"	d
+DR7_L0_BIT	debug/kdebug.h	25;"	d
+DR7_L1_BIT	debug/kdebug.h	27;"	d
+DR7_L2_BIT	debug/kdebug.h	29;"	d
+DR7_L3_BIT	debug/kdebug.h	31;"	d
+DR7_LEXACT	debug/kdebug.h	33;"	d
+DR7_MASK	debug/kdebug.h	36;"	d
+DR_CONTROL	debug/kdebug.h	16;"	d
+DR_STATUS	debug/kdebug.h	15;"	d
+E0ESC	driver/console.c	266;"	d
+E820MAX	mm/memlayout.h	111;"	d
+E820_ARM	mm/memlayout.h	112;"	d
+E820_ARR	mm/memlayout.h	113;"	d
+FL_AC	mm/mmu.h	22;"	d
+FL_AF	mm/mmu.h	7;"	d
+FL_CF	mm/mmu.h	5;"	d
+FL_DF	mm/mmu.h	12;"	d
+FL_ID	mm/mmu.h	25;"	d
+FL_IF	mm/mmu.h	11;"	d
+FL_IOPL_0	mm/mmu.h	15;"	d
+FL_IOPL_1	mm/mmu.h	16;"	d
+FL_IOPL_2	mm/mmu.h	17;"	d
+FL_IOPL_3	mm/mmu.h	18;"	d
+FL_IOPL_MASK	mm/mmu.h	14;"	d
+FL_NT	mm/mmu.h	19;"	d
+FL_OF	mm/mmu.h	13;"	d
+FL_PF	mm/mmu.h	6;"	d
+FL_RF	mm/mmu.h	20;"	d
+FL_SF	mm/mmu.h	9;"	d
+FL_TF	mm/mmu.h	10;"	d
+FL_VIF	mm/mmu.h	23;"	d
+FL_VIP	mm/mmu.h	24;"	d
+FL_VM	mm/mmu.h	21;"	d
+FL_ZF	mm/mmu.h	8;"	d
+FUNC_ROTATE	libs/rb_tree.c	103;"	d
+FUNC_ROTATE	libs/rb_tree.c	79;"	d
+GD_KDATA	mm/memlayout.h	15;"	d
+GD_KTEXT	mm/memlayout.h	14;"	d
+GD_TSS	mm/memlayout.h	18;"	d
+GD_UDATA	mm/memlayout.h	17;"	d
+GD_UTEXT	mm/memlayout.h	16;"	d
+GET_PAGE_CACHE	mm/slab.c	434;"	d
+GET_PAGE_SLAB	mm/slab.c	437;"	d
+HASH_LIST_SIZE	mm/swap.c	106;"	d
+HASH_LIST_SIZE	process/proc.c	69;"	d
+HASH_SHIFT	mm/swap.c	105;"	d
+HASH_SHIFT	process/proc.c	68;"	d
+IA32flags	trap/trap.c	/^static const char *IA32flags[] = {$/;"	v
+IDE_BSY	driver/ide.c	22;"	d
+IDE_CMD_IDENTIFY	driver/ide.c	30;"	d
+IDE_CMD_READ	driver/ide.c	28;"	d
+IDE_CMD_WRITE	driver/ide.c	29;"	d
+IDE_DF	driver/ide.c	24;"	d
+IDE_DRDY	driver/ide.c	23;"	d
+IDE_DRQ	driver/ide.c	25;"	d
+IDE_ERR	driver/ide.c	26;"	d
+IDE_IDENT_CAPABILITIES	driver/ide.c	34;"	d
+IDE_IDENT_CMDSETS	driver/ide.c	35;"	d
+IDE_IDENT_MAX_LBA	driver/ide.c	36;"	d
+IDE_IDENT_MAX_LBA_EXT	driver/ide.c	37;"	d
+IDE_IDENT_MODEL	driver/ide.c	33;"	d
+IDE_IDENT_SECTORS	driver/ide.c	32;"	d
+IO_BASE	driver/ide.c	57;"	d
+IO_BASE0	driver/ide.c	39;"	d
+IO_BASE1	driver/ide.c	40;"	d
+IO_CTRL	driver/ide.c	58;"	d
+IO_CTRL0	driver/ide.c	41;"	d
+IO_CTRL1	driver/ide.c	42;"	d
+IO_PIC1	driver/picirq.c	6;"	d
+IO_PIC2	driver/picirq.c	7;"	d
+IO_TIMER1	driver/clock.c	11;"	d
+IRQ_COM1	trap/trap.h	35;"	d
+IRQ_ERROR	trap/trap.h	38;"	d
+IRQ_IDE1	trap/trap.h	36;"	d
+IRQ_IDE2	trap/trap.h	37;"	d
+IRQ_KBD	trap/trap.h	34;"	d
+IRQ_OFFSET	driver/picirq.h	7;"	d
+IRQ_OFFSET	trap/trap.h	31;"	d
+IRQ_SLAVE	driver/picirq.c	9;"	d
+IRQ_SPURIOUS	trap/trap.h	39;"	d
+IRQ_TIMER	trap/trap.h	33;"	d
+ISA_COMMAND	driver/ide.c	19;"	d
+ISA_CTRL	driver/ide.c	13;"	d
+ISA_CYL_HI	driver/ide.c	17;"	d
+ISA_CYL_LO	driver/ide.c	16;"	d
+ISA_DATA	driver/ide.c	10;"	d
+ISA_ERROR	driver/ide.c	11;"	d
+ISA_PRECOMP	driver/ide.c	12;"	d
+ISA_SDH	driver/ide.c	18;"	d
+ISA_SECCNT	driver/ide.c	14;"	d
+ISA_SECTOR	driver/ide.c	15;"	d
+ISA_STATUS	driver/ide.c	20;"	d
+KADDR	mm/pmm.h	69;"	d
+KBCMDP	driver/kbdreg.h	29;"	d
+KBC_AUXDISABLE	driver/kbdreg.h	32;"	d
+KBC_AUXECHO	driver/kbdreg.h	36;"	d
+KBC_AUXENABLE	driver/kbdreg.h	33;"	d
+KBC_AUXTEST	driver/kbdreg.h	34;"	d
+KBC_AUXWRITE	driver/kbdreg.h	37;"	d
+KBC_DISABLE	driver/kbdreg.h	66;"	d
+KBC_ECHO	driver/kbdreg.h	71;"	d
+KBC_ENABLE	driver/kbdreg.h	67;"	d
+KBC_KBDDISABLE	driver/kbdreg.h	40;"	d
+KBC_KBDECHO	driver/kbdreg.h	35;"	d
+KBC_KBDENABLE	driver/kbdreg.h	41;"	d
+KBC_KBDTEST	driver/kbdreg.h	39;"	d
+KBC_MODEIND	driver/kbdreg.h	70;"	d
+KBC_PULSE0	driver/kbdreg.h	42;"	d
+KBC_PULSE1	driver/kbdreg.h	43;"	d
+KBC_PULSE2	driver/kbdreg.h	44;"	d
+KBC_PULSE3	driver/kbdreg.h	45;"	d
+KBC_RAMREAD	driver/kbdreg.h	30;"	d
+KBC_RAMWRITE	driver/kbdreg.h	31;"	d
+KBC_RESEND	driver/kbdreg.h	64;"	d
+KBC_RESET	driver/kbdreg.h	63;"	d
+KBC_SELFTEST	driver/kbdreg.h	38;"	d
+KBC_SETDEFAULT	driver/kbdreg.h	65;"	d
+KBC_SETTABLE	driver/kbdreg.h	69;"	d
+KBC_TYPEMATIC	driver/kbdreg.h	68;"	d
+KBDATAP	driver/kbdreg.h	47;"	d
+KBOUTP	driver/kbdreg.h	48;"	d
+KBR_ACK	driver/kbdreg.h	76;"	d
+KBR_BREAK	driver/kbdreg.h	79;"	d
+KBR_ECHO	driver/kbdreg.h	81;"	d
+KBR_EXTENDED	driver/kbdreg.h	74;"	d
+KBR_FAILURE	driver/kbdreg.h	78;"	d
+KBR_OVERRUN	driver/kbdreg.h	77;"	d
+KBR_RESEND	driver/kbdreg.h	75;"	d
+KBR_RSTDONE	driver/kbdreg.h	80;"	d
+KBSTATP	driver/kbdreg.h	19;"	d
+KBS_DIB	driver/kbdreg.h	20;"	d
+KBS_IBF	driver/kbdreg.h	21;"	d
+KBS_NOSEC	driver/kbdreg.h	24;"	d
+KBS_PERR	driver/kbdreg.h	27;"	d
+KBS_RERR	driver/kbdreg.h	26;"	d
+KBS_TERR	driver/kbdreg.h	25;"	d
+KBS_WARM	driver/kbdreg.h	22;"	d
+KC8_CPU	driver/kbdreg.h	57;"	d
+KC8_IGNSEC	driver/kbdreg.h	56;"	d
+KC8_KDISABLE	driver/kbdreg.h	55;"	d
+KC8_KENABLE	driver/kbdreg.h	59;"	d
+KC8_MDISABLE	driver/kbdreg.h	54;"	d
+KC8_MENABLE	driver/kbdreg.h	58;"	d
+KC8_TRANS	driver/kbdreg.h	53;"	d
+KERNBASE	mm/memlayout.h	70;"	d
+KERNEL_CS	mm/memlayout.h	23;"	d
+KERNEL_DS	mm/memlayout.h	24;"	d
+KERNEL_EXECVE	process/proc.c	1059;"	d
+KERNEL_EXECVE2	process/proc.c	1071;"	d
+KERNTOP	mm/memlayout.h	72;"	d
+KERN_ACCESS	mm/memlayout.h	97;"	d
+KEY_DEL	driver/kbdreg.h	14;"	d
+KEY_DN	driver/kbdreg.h	8;"	d
+KEY_END	driver/kbdreg.h	6;"	d
+KEY_HOME	driver/kbdreg.h	5;"	d
+KEY_INS	driver/kbdreg.h	13;"	d
+KEY_LF	driver/kbdreg.h	9;"	d
+KEY_PGDN	driver/kbdreg.h	12;"	d
+KEY_PGUP	driver/kbdreg.h	11;"	d
+KEY_RT	driver/kbdreg.h	10;"	d
+KEY_UP	driver/kbdreg.h	7;"	d
+KMALLOC_MAX_ORDER	mm/slab.h	6;"	d
+KMEMSIZE	mm/memlayout.h	71;"	d
+KSTACKPAGE	mm/memlayout.h	82;"	d
+KSTACKSIZE	mm/memlayout.h	83;"	d
+K_LDCMDBYTE	driver/kbdreg.h	51;"	d
+K_RDCMDBYTE	driver/kbdreg.h	50;"	d
+LPTPORT	driver/console.c	51;"	d
+MAXARGS	debug/monitor.c	51;"	d
+MAX_DISK_NSECS	driver/ide.c	46;"	d
+MAX_DR_NUM	debug/kdebug.h	12;"	d
+MAX_IDE	driver/ide.c	44;"	d
+MAX_NSECS	driver/ide.c	45;"	d
+MAX_ORDER	mm/buddy_pmm.c	28;"	d
+MAX_PID	process/proc.h	38;"	d
+MAX_PROCESS	process/proc.h	37;"	d
+MAX_SIZE_ORDER	mm/slab.c	100;"	d
+MAX_SWAP_OFFSET_LIMIT	mm/swap.h	15;"	d
+MAX_SWAP_REF	mm/swap.c	101;"	d
+MAX_ZONE_NUM	mm/buddy_pmm.c	35;"	d
+MIN_SIZE_ORDER	mm/slab.c	99;"	d
+MLFQ_dequeue	schedule/sched_MLFQ.c	/^MLFQ_dequeue(struct run_queue *rq, struct proc_struct *proc) {$/;"	f
+MLFQ_enqueue	schedule/sched_MLFQ.c	/^MLFQ_enqueue(struct run_queue *rq, struct proc_struct *proc) {$/;"	f
+MLFQ_init	schedule/sched_MLFQ.c	/^MLFQ_init(struct run_queue *rq) {$/;"	f
+MLFQ_pick_next	schedule/sched_MLFQ.c	/^MLFQ_pick_next(struct run_queue *rq) {$/;"	f
+MLFQ_proc_tick	schedule/sched_MLFQ.c	/^MLFQ_proc_tick(struct run_queue *rq, struct proc_struct *proc) {$/;"	f
+MLFQ_sched_class	schedule/sched_MLFQ.c	/^struct sched_class MLFQ_sched_class = {$/;"	v	typeref:struct:sched_class
+MONO_BASE	driver/console.c	43;"	d
+MONO_BUF	driver/console.c	44;"	d
+NCOMMANDS	debug/monitor.c	47;"	d
+NO	driver/console.c	256;"	d
+NPDEENTRY	mm/mmu.h	223;"	d
+NPTEENTRY	mm/mmu.h	224;"	d
+NUMLOCK	driver/console.c	263;"	d
+NUM_SYSCALLS	syscall/syscall.c	145;"	d
+N_BCOMM	debug/stab.h	39;"	d
+N_BINCL	debug/stab.h	31;"	d
+N_BSLINE	debug/stab.h	27;"	d
+N_DSLINE	debug/stab.h	26;"	d
+N_ECOML	debug/stab.h	41;"	d
+N_ECOMM	debug/stab.h	40;"	d
+N_EINCL	debug/stab.h	34;"	d
+N_ENTRY	debug/stab.h	35;"	d
+N_EXCL	debug/stab.h	37;"	d
+N_FNAME	debug/stab.h	18;"	d
+N_FUN	debug/stab.h	19;"	d
+N_GSYM	debug/stab.h	17;"	d
+N_LBRAC	debug/stab.h	36;"	d
+N_LCSYM	debug/stab.h	21;"	d
+N_LENG	debug/stab.h	42;"	d
+N_LSYM	debug/stab.h	30;"	d
+N_MAIN	debug/stab.h	22;"	d
+N_PC	debug/stab.h	23;"	d
+N_PSYM	debug/stab.h	33;"	d
+N_RBRAC	debug/stab.h	38;"	d
+N_RSYM	debug/stab.h	24;"	d
+N_SLINE	debug/stab.h	25;"	d
+N_SO	debug/stab.h	29;"	d
+N_SOL	debug/stab.h	32;"	d
+N_SSYM	debug/stab.h	28;"	d
+N_STSYM	debug/stab.h	20;"	d
+PADDR	mm/pmm.h	57;"	d
+PAGE_NSECT	fs/fs.h	7;"	d
+PDE_ADDR	mm/mmu.h	220;"	d
+PDX	mm/mmu.h	204;"	d
+PDXSHIFT	mm/mmu.h	232;"	d
+PF_EXITING	process/proc.h	67;"	d
+PGADDR	mm/mmu.h	216;"	d
+PGOFF	mm/mmu.h	213;"	d
+PGSHIFT	mm/mmu.h	227;"	d
+PGSIZE	mm/mmu.h	226;"	d
+PG_active	mm/memlayout.h	145;"	d
+PG_dirty	mm/memlayout.h	143;"	d
+PG_property	mm/memlayout.h	141;"	d
+PG_reserved	mm/memlayout.h	140;"	d
+PG_slab	mm/memlayout.h	142;"	d
+PG_swap	mm/memlayout.h	144;"	d
+PPN	mm/mmu.h	210;"	d
+PROC_NAME_LEN	process/proc.h	36;"	d
+PROC_RUNNABLE	process/proc.h	/^    PROC_RUNNABLE,    \/\/ runnable(maybe running)$/;"	e	enum:proc_state
+PROC_SLEEPING	process/proc.h	/^    PROC_SLEEPING,    \/\/ sleeping$/;"	e	enum:proc_state
+PROC_UNINIT	process/proc.h	/^    PROC_UNINIT = 0,  \/\/ uninitialized$/;"	e	enum:proc_state
+PROC_ZOMBIE	process/proc.h	/^    PROC_ZOMBIE,      \/\/ almost dead, and wait parent proc to reclaim his resource$/;"	e	enum:proc_state
+PTE_A	mm/mmu.h	240;"	d
+PTE_ADDR	mm/mmu.h	219;"	d
+PTE_AVAIL	mm/mmu.h	244;"	d
+PTE_D	mm/mmu.h	241;"	d
+PTE_MBZ	mm/mmu.h	243;"	d
+PTE_P	mm/mmu.h	235;"	d
+PTE_PCD	mm/mmu.h	239;"	d
+PTE_PS	mm/mmu.h	242;"	d
+PTE_PWT	mm/mmu.h	238;"	d
+PTE_SWAP	mm/mmu.h	248;"	d
+PTE_U	mm/mmu.h	237;"	d
+PTE_USER	mm/mmu.h	249;"	d
+PTE_W	mm/mmu.h	236;"	d
+PTSHIFT	mm/mmu.h	229;"	d
+PTSIZE	mm/mmu.h	228;"	d
+PTX	mm/mmu.h	207;"	d
+PTXSHIFT	mm/mmu.h	231;"	d
+Page	mm/memlayout.h	/^struct Page {$/;"	s
+PageActive	mm/memlayout.h	164;"	d
+PageDirty	mm/memlayout.h	158;"	d
+PageProperty	mm/memlayout.h	152;"	d
+PageReserved	mm/memlayout.h	149;"	d
+PageSlab	mm/memlayout.h	155;"	d
+PageSwap	mm/memlayout.h	161;"	d
+RB_DELETE_FIXUP_SUB	libs/rb_tree.c	250;"	d
+RB_DELETE_FIXUP_SUB	libs/rb_tree.c	288;"	d
+RB_INSERT_SUB	libs/rb_tree.c	140;"	d
+RB_INSERT_SUB	libs/rb_tree.c	171;"	d
+RB_MIN_MAP_COUNT	mm/vmm.h	61;"	d
+REALLOC	init/entry.S	/^#define REALLOC(x) (x - KERNBASE)$/;"	d
+RR_dequeue	schedule/sched_RR.c	/^RR_dequeue(struct run_queue *rq, struct proc_struct *proc) {$/;"	f
+RR_enqueue	schedule/sched_RR.c	/^RR_enqueue(struct run_queue *rq, struct proc_struct *proc) {$/;"	f
+RR_init	schedule/sched_RR.c	/^RR_init(struct run_queue *rq) {$/;"	f
+RR_pick_next	schedule/sched_RR.c	/^RR_pick_next(struct run_queue *rq) {$/;"	f
+RR_proc_tick	schedule/sched_RR.c	/^RR_proc_tick(struct run_queue *rq, struct proc_struct *proc) {$/;"	f
+RR_sched_class	schedule/sched_RR.c	/^struct sched_class RR_sched_class = {$/;"	v	typeref:struct:sched_class
+SCROLLLOCK	driver/console.c	264;"	d
+SECTSIZE	fs/fs.h	6;"	d
+SEG	mm/mmu.h	131;"	d
+SEGTSS	mm/mmu.h	139;"	d
+SEG_ASM	mm/mmu.h	55;"	d
+SEG_KDATA	mm/memlayout.h	8;"	d
+SEG_KTEXT	mm/memlayout.h	7;"	d
+SEG_NULL	mm/mmu.h	128;"	d
+SEG_NULL	mm/mmu.h	51;"	d
+SEG_TSS	mm/memlayout.h	11;"	d
+SEG_UDATA	mm/memlayout.h	10;"	d
+SEG_UTEXT	mm/memlayout.h	9;"	d
+SETCALLGATE	mm/mmu.h	99;"	d
+SETGATE	mm/mmu.h	86;"	d
+SET_PAGE_CACHE	mm/slab.c	280;"	d
+SET_PAGE_SLAB	mm/slab.c	287;"	d
+SHIFT	driver/console.c	258;"	d
+SHMN_NENTRY	mm/shmem.h	17;"	d
+SLAB_CACHE_NUM	mm/slab.c	101;"	d
+SLAB_LIMIT	mm/slab.c	65;"	d
+STACKFRAME_DEPTH	debug/kdebug.c	14;"	d
+STA_A	mm/mmu.h	33;"	d
+STA_C	mm/mmu.h	30;"	d
+STA_E	mm/mmu.h	29;"	d
+STA_R	mm/mmu.h	32;"	d
+STA_W	mm/mmu.h	31;"	d
+STA_X	mm/mmu.h	28;"	d
+STS_CG16	mm/mmu.h	39;"	d
+STS_CG32	mm/mmu.h	45;"	d
+STS_IG16	mm/mmu.h	41;"	d
+STS_IG32	mm/mmu.h	46;"	d
+STS_LDT	mm/mmu.h	37;"	d
+STS_T16A	mm/mmu.h	36;"	d
+STS_T16B	mm/mmu.h	38;"	d
+STS_T32A	mm/mmu.h	43;"	d
+STS_T32B	mm/mmu.h	44;"	d
+STS_TG	mm/mmu.h	40;"	d
+STS_TG16	mm/mmu.h	42;"	d
+STS_TG32	mm/mmu.h	47;"	d
+SWAP_DEV_NO	fs/fs.h	9;"	d
+SWAP_UNUSED	mm/swap.c	100;"	d
+SetPageActive	mm/memlayout.h	162;"	d
+SetPageDirty	mm/memlayout.h	156;"	d
+SetPageProperty	mm/memlayout.h	150;"	d
+SetPageReserved	mm/memlayout.h	147;"	d
+SetPageSlab	mm/memlayout.h	153;"	d
+SetPageSwap	mm/memlayout.h	159;"	d
+TICK_NUM	trap/trap.c	20;"	d
+TIMER_16BIT	driver/clock.c	24;"	d
+TIMER_DIV	driver/clock.c	19;"	d
+TIMER_FREQ	driver/clock.c	18;"	d
+TIMER_MODE	driver/clock.c	21;"	d
+TIMER_RATEGEN	driver/clock.c	23;"	d
+TIMER_SEL0	driver/clock.c	22;"	d
+T_ALIGN	trap/trap.h	26;"	d
+T_BOUND	trap/trap.h	14;"	d
+T_BRKPT	trap/trap.h	12;"	d
+T_DBLFLT	trap/trap.h	17;"	d
+T_DEBUG	trap/trap.h	10;"	d
+T_DEVICE	trap/trap.h	16;"	d
+T_DIVIDE	trap/trap.h	9;"	d
+T_FPERR	trap/trap.h	25;"	d
+T_GPFLT	trap/trap.h	22;"	d
+T_ILLOP	trap/trap.h	15;"	d
+T_MCHK	trap/trap.h	27;"	d
+T_NMI	trap/trap.h	11;"	d
+T_OFLOW	trap/trap.h	13;"	d
+T_PGFLT	trap/trap.h	23;"	d
+T_SEGNP	trap/trap.h	20;"	d
+T_SIMDERR	trap/trap.h	28;"	d
+T_STACK	trap/trap.h	21;"	d
+T_TSS	trap/trap.h	19;"	d
+USERBASE	mm/memlayout.h	90;"	d
+USERTOP	mm/memlayout.h	85;"	d
+USER_ACCESS	mm/memlayout.h	94;"	d
+USER_CS	mm/memlayout.h	25;"	d
+USER_DS	mm/memlayout.h	26;"	d
+USTAB	mm/memlayout.h	92;"	d
+USTACKPAGE	mm/memlayout.h	87;"	d
+USTACKSIZE	mm/memlayout.h	88;"	d
+USTACKTOP	mm/memlayout.h	86;"	d
+UTEXT	mm/memlayout.h	91;"	d
+VALID_IDE	driver/ide.c	47;"	d
+VM_EXEC	mm/vmm.h	35;"	d
+VM_READ	mm/vmm.h	33;"	d
+VM_SHARE	mm/vmm.h	37;"	d
+VM_STACK	mm/vmm.h	36;"	d
+VM_WRITE	mm/vmm.h	34;"	d
+VPT	mm/memlayout.h	80;"	d
+WHITESPACE	debug/monitor.c	52;"	d
+WT_CHILD	process/proc.h	70;"	d
+WT_INTERRUPTED	process/proc.h	73;"	d
+WT_KSWAPD	process/proc.h	72;"	d
+WT_TIMER	process/proc.h	71;"	d
+Zone	mm/buddy_pmm.c	/^struct Zone {$/;"	s
+__KERNEL_EXECVE	process/proc.c	1053;"	d
+__KERNEL_EXECVE2	process/proc.c	1066;"	d
+__KERN_DEBUG_ASSERT_H__	debug/assert.h	2;"	d
+__KERN_DEBUG_KDEBUG_H__	debug/kdebug.h	2;"	d
+__KERN_DEBUG_MONITOR_H__	debug/monitor.h	2;"	d
+__KERN_DEBUG_STAB_H__	debug/stab.h	2;"	d
+__KERN_DRIVER_CLOCK_H__	driver/clock.h	2;"	d
+__KERN_DRIVER_CONSOLE_H__	driver/console.h	2;"	d
+__KERN_DRIVER_IDE_H__	driver/ide.h	2;"	d
+__KERN_DRIVER_INTR_H__	driver/intr.h	2;"	d
+__KERN_DRIVER_KBDREG_H__	driver/kbdreg.h	2;"	d
+__KERN_DRIVER_PICIRQ_H__	driver/picirq.h	2;"	d
+__KERN_FS_FS_H__	fs/fs.h	2;"	d
+__KERN_FS_SWAPFS_H__	fs/swapfs.h	2;"	d
+__KERN_LIBS_RB_TREE_H__	libs/rb_tree.h	2;"	d
+__KERN_MM_BUDDY_PMM_H__	mm/buddy_pmm.h	2;"	d
+__KERN_MM_MEMLAYOUT_H__	mm/memlayout.h	2;"	d
+__KERN_MM_MMU_H__	mm/mmu.h	2;"	d
+__KERN_MM_PMM_H__	mm/pmm.h	2;"	d
+__KERN_MM_SHMEM_H__	mm/shmem.h	2;"	d
+__KERN_MM_SLAB_H__	mm/slab.h	2;"	d
+__KERN_MM_SWAP_H__	mm/swap.h	2;"	d
+__KERN_MM_VMM_H__	mm/vmm.h	2;"	d
+__KERN_PROCESS_PROC_H__	process/proc.h	2;"	d
+__KERN_SCHEDULE_SCHED_H__	schedule/sched.h	2;"	d
+__KERN_SCHEDULE_SCHED_MLFQ_H__	schedule/sched_MLFQ.h	2;"	d
+__KERN_SCHEDULE_SCHED_RR_H__	schedule/sched_RR.h	2;"	d
+__KERN_SYNC_SYNC_H__	sync/sync.h	2;"	d
+__KERN_SYNC_WAIT_H__	sync/wait.h	2;"	d
+__KERN_SYSCALL_SYSCALL_H__	syscall/syscall.h	2;"	d
+__KERN_TRAP_TRAP_H__	trap/trap.h	2;"	d
+__alltraps	trap/trapentry.S	/^__alltraps:$/;"	l
+__do_exit	process/proc.c	/^__do_exit(void) {$/;"	f
+__do_kill	process/proc.c	/^__do_kill(struct proc_struct *proc, int error_code) {$/;"	f
+__gdt	init/entry.S	/^__gdt:$/;"	l
+__gdtdesc	init/entry.S	/^__gdtdesc:$/;"	l
+__intr_restore	sync/sync.h	/^__intr_restore(bool flag) {$/;"	f
+__intr_save	sync/sync.h	/^__intr_save(void) {$/;"	f
+__panic	debug/panic.c	/^__panic(const char *file, int line, const char *fmt, ...) {$/;"	f
+__rq	schedule/sched.c	/^static struct run_queue __rq[4];$/;"	v	typeref:struct:run_queue
+__trapret	trap/trapentry.S	/^__trapret:$/;"	l
+__vectors	trap/vectors.S	/^__vectors:$/;"	l
+__warn	debug/panic.c	/^__warn(const char *file, int line, const char *fmt, ...) {$/;"	f
+active_list	mm/swap.c	/^static swap_list_t active_list;$/;"	v
+add_timer	schedule/sched.c	/^add_timer(timer_t *timer) {$/;"	f
+addr	mm/memlayout.h	/^        uint64_t addr;$/;"	m	struct:e820map::__anon3
+addr_6845	driver/console.c	/^static uint16_t addr_6845;$/;"	v
+alloc_page	mm/pmm.h	35;"	d
+alloc_pages	mm/pmm.c	/^alloc_pages(size_t n) {$/;"	f
+alloc_pages	mm/pmm.h	/^    struct Page *(*alloc_pages)(size_t n);            \/\/ allocate >=n pages, depend on the allocation algorithm $/;"	m	struct:pmm_manager	typeref:struct:pmm_manager::alloc_pages
+alloc_proc	process/proc.c	/^alloc_proc(void) {$/;"	f
+assert	debug/assert.h	13;"	d
+base	driver/ide.c	/^    unsigned short base;        \/\/ I\/O Base$/;"	m	struct:__anon2
+boot_alloc_page	mm/pmm.c	/^boot_alloc_page(void) {$/;"	f
+boot_cr3	mm/pmm.c	/^uintptr_t boot_cr3;$/;"	v
+boot_map_segment	mm/pmm.c	/^boot_map_segment(pde_t *pgdir, uintptr_t la, size_t size, uintptr_t pa, uint32_t perm) {$/;"	f
+boot_pgdir	mm/pmm.c	/^pde_t *boot_pgdir = NULL;$/;"	v
+bootstack	init/entry.S	/^bootstack:$/;"	l
+bootstacktop	init/entry.S	/^bootstacktop:$/;"	l
+brk	mm/vmm.h	/^    uintptr_t brk_start, brk;$/;"	m	struct:mm_struct
+brk_start	mm/vmm.h	/^    uintptr_t brk_start, brk;$/;"	m	struct:mm_struct
+buddy_alloc_pages	mm/buddy_pmm.c	/^buddy_alloc_pages(size_t n) {$/;"	f
+buddy_alloc_pages_sub	mm/buddy_pmm.c	/^buddy_alloc_pages_sub(size_t order) {$/;"	f
+buddy_check	mm/buddy_pmm.c	/^buddy_check(void) {$/;"	f
+buddy_free_pages	mm/buddy_pmm.c	/^buddy_free_pages(struct Page *base, size_t n) {$/;"	f
+buddy_free_pages_sub	mm/buddy_pmm.c	/^buddy_free_pages_sub(struct Page *base, size_t order) {$/;"	f
+buddy_init	mm/buddy_pmm.c	/^buddy_init(void) {$/;"	f
+buddy_init_memmap	mm/buddy_pmm.c	/^buddy_init_memmap(struct Page *base, size_t n) {$/;"	f
+buddy_nr_free_pages	mm/buddy_pmm.c	/^buddy_nr_free_pages(void) {$/;"	f
+buddy_pmm_manager	mm/buddy_pmm.c	/^const struct pmm_manager buddy_pmm_manager = {$/;"	v	typeref:struct:pmm_manager
+buf	driver/console.c	/^    uint8_t buf[CONSBUFSIZE];$/;"	m	struct:__anon1
+buf	libs/readline.c	/^static char buf[BUFSIZE];$/;"	v
+cache_estimate	mm/slab.c	/^cache_estimate(size_t order, size_t objsize, size_t align, bool off_slab, size_t *remainder, size_t *num) {$/;"	f
+calculate_slab_order	mm/slab.c	/^calculate_slab_order(kmem_cache_t *cachep, size_t objsize, size_t align, bool off_slab, size_t *left_over) {$/;"	f
+cga_init	driver/console.c	/^cga_init(void) {$/;"	f
+cga_putc	driver/console.c	/^cga_putc(int c) {$/;"	f
+channels	driver/ide.c	/^} channels[2] = {$/;"	v	typeref:struct:__anon2
+charcode	driver/console.c	/^static uint8_t *charcode[4] = {$/;"	v
+check	mm/pmm.h	/^    void (*check)(void);                              \/\/ check the correctness of XXX_pmm_manager $/;"	m	struct:pmm_manager
+check_alloc_page	mm/pmm.c	/^check_alloc_page(void) {$/;"	f
+check_boot_pgdir	mm/pmm.c	/^check_boot_pgdir(void) {$/;"	f
+check_compare1	libs/rb_tree.c	/^check_compare1(rb_node *node1, rb_node *node2) {$/;"	f
+check_compare2	libs/rb_tree.c	/^check_compare2(rb_node *node, void *key) {$/;"	f
+check_data	libs/rb_tree.c	/^struct check_data {$/;"	s
+check_mm_shm_swap	mm/swap.c	/^check_mm_shm_swap(void) {$/;"	f
+check_mm_struct	mm/vmm.c	/^struct mm_struct *check_mm_struct;$/;"	v	typeref:struct:mm_struct
+check_mm_swap	mm/swap.c	/^check_mm_swap(void) {$/;"	f
+check_pgdir	mm/pmm.c	/^check_pgdir(void) {$/;"	f
+check_pgfault	mm/vmm.c	/^check_pgfault(void) {$/;"	f
+check_rb_tree	libs/rb_tree.c	/^check_rb_tree(void) {$/;"	f
+check_safe_kmalloc	libs/rb_tree.c	/^check_safe_kmalloc(size_t size) {$/;"	f
+check_shmn_overlap	mm/shmem.c	/^check_shmn_overlap(shmn_t *prev, shmn_t *next) {$/;"	f
+check_slab	mm/slab.c	/^check_slab(void) {$/;"	f
+check_slab_empty	mm/slab.c	/^check_slab_empty(void) {$/;"	f
+check_swap	mm/swap.c	/^check_swap(void) {$/;"	f
+check_tree	libs/rb_tree.c	/^check_tree(rb_tree *tree, rb_node *node) {$/;"	f
+check_vma_overlap	mm/vmm.c	/^check_vma_overlap(struct vma_struct *prev, struct vma_struct *next) {$/;"	f
+check_vma_struct	mm/vmm.c	/^check_vma_struct(void) {$/;"	f
+check_vmm	mm/vmm.c	/^check_vmm(void) {$/;"	f
+clock_init	driver/clock.c	/^clock_init(void) {$/;"	f
+command	debug/monitor.c	/^struct command {$/;"	s
+commands	debug/monitor.c	/^static struct command commands[] = {$/;"	v	typeref:struct:command
+compare	libs/rb_tree.h	/^    int (*compare)(rb_node *node1, rb_node *node2);$/;"	m	struct:rb_tree
+cons	driver/console.c	/^} cons;$/;"	v	typeref:struct:__anon1
+cons_getc	driver/console.c	/^cons_getc(void) {$/;"	f
+cons_init	driver/console.c	/^cons_init(void) {$/;"	f
+cons_intr	driver/console.c	/^cons_intr(int (*proc)(void)) {$/;"	f
+cons_putc	driver/console.c	/^cons_putc(int c) {$/;"	f
+context	process/proc.h	/^    struct context context;                     \/\/ Switch here to run process$/;"	m	struct:proc_struct	typeref:struct:proc_struct::context
+context	process/proc.h	/^struct context {$/;"	s
+control_dr	debug/kdebug.c	/^static uint32_t local_dr[MAX_DR_NUM], status_dr, control_dr;$/;"	v
+copy_from_user	mm/vmm.c	/^copy_from_user(struct mm_struct *mm, void *dst, const void *src, size_t len, bool writable) {$/;"	f
+copy_mm	process/proc.c	/^copy_mm(uint32_t clone_flags, struct proc_struct *proc) {$/;"	f
+copy_range	mm/pmm.c	/^copy_range(pde_t *to, pde_t *from, uintptr_t start, uintptr_t end, bool share) {$/;"	f
+copy_thread	process/proc.c	/^copy_thread(struct proc_struct *proc, uintptr_t esp, struct trapframe *tf) {$/;"	f
+copy_to_user	mm/vmm.c	/^copy_to_user(struct mm_struct *mm, void *dst, const void *src, size_t len) {$/;"	f
+cprintf	libs/stdio.c	/^cprintf(const char *fmt, ...) {$/;"	f
+cptr	process/proc.h	/^    struct proc_struct *cptr, *yptr, *optr;     \/\/ Process's children, yonger sibling, Old sibling$/;"	m	struct:proc_struct	typeref:struct:proc_struct::proc_struct
+cpu_idle	process/proc.c	/^cpu_idle(void) {$/;"	f
+cputch	libs/stdio.c	/^cputch(int c, int *cnt) {$/;"	f
+cputchar	libs/stdio.c	/^cputchar(int c) {$/;"	f
+cputs	libs/stdio.c	/^cputs(const char *str) {$/;"	f
+cr3	process/proc.h	/^    uintptr_t cr3;                              \/\/ CR3 register: the base addr of Page Directroy Table(PDT)$/;"	m	struct:proc_struct
+crt_buf	driver/console.c	/^static uint16_t *crt_buf;$/;"	v
+crt_pos	driver/console.c	/^static uint16_t crt_pos;$/;"	v
+ctlmap	driver/console.c	/^static uint8_t ctlmap[256] = {$/;"	v
+ctrl	driver/ide.c	/^    unsigned short ctrl;        \/\/ Control Base$/;"	m	struct:__anon2
+current	process/proc.c	/^struct proc_struct *current = NULL;$/;"	v	typeref:struct:proc_struct
+data	libs/rb_tree.c	/^    long data;$/;"	m	struct:check_data
+de_thread	process/proc.c	/^de_thread(struct proc_struct *proc) {$/;"	f
+debug_disable_dr	debug/kdebug.c	/^debug_disable_dr(unsigned regnum) {$/;"	f
+debug_enable_dr	debug/kdebug.c	/^debug_enable_dr(unsigned regnum, uintptr_t addr, unsigned type, unsigned len) {$/;"	f
+debug_end	debug/kdebug.c	/^debug_end(struct trapframe *tf) {$/;"	f
+debug_init	debug/kdebug.c	/^debug_init(void) {$/;"	f
+debug_list_dr	debug/kdebug.c	/^debug_list_dr(void) {$/;"	f
+debug_monitor	debug/kdebug.c	/^debug_monitor(struct trapframe *tf) {$/;"	f
+debug_start	debug/kdebug.c	/^debug_start(struct trapframe *tf) {$/;"	f
+debuginfo_eip	debug/kdebug.c	/^debuginfo_eip(uintptr_t addr, struct eipdebuginfo *info) {$/;"	f
+del_timer	schedule/sched.c	/^del_timer(timer_t *timer) {$/;"	f
+delay	driver/console.c	/^delay(void) {$/;"	f
+dequeue	schedule/sched.h	/^    void (*dequeue)(struct run_queue *rq, struct proc_struct *proc);$/;"	m	struct:sched_class
+desc	debug/monitor.c	/^    const char *desc;$/;"	m	struct:command
+did_init	driver/picirq.c	/^static bool did_init = 0;$/;"	v
+do_brk	process/proc.c	/^do_brk(uintptr_t *brk_store) {$/;"	f
+do_execve	process/proc.c	/^do_execve(const char *name, size_t len, unsigned char *binary, size_t size) {$/;"	f
+do_exit	process/proc.c	/^do_exit(int error_code) {$/;"	f
+do_exit_thread	process/proc.c	/^do_exit_thread(int error_code) {$/;"	f
+do_fork	process/proc.c	/^do_fork(uint32_t clone_flags, uintptr_t stack, struct trapframe *tf) {$/;"	f
+do_kill	process/proc.c	/^do_kill(int pid, int error_code) {$/;"	f
+do_mmap	process/proc.c	/^do_mmap(uintptr_t *addr_store, size_t len, uint32_t mmap_flags) {$/;"	f
+do_munmap	process/proc.c	/^do_munmap(uintptr_t addr, size_t len) {$/;"	f
+do_pgfault	mm/vmm.c	/^do_pgfault(struct mm_struct *mm, uint32_t error_code, uintptr_t addr) {$/;"	f
+do_shmem	process/proc.c	/^do_shmem(uintptr_t *addr_store, size_t len, uint32_t mmap_flags) {$/;"	f
+do_sleep	process/proc.c	/^do_sleep(unsigned int time) {$/;"	f
+do_wait	process/proc.c	/^do_wait(int pid, int *code_store) {$/;"	f
+do_yield	process/proc.c	/^do_yield(void) {$/;"	f
+dup_mmap	mm/vmm.c	/^dup_mmap(struct mm_struct *to, struct mm_struct *from) {$/;"	f
+e820map	mm/memlayout.h	/^struct e820map {$/;"	s
+ebp	process/proc.h	/^    uint32_t ebp;$/;"	m	struct:context
+ebx	process/proc.h	/^    uint32_t ebx;$/;"	m	struct:context
+ecx	process/proc.h	/^    uint32_t ecx;$/;"	m	struct:context
+edi	process/proc.h	/^    uint32_t edi;$/;"	m	struct:context
+edx	process/proc.h	/^    uint32_t edx;$/;"	m	struct:context
+eip	process/proc.h	/^    uint32_t eip;$/;"	m	struct:context
+eip_file	debug/kdebug.c	/^    const char *eip_file;                   \/\/ source code filename for eip$/;"	m	struct:eipdebuginfo
+eip_fn_addr	debug/kdebug.c	/^    uintptr_t eip_fn_addr;                  \/\/ start address of function$/;"	m	struct:eipdebuginfo
+eip_fn_name	debug/kdebug.c	/^    const char *eip_fn_name;                \/\/ name of function containing eip$/;"	m	struct:eipdebuginfo
+eip_fn_namelen	debug/kdebug.c	/^    int eip_fn_namelen;                     \/\/ length of function's name$/;"	m	struct:eipdebuginfo
+eip_fn_narg	debug/kdebug.c	/^    int eip_fn_narg;                        \/\/ number of function arguments$/;"	m	struct:eipdebuginfo
+eip_line	debug/kdebug.c	/^    int eip_line;                           \/\/ source code line number for eip$/;"	m	struct:eipdebuginfo
+eipdebuginfo	debug/kdebug.c	/^struct eipdebuginfo {$/;"	s
+enable_paging	mm/pmm.c	/^enable_paging(void) {$/;"	f
+end	mm/shmem.h	/^    uintptr_t end;$/;"	m	struct:shmn_s
+enqueue	schedule/sched.h	/^    void (*enqueue)(struct run_queue *rq, struct proc_struct *proc);$/;"	m	struct:sched_class
+entry	mm/shmem.h	/^    pte_t *entry;$/;"	m	struct:shmn_s
+entry_hashfn	mm/swap.c	107;"	d
+esi	process/proc.h	/^    uint32_t esi;$/;"	m	struct:context
+esp	process/proc.h	/^    uint32_t esp;$/;"	m	struct:context
+exit_code	process/proc.h	/^    int exit_code;                              \/\/ return value when exit$/;"	m	struct:proc_struct
+exit_mmap	mm/vmm.c	/^exit_mmap(struct mm_struct *mm) {$/;"	f
+exit_range	mm/pmm.c	/^exit_range(pde_t *pgdir, uintptr_t start, uintptr_t end) {$/;"	f
+expires	schedule/sched.h	/^    unsigned int expires;$/;"	m	struct:__anon6
+find_proc	process/proc.c	/^find_proc(int pid) {$/;"	f
+find_shmn	mm/shmem.c	/^find_shmn(struct shmem_struct *shmem, uintptr_t addr) {$/;"	f
+find_vma	mm/vmm.c	/^find_vma(struct mm_struct *mm, uintptr_t addr) {$/;"	f
+find_vma_intersection	mm/vmm.c	/^find_vma_intersection(struct mm_struct *mm, uintptr_t start, uintptr_t end) {$/;"	f
+find_vma_rb	mm/vmm.c	/^find_vma_rb(rb_tree *tree, uintptr_t addr) {$/;"	f
+flags	mm/memlayout.h	/^    uint32_t flags;                 \/\/ array of flags that describe the status of the page frame$/;"	m	struct:Page
+flags	process/proc.h	/^    uint32_t flags;                             \/\/ Process flag$/;"	m	struct:proc_struct
+forkret	process/proc.c	/^forkret(void) {$/;"	f
+forkrets	trap/trapentry.S	/^forkrets:$/;"	l
+free	mm/slab.c	/^    kmem_bufctl_t free;     \/\/ the first free obj's index in slab  $/;"	m	struct:slab_s
+free_area	mm/buddy_pmm.c	/^static free_area_t free_area[MAX_ORDER + 1];$/;"	v
+free_area_t	mm/memlayout.h	/^} free_area_t;$/;"	t	typeref:struct:__anon4
+free_list	mm/buddy_pmm.c	32;"	d
+free_list	mm/memlayout.h	/^    list_entry_t free_list;         \/\/ the list header$/;"	m	struct:__anon4
+free_page	mm/pmm.h	36;"	d
+free_pages	mm/pmm.c	/^free_pages(struct Page *base, size_t n) {$/;"	f
+free_pages	mm/pmm.h	/^    void (*free_pages)(struct Page *base, size_t n);  \/\/ free >=n pages with "base" addr of Page descriptor structures(memlayout.h)$/;"	m	struct:pmm_manager
+func	debug/monitor.c	/^    int(*func)(int argc, char **argv, struct trapframe *tf);$/;"	m	struct:command
+gatedesc	mm/mmu.h	/^struct gatedesc {$/;"	s
+gd_args	mm/mmu.h	/^    unsigned gd_args : 5;           \/\/ # args, 0 for interrupt\/trap gates$/;"	m	struct:gatedesc
+gd_dpl	mm/mmu.h	/^    unsigned gd_dpl : 2;            \/\/ descriptor(meaning new) privilege level$/;"	m	struct:gatedesc
+gd_off_15_0	mm/mmu.h	/^    unsigned gd_off_15_0 : 16;      \/\/ low 16 bits of offset in segment$/;"	m	struct:gatedesc
+gd_off_31_16	mm/mmu.h	/^    unsigned gd_off_31_16 : 16;     \/\/ high bits of offset in segment$/;"	m	struct:gatedesc
+gd_p	mm/mmu.h	/^    unsigned gd_p : 1;              \/\/ Present$/;"	m	struct:gatedesc
+gd_rsv1	mm/mmu.h	/^    unsigned gd_rsv1 : 3;           \/\/ reserved(should be zero I guess)$/;"	m	struct:gatedesc
+gd_s	mm/mmu.h	/^    unsigned gd_s : 1;              \/\/ must be 0 (system)$/;"	m	struct:gatedesc
+gd_ss	mm/mmu.h	/^    unsigned gd_ss : 16;            \/\/ segment selector$/;"	m	struct:gatedesc
+gd_type	mm/mmu.h	/^    unsigned gd_type : 4;           \/\/ type(STS_{TG,IG32,TG32})$/;"	m	struct:gatedesc
+gdt	mm/pmm.c	/^static struct segdesc gdt[] = {$/;"	v	typeref:struct:segdesc
+gdt_init	mm/pmm.c	/^gdt_init(void) {$/;"	f
+gdt_pd	mm/pmm.c	/^static struct pseudodesc gdt_pd = {$/;"	v	typeref:struct:pseudodesc
+get_page	mm/pmm.c	/^get_page(pde_t *pgdir, uintptr_t la, pte_t **ptep_store) {$/;"	f
+get_pgtable_items	mm/pmm.c	/^get_pgtable_items(size_t left, size_t right, size_t start, uintptr_t *table, size_t *left_store, size_t *right_store) {$/;"	f
+get_pid	process/proc.c	/^get_pid(void) {$/;"	f
+get_proc_name	process/proc.c	/^get_proc_name(struct proc_struct *proc) {$/;"	f
+get_pte	mm/pmm.c	/^get_pte(pde_t *pgdir, uintptr_t la, bool create) {$/;"	f
+get_unmapped_area	mm/vmm.c	/^get_unmapped_area(struct mm_struct *mm, size_t len) {$/;"	f
+getchar	libs/stdio.c	/^getchar(void) {$/;"	f
+getorder	mm/buddy_pmm.c	/^getorder(size_t n) {$/;"	f
+getorder	mm/slab.c	/^getorder(size_t n) {$/;"	f
+hash_link	process/proc.h	/^    list_entry_t hash_link;                     \/\/ Process hash list$/;"	m	struct:proc_struct
+hash_list	mm/swap.c	/^static list_entry_t hash_list[HASH_LIST_SIZE];$/;"	v
+hash_list	process/proc.c	/^static list_entry_t hash_list[HASH_LIST_SIZE];$/;"	v
+hash_proc	process/proc.c	/^hash_proc(struct proc_struct *proc) {$/;"	f
+ide_device	driver/ide.c	/^static struct ide_device {$/;"	s
+ide_device_size	driver/ide.c	/^ide_device_size(unsigned short ideno) {$/;"	f
+ide_device_valid	driver/ide.c	/^ide_device_valid(unsigned short ideno) {$/;"	f
+ide_devices	driver/ide.c	/^} ide_devices[MAX_IDE];$/;"	v	typeref:struct:ide_device
+ide_init	driver/ide.c	/^ide_init(void) {$/;"	f
+ide_read_secs	driver/ide.c	/^ide_read_secs(unsigned short ideno, uint32_t secno, void *dst, size_t nsecs) {$/;"	f
+ide_wait_ready	driver/ide.c	/^ide_wait_ready(unsigned short iobase, bool check_error) {$/;"	f
+ide_write_secs	driver/ide.c	/^ide_write_secs(unsigned short ideno, uint32_t secno, const void *src, size_t nsecs) {$/;"	f
+idleproc	process/proc.c	/^struct proc_struct *idleproc = NULL;$/;"	v	typeref:struct:proc_struct
+idt	trap/trap.c	/^static struct gatedesc idt[256] = {{0}};$/;"	v	typeref:struct:gatedesc
+idt_init	trap/trap.c	/^idt_init(void) {$/;"	f
+idt_pd	trap/trap.c	/^static struct pseudodesc idt_pd = {$/;"	v	typeref:struct:pseudodesc
+idx2page	mm/buddy_pmm.c	/^idx2page(int zone_num, ppn_t idx) {$/;"	f
+inactive_list	mm/swap.c	/^static swap_list_t inactive_list;$/;"	v
+index	mm/memlayout.h	/^    swap_entry_t index;             \/\/ stores a swapped-out page identifier$/;"	m	struct:Page
+init	mm/pmm.h	/^    void (*init)(void);                               \/\/ initialize internal description&management data structure$/;"	m	struct:pmm_manager
+init	schedule/sched.h	/^    void (*init)(struct run_queue *rq);$/;"	m	struct:sched_class
+init_kmem_cache	mm/slab.c	/^init_kmem_cache(kmem_cache_t *cachep, size_t objsize, size_t align) {$/;"	f
+init_main	process/proc.c	/^init_main(void *arg) {$/;"	f
+init_memmap	mm/pmm.c	/^init_memmap(struct Page *base, size_t n) {$/;"	f
+init_memmap	mm/pmm.h	/^    void (*init_memmap)(struct Page *base, size_t n); \/\/ setup description&management data structcure according to$/;"	m	struct:pmm_manager
+init_pmm_manager	mm/pmm.c	/^init_pmm_manager(void) {$/;"	f
+initproc	process/proc.c	/^struct proc_struct *initproc = NULL;$/;"	v	typeref:struct:proc_struct
+insert_shmn	mm/shmem.c	/^insert_shmn(struct shmem_struct *shmem, shmn_t *shmn) {$/;"	f
+insert_vma_rb	mm/vmm.c	/^insert_vma_rb(rb_tree *tree, struct vma_struct *vma, struct vma_struct **vma_prevp) {$/;"	f
+insert_vma_struct	mm/vmm.c	/^insert_vma_struct(struct mm_struct *mm, struct vma_struct *vma) {$/;"	f
+intr_disable	driver/intr.c	/^intr_disable(void) {$/;"	f
+intr_enable	driver/intr.c	/^intr_enable(void) {$/;"	f
+inuse	mm/slab.c	/^    size_t inuse;           \/\/ the number of allocated objs$/;"	m	struct:slab_s
+irq_mask	driver/picirq.c	/^static uint16_t irq_mask = 0xFFFF & ~(1 << IRQ_SLAVE);$/;"	v
+is_dr_saved	debug/kdebug.c	/^static bool is_dr_saved = 0;$/;"	v
+is_kernel_panic	debug/panic.c	/^is_kernel_panic(void) {$/;"	f
+is_panic	debug/panic.c	/^static bool is_panic = 0;$/;"	v
+kbd_init	driver/console.c	/^kbd_init(void) {$/;"	f
+kbd_intr	driver/console.c	/^kbd_intr(void) {$/;"	f
+kbd_proc_data	driver/console.c	/^kbd_proc_data(void) {$/;"	f
+kern_entry	init/entry.S	/^kern_entry:$/;"	l
+kern_init	init/init.c	/^kern_init(void) {$/;"	f
+kernel_execve	process/proc.c	/^kernel_execve(const char *name, unsigned char *binary, size_t size) {$/;"	f
+kernel_thread	process/proc.c	/^kernel_thread(int (*fn)(void *), void *arg, uint32_t clone_flags) {$/;"	f
+kernel_thread_entry	process/entry.S	/^kernel_thread_entry:        # void kernel_thread(void)$/;"	l
+kfree	mm/slab.c	/^kfree(void *objp) {$/;"	f
+kmalloc	mm/slab.c	/^kmalloc(size_t size) {$/;"	f
+kmem_bufctl_t	mm/slab.c	/^typedef size_t kmem_bufctl_t; \/\/the index of obj in slab$/;"	t
+kmem_cache_alloc	mm/slab.c	/^kmem_cache_alloc(kmem_cache_t *cachep) {$/;"	f
+kmem_cache_alloc_one	mm/slab.c	/^kmem_cache_alloc_one(kmem_cache_t *cachep, slab_t *slabp) {$/;"	f
+kmem_cache_free	mm/slab.c	/^kmem_cache_free(kmem_cache_t *cachep, void *objp) {$/;"	f
+kmem_cache_free_one	mm/slab.c	/^kmem_cache_free_one(kmem_cache_t *cachep, slab_t *slabp, void *objp) {$/;"	f
+kmem_cache_grow	mm/slab.c	/^kmem_cache_grow(kmem_cache_t *cachep) {$/;"	f
+kmem_cache_s	mm/slab.c	/^struct kmem_cache_s {$/;"	s
+kmem_cache_slabmgmt	mm/slab.c	/^kmem_cache_slabmgmt(kmem_cache_t *cachep, struct Page *page) {$/;"	f
+kmem_cache_t	mm/slab.c	/^typedef struct kmem_cache_s kmem_cache_t;$/;"	t	typeref:struct:kmem_cache_s
+kmem_slab_destroy	mm/slab.c	/^kmem_slab_destroy(kmem_cache_t *cachep, slab_t *slabp) {$/;"	f
+kstack	process/proc.h	/^    uintptr_t kstack;                           \/\/ Process kernel stack$/;"	m	struct:proc_struct
+kswapd	process/proc.c	/^struct proc_struct *kswapd = NULL;$/;"	v	typeref:struct:proc_struct
+kswapd_done	mm/swap.c	/^static wait_queue_t kswapd_done;$/;"	v
+kswapd_main	mm/swap.c	/^kswapd_main(void *arg) {$/;"	f
+kswapd_wakeup_all	mm/swap.c	/^kswapd_wakeup_all(void) {$/;"	f
+kva2page	mm/pmm.h	/^kva2page(void *kva) {$/;"	f
+le2mm	mm/vmm.h	58;"	d
+le2page	mm/memlayout.h	167;"	d
+le2proc	process/proc.h	75;"	d
+le2rq	schedule/sched.h	60;"	d
+le2shmn	mm/shmem.h	19;"	d
+le2slab	mm/slab.c	78;"	d
+le2timer	schedule/sched.h	15;"	d
+le2vma	mm/vmm.h	27;"	d
+le2wait	sync/wait.h	19;"	d
+left	libs/rb_tree.h	/^    struct rb_node *left, *right;$/;"	m	struct:rb_node	typeref:struct:rb_node::rb_node
+len	mm/shmem.h	/^    size_t len;$/;"	m	struct:shmem_struct
+lgdt	mm/pmm.c	/^lgdt(struct pseudodesc *pd) {$/;"	f
+list_link	mm/shmem.h	/^    list_entry_t list_link;$/;"	m	struct:shmn_s
+list_link	mm/vmm.h	/^    list_entry_t list_link;  \/\/ linear list link which sorted by start addr of vma$/;"	m	struct:vma_struct
+list_link	process/proc.h	/^    list_entry_t list_link;                     \/\/ Process link list $/;"	m	struct:proc_struct
+load_esp0	mm/pmm.c	/^load_esp0(uintptr_t esp0) {$/;"	f
+load_icode	process/proc.c	/^load_icode(unsigned char *binary, size_t size) {$/;"	f
+local_dr	debug/kdebug.c	/^static uint32_t local_dr[MAX_DR_NUM], status_dr, control_dr;$/;"	v
+local_dr_counter	debug/kdebug.c	/^static unsigned int local_dr_counter[MAX_DR_NUM];$/;"	v
+local_intr_restore	sync/sync.h	28;"	d
+local_intr_save	sync/sync.h	27;"	d
+lock	sync/sync.h	/^lock(lock_t *lock) {$/;"	f
+lock_init	sync/sync.h	/^lock_init(lock_t *lock) {$/;"	f
+lock_mm	mm/vmm.c	/^lock_mm(struct mm_struct *mm) {$/;"	f
+lock_shmem	mm/shmem.h	/^lock_shmem(struct shmem_struct *shmem) {$/;"	f
+lock_t	sync/sync.h	/^typedef volatile bool lock_t;$/;"	t
+locked_by	mm/vmm.h	/^    int locked_by;$/;"	m	struct:mm_struct
+lpt_putc	driver/console.c	/^lpt_putc(int c) {$/;"	f
+lpt_putc_sub	driver/console.c	/^lpt_putc_sub(int c) {$/;"	f
+map	mm/memlayout.h	/^    } __attribute__((packed)) map[E820MAX];$/;"	m	struct:e820map	typeref:struct:e820map::__anon3
+map_count	mm/vmm.h	/^    int map_count;                 \/\/ the count of these vma$/;"	m	struct:mm_struct
+max_swap_offset	mm/swap.c	/^size_t max_swap_offset;$/;"	v
+max_time_slice	schedule/sched.h	/^    int max_time_slice;$/;"	m	struct:run_queue
+may_killed	process/proc.c	/^may_killed(void) {$/;"	f
+mem_base	mm/buddy_pmm.c	/^    struct Page *mem_base;$/;"	m	struct:Zone	typeref:struct:Zone::Page
+mem_map	mm/swap.c	/^static unsigned short *mem_map;$/;"	v
+mm	process/proc.h	/^    struct mm_struct *mm;                       \/\/ Process's memory management field$/;"	m	struct:proc_struct	typeref:struct:proc_struct::mm_struct
+mm_brk	mm/vmm.c	/^mm_brk(struct mm_struct *mm, uintptr_t addr, size_t len) {$/;"	f
+mm_count	mm/vmm.h	/^    atomic_t mm_count;$/;"	m	struct:mm_struct
+mm_count	mm/vmm.h	/^mm_count(struct mm_struct *mm) {$/;"	f
+mm_count_dec	mm/vmm.h	/^mm_count_dec(struct mm_struct *mm) {$/;"	f
+mm_count_inc	mm/vmm.h	/^mm_count_inc(struct mm_struct *mm) {$/;"	f
+mm_create	mm/vmm.c	/^mm_create(void) {$/;"	f
+mm_destroy	mm/vmm.c	/^mm_destroy(struct mm_struct *mm) {$/;"	f
+mm_lock	mm/vmm.h	/^    lock_t mm_lock;$/;"	m	struct:mm_struct
+mm_map	mm/vmm.c	/^mm_map(struct mm_struct *mm, uintptr_t addr, size_t len, uint32_t vm_flags,$/;"	f
+mm_map_shmem	mm/vmm.c	/^mm_map_shmem(struct mm_struct *mm, uintptr_t addr, uint32_t vm_flags,$/;"	f
+mm_struct	mm/vmm.h	/^struct mm_struct {$/;"	s
+mm_unmap	mm/vmm.c	/^mm_unmap(struct mm_struct *mm, uintptr_t addr, size_t len) {$/;"	f
+mmap_cache	mm/vmm.h	/^    struct vma_struct *mmap_cache; \/\/ current accessed vma, used for speed purpose$/;"	m	struct:mm_struct	typeref:struct:mm_struct::vma_struct
+mmap_list	mm/vmm.h	/^    list_entry_t mmap_list;        \/\/ linear list link which sorted by start addr of vma$/;"	m	struct:mm_struct
+mmap_tree	mm/vmm.h	/^    rb_tree *mmap_tree;            \/\/ redblack tree link which sorted by start addr of vma$/;"	m	struct:mm_struct
+model	driver/ide.c	/^    unsigned char model[41];    \/\/ Model in String$/;"	m	struct:ide_device
+mon_backtrace	debug/monitor.c	/^mon_backtrace(int argc, char **argv, struct trapframe *tf) {$/;"	f
+mon_breakpoint	debug/monitor.c	/^mon_breakpoint(int argc, char **argv, struct trapframe *tf) {$/;"	f
+mon_continue	debug/monitor.c	/^mon_continue(int argc, char **argv, struct trapframe *tf) {$/;"	f
+mon_delete_dr	debug/monitor.c	/^mon_delete_dr(int argc, char **argv, struct trapframe *tf) {$/;"	f
+mon_help	debug/monitor.c	/^mon_help(int argc, char **argv, struct trapframe *tf) {$/;"	f
+mon_kerninfo	debug/monitor.c	/^mon_kerninfo(int argc, char **argv, struct trapframe *tf) {$/;"	f
+mon_list_dr	debug/monitor.c	/^mon_list_dr(int argc, char **argv, struct trapframe *tf) {$/;"	f
+mon_step	debug/monitor.c	/^mon_step(int argc, char **argv, struct trapframe *tf) {$/;"	f
+mon_watchpoint	debug/monitor.c	/^mon_watchpoint(int argc, char **argv, struct trapframe *tf) {$/;"	f
+monitor	debug/monitor.c	/^monitor(struct trapframe *tf) {$/;"	f
+n_desc	debug/stab.h	/^    uint16_t n_desc;        \/\/ description field$/;"	m	struct:stab
+n_other	debug/stab.h	/^    uint8_t n_other;        \/\/ misc info (usually empty)$/;"	m	struct:stab
+n_strx	debug/stab.h	/^    uint32_t n_strx;        \/\/ index into string table of name$/;"	m	struct:stab
+n_type	debug/stab.h	/^    uint8_t n_type;         \/\/ type of symbol$/;"	m	struct:stab
+n_value	debug/stab.h	/^    uintptr_t n_value;      \/\/ value of symbol$/;"	m	struct:stab
+name	debug/monitor.c	/^    const char *name;$/;"	m	struct:command
+name	mm/pmm.h	/^    const char *name;                                 \/\/ XXX_pmm_manager's name$/;"	m	struct:pmm_manager
+name	process/proc.h	/^    char name[PROC_NAME_LEN + 1];               \/\/ Process name$/;"	m	struct:proc_struct
+name	schedule/sched.h	/^    const char *name;$/;"	m	struct:sched_class
+need_resched	process/proc.h	/^    volatile bool need_resched;                 \/\/ bool value: need to be rescheduled to release CPU?$/;"	m	struct:proc_struct
+next_thread	process/proc.c	/^next_thread(struct proc_struct *proc) {$/;"	f
+nil	libs/rb_tree.h	/^    struct rb_node *nil, *root;$/;"	m	struct:rb_tree	typeref:struct:rb_tree::rb_node
+normalmap	driver/console.c	/^static uint8_t normalmap[256] = {$/;"	v
+npage	mm/pmm.c	/^size_t npage = 0;$/;"	v
+nr_active_pages	mm/swap.c	91;"	d
+nr_free	mm/buddy_pmm.c	33;"	d
+nr_free	mm/memlayout.h	/^    unsigned int nr_free;           \/\/ # of free pages in this free list$/;"	m	struct:__anon4
+nr_free_pages	mm/pmm.c	/^nr_free_pages(void) {$/;"	f
+nr_free_pages	mm/pmm.h	/^    size_t (*nr_free_pages)(void);                    \/\/ return the number of free pages $/;"	m	struct:pmm_manager
+nr_inactive_pages	mm/swap.c	92;"	d
+nr_map	mm/memlayout.h	/^    int nr_map;$/;"	m	struct:e820map
+nr_pages	mm/swap.c	/^    size_t nr_pages;$/;"	m	struct:__anon5
+nr_process	process/proc.c	/^static int nr_process = 0;$/;"	v
+num	mm/slab.c	/^    size_t num;                  \/\/ number of objs per slab$/;"	m	struct:kmem_cache_s
+objsize	mm/slab.c	/^    size_t objsize;              \/\/ the fixed size of obj$/;"	m	struct:kmem_cache_s
+off_slab	mm/slab.c	/^    bool off_slab;               \/\/ the control part of slab in slab or not.$/;"	m	struct:kmem_cache_s
+offset	mm/slab.c	/^    size_t offset;               \/\/ this first obj's offset in slab $/;"	m	struct:kmem_cache_s
+offset	mm/slab.c	/^    size_t offset;          \/\/ the first obj's offset value in slab$/;"	m	struct:slab_s
+optr	process/proc.h	/^    struct proc_struct *cptr, *yptr, *optr;     \/\/ Process's children, yonger sibling, Old sibling$/;"	m	struct:proc_struct	typeref:struct:proc_struct::
+pa2page	mm/pmm.h	/^pa2page(uintptr_t pa) {$/;"	f
+page2idx	mm/buddy_pmm.c	/^page2idx(struct Page *page) {$/;"	f
+page2kva	mm/pmm.h	/^page2kva(struct Page *page) {$/;"	f
+page2pa	mm/pmm.h	/^page2pa(struct Page *page) {$/;"	f
+page2ppn	mm/pmm.h	/^page2ppn(struct Page *page) {$/;"	f
+page_init	mm/pmm.c	/^page_init(void) {$/;"	f
+page_insert	mm/pmm.c	/^page_insert(pde_t *pgdir, struct Page *page, uintptr_t la, uint32_t perm) {$/;"	f
+page_is_buddy	mm/buddy_pmm.c	/^page_is_buddy(struct Page *page, size_t order, int zone_num) {$/;"	f
+page_launder	mm/swap.c	/^page_launder(void) {$/;"	f
+page_link	mm/memlayout.h	/^    list_entry_t page_link;         \/\/ free list link$/;"	m	struct:Page
+page_order	mm/slab.c	/^    size_t page_order;$/;"	m	struct:kmem_cache_s
+page_ref	mm/pmm.h	/^page_ref(struct Page *page) {$/;"	f
+page_ref_dec	mm/pmm.h	/^page_ref_dec(struct Page *page) {$/;"	f
+page_ref_inc	mm/pmm.h	/^page_ref_inc(struct Page *page) {$/;"	f
+page_remove	mm/pmm.c	/^page_remove(pde_t *pgdir, uintptr_t la) {$/;"	f
+page_remove_pte	mm/pmm.c	/^page_remove_pte(pde_t *pgdir, uintptr_t la, pte_t *ptep) {$/;"	f
+pages	mm/pmm.c	/^struct Page *pages;$/;"	v	typeref:struct:Page
+panic	debug/assert.h	10;"	d
+parent	libs/rb_tree.h	/^    struct rb_node *parent;$/;"	m	struct:rb_node	typeref:struct:rb_node::rb_node
+parent	process/proc.h	/^    struct proc_struct *parent;                 \/\/ the parent process$/;"	m	struct:proc_struct	typeref:struct:proc_struct::proc_struct
+parse	debug/monitor.c	/^parse(char *buf, char **argv) {$/;"	f
+pde2page	mm/pmm.h	/^pde2page(pde_t pde) {$/;"	f
+pde_t	mm/memlayout.h	/^typedef uintptr_t pde_t;$/;"	t
+perm2str	mm/pmm.c	/^perm2str(int perm) {$/;"	f
+pgdir	mm/vmm.h	/^    pde_t *pgdir;                  \/\/ the PDT of these vma$/;"	m	struct:mm_struct
+pgdir_alloc_page	mm/pmm.c	/^pgdir_alloc_page(pde_t *pgdir, uintptr_t la, uint32_t perm) {$/;"	f
+pgfault_handler	trap/trap.c	/^pgfault_handler(struct trapframe *tf) {$/;"	f
+pic_enable	driver/picirq.c	/^pic_enable(unsigned int irq) {$/;"	f
+pic_init	driver/picirq.c	/^pic_init(void) {$/;"	f
+pic_setmask	driver/picirq.c	/^pic_setmask(uint16_t mask) {$/;"	f
+pick_next	schedule/sched.h	/^    struct proc_struct *(*pick_next)(struct run_queue *rq);$/;"	m	struct:sched_class	typeref:struct:sched_class::pick_next
+pid	process/proc.h	/^    int pid;                                    \/\/ Process ID$/;"	m	struct:proc_struct
+pid_hashfn	process/proc.c	70;"	d
+pmm_init	mm/pmm.c	/^pmm_init(void) {$/;"	f
+pmm_manager	mm/pmm.c	/^const struct pmm_manager *pmm_manager;$/;"	v	typeref:struct:pmm_manager
+pmm_manager	mm/pmm.h	/^struct pmm_manager {$/;"	s
+pressure	mm/swap.c	/^static volatile int pressure = 0;$/;"	v
+print_debuginfo	debug/kdebug.c	/^print_debuginfo(uintptr_t eip) {$/;"	f
+print_kerninfo	debug/kdebug.c	/^print_kerninfo(void) {$/;"	f
+print_pgdir	mm/pmm.c	/^print_pgdir(void) {$/;"	f
+print_pgfault	trap/trap.c	/^print_pgfault(struct trapframe *tf) {$/;"	f
+print_regs	trap/trap.c	/^print_regs(struct pushregs *regs) {$/;"	f
+print_stackframe	debug/kdebug.c	/^print_stackframe(void) {$/;"	f
+print_trapframe	trap/trap.c	/^print_trapframe(struct trapframe *tf) {$/;"	f
+proc	schedule/sched.h	/^    struct proc_struct *proc;$/;"	m	struct:__anon6	typeref:struct:__anon6::proc_struct
+proc	sync/wait.h	/^    struct proc_struct *proc;$/;"	m	struct:__anon8	typeref:struct:__anon8::proc_struct
+proc_init	process/proc.c	/^proc_init(void) {$/;"	f
+proc_list	process/proc.c	/^list_entry_t proc_list;$/;"	v
+proc_mm_link	mm/vmm.h	/^    list_entry_t proc_mm_link;$/;"	m	struct:mm_struct
+proc_mm_list	process/proc.c	/^list_entry_t proc_mm_list;$/;"	v
+proc_num	schedule/sched.h	/^    unsigned int proc_num;$/;"	m	struct:run_queue
+proc_run	process/proc.c	/^proc_run(struct proc_struct *proc) {$/;"	f
+proc_state	process/proc.h	/^enum proc_state {$/;"	g
+proc_struct	process/proc.h	/^struct proc_struct {$/;"	s
+proc_tick	schedule/sched.h	/^    void (*proc_tick)(struct run_queue *rq, struct proc_struct *proc);$/;"	m	struct:sched_class
+property	mm/memlayout.h	/^    unsigned int property;          \/\/ used in buddy system, stores the order (the X in 2^X) of the continuous memory block$/;"	m	struct:Page
+pte2page	mm/pmm.h	/^pte2page(pte_t pte) {$/;"	f
+pte_t	mm/memlayout.h	/^typedef uintptr_t pte_t;$/;"	t
+pushregs	trap/trap.h	/^struct pushregs {$/;"	s
+put_kstack	process/proc.c	/^put_kstack(struct proc_struct *proc) {$/;"	f
+put_pgdir	process/proc.c	/^put_pgdir(struct mm_struct *mm) {$/;"	f
+rb_delete	libs/rb_tree.c	/^rb_delete(rb_tree *tree, rb_node *node) {$/;"	f
+rb_delete_fixup	libs/rb_tree.c	/^rb_delete_fixup(rb_tree *tree, rb_node *node) {$/;"	f
+rb_insert	libs/rb_tree.c	/^rb_insert(rb_tree *tree, rb_node *node) {$/;"	f
+rb_insert_binary	libs/rb_tree.c	/^rb_insert_binary(rb_tree *tree, rb_node *node) {$/;"	f
+rb_link	libs/rb_tree.c	/^    rb_node rb_link;$/;"	m	struct:check_data
+rb_link	mm/vmm.h	/^    rb_node rb_link;         \/\/ redblack link which sorted by start addr of vma$/;"	m	struct:vma_struct
+rb_node	libs/rb_tree.h	/^typedef struct rb_node {$/;"	s
+rb_node	libs/rb_tree.h	/^} rb_node;$/;"	t	typeref:struct:rb_node
+rb_node_create	libs/rb_tree.c	/^rb_node_create(void) {$/;"	f
+rb_node_left	libs/rb_tree.c	/^rb_node_left(rb_tree *tree, rb_node *node) {$/;"	f
+rb_node_next	libs/rb_tree.c	/^rb_node_next(rb_tree *tree, rb_node *node) {$/;"	f
+rb_node_prev	libs/rb_tree.c	/^rb_node_prev(rb_tree *tree, rb_node *node) {$/;"	f
+rb_node_right	libs/rb_tree.c	/^rb_node_right(rb_tree *tree, rb_node *node) {$/;"	f
+rb_node_root	libs/rb_tree.c	/^rb_node_root(rb_tree *tree) {$/;"	f
+rb_search	libs/rb_tree.c	/^rb_search(rb_tree *tree, int (*compare)(rb_node *node, void *key), void *key) {$/;"	f
+rb_tree	libs/rb_tree.h	/^typedef struct rb_tree {$/;"	s
+rb_tree	libs/rb_tree.h	/^} rb_tree;$/;"	t	typeref:struct:rb_tree
+rb_tree_create	libs/rb_tree.c	/^rb_tree_create(int (*compare)(rb_node *node1, rb_node *node2)) {$/;"	f
+rb_tree_destroy	libs/rb_tree.c	/^rb_tree_destroy(rb_tree *tree) {$/;"	f
+rb_tree_empty	libs/rb_tree.c	/^rb_tree_empty(rb_tree *tree) {$/;"	f
+rb_tree_predecessor	libs/rb_tree.c	/^rb_tree_predecessor(rb_tree *tree, rb_node *node) {$/;"	f
+rb_tree_successor	libs/rb_tree.c	/^rb_tree_successor(rb_tree *tree, rb_node *node) {$/;"	f
+rbn2data	libs/rb_tree.c	419;"	d
+rbn2vma	mm/vmm.h	30;"	d
+read_eip	debug/kdebug.c	/^read_eip(void) {$/;"	f
+readline	libs/readline.c	/^readline(const char *prompt) {$/;"	f
+red	libs/rb_tree.h	/^    bool red;                           \/\/ if red = 0, it's a black node$/;"	m	struct:rb_node
+ref	mm/memlayout.h	/^    atomic_t ref;                   \/\/ page frame's reference counter$/;"	m	struct:Page
+refill_inactive_scan	mm/swap.c	/^refill_inactive_scan(void) {$/;"	f
+reg_eax	trap/trap.h	/^    uint32_t reg_eax;$/;"	m	struct:pushregs
+reg_ebp	trap/trap.h	/^    uint32_t reg_ebp;$/;"	m	struct:pushregs
+reg_ebx	trap/trap.h	/^    uint32_t reg_ebx;$/;"	m	struct:pushregs
+reg_ecx	trap/trap.h	/^    uint32_t reg_ecx;$/;"	m	struct:pushregs
+reg_edi	trap/trap.h	/^    uint32_t reg_edi;$/;"	m	struct:pushregs
+reg_edx	trap/trap.h	/^    uint32_t reg_edx;$/;"	m	struct:pushregs
+reg_esi	trap/trap.h	/^    uint32_t reg_esi;$/;"	m	struct:pushregs
+reg_oesp	trap/trap.h	/^    uint32_t reg_oesp;          \/* Useless *\/$/;"	m	struct:pushregs
+relocated	init/entry.S	/^relocated:$/;"	l
+remove_links	process/proc.c	/^remove_links(struct proc_struct *proc) {$/;"	f
+remove_vma_struct	mm/vmm.c	/^remove_vma_struct(struct mm_struct *mm, struct vma_struct *vma) {$/;"	f
+restore_all_dr	debug/kdebug.c	/^restore_all_dr(void) {$/;"	f
+right	libs/rb_tree.h	/^    struct rb_node *left, *right;$/;"	m	struct:rb_node	typeref:struct:rb_node::
+root	libs/rb_tree.h	/^    struct rb_node *nil, *root;$/;"	m	struct:rb_tree	typeref:struct:rb_tree::
+rpos	driver/console.c	/^    uint32_t rpos;$/;"	m	struct:__anon1
+rq	process/proc.h	/^    struct run_queue *rq;                       \/\/ running queue contains Process$/;"	m	struct:proc_struct	typeref:struct:proc_struct::run_queue
+rq	schedule/sched.c	/^static struct run_queue *rq;$/;"	v	typeref:struct:run_queue
+rq_link	schedule/sched.h	/^    list_entry_t rq_link;$/;"	m	struct:run_queue
+run_link	process/proc.h	/^    list_entry_t run_link;                      \/\/ the entry linked in run queue$/;"	m	struct:proc_struct
+run_list	schedule/sched.h	/^    list_entry_t run_list;$/;"	m	struct:run_queue
+run_queue	schedule/sched.h	/^struct run_queue {$/;"	s
+run_timer_list	schedule/sched.c	/^run_timer_list(void) {$/;"	f
+runcmd	debug/monitor.c	/^runcmd(char *buf, struct trapframe *tf) {$/;"	f
+runs	process/proc.h	/^    int runs;                                   \/\/ the running times of Proces$/;"	m	struct:proc_struct
+s_mem	mm/slab.c	/^    void *s_mem;            \/\/ the kernel virtual address of the first obj in slab $/;"	m	struct:slab_s
+save_all_dr	debug/kdebug.c	/^save_all_dr(void) {$/;"	f
+sched_class	schedule/sched.c	/^static struct sched_class *sched_class;$/;"	v	typeref:struct:sched_class
+sched_class	schedule/sched.h	/^struct sched_class {$/;"	s
+sched_class	schedule/sched_MLFQ.c	/^static struct sched_class *sched_class;$/;"	v	typeref:struct:sched_class
+sched_class_dequeue	schedule/sched.c	/^sched_class_dequeue(struct proc_struct *proc) {$/;"	f
+sched_class_enqueue	schedule/sched.c	/^sched_class_enqueue(struct proc_struct *proc) {$/;"	f
+sched_class_pick_next	schedule/sched.c	/^sched_class_pick_next(void) {$/;"	f
+sched_class_proc_tick	schedule/sched.c	/^sched_class_proc_tick(struct proc_struct *proc) {$/;"	f
+sched_init	schedule/sched.c	/^sched_init(void) {$/;"	f
+schedule	schedule/sched.c	/^schedule(void) {$/;"	f
+sd_avl	mm/mmu.h	/^    unsigned sd_avl : 1;            \/\/ unused (available for software use)$/;"	m	struct:segdesc
+sd_base_15_0	mm/mmu.h	/^    unsigned sd_base_15_0 : 16;     \/\/ low bits of segment base address$/;"	m	struct:segdesc
+sd_base_23_16	mm/mmu.h	/^    unsigned sd_base_23_16 : 8;     \/\/ middle bits of segment base address$/;"	m	struct:segdesc
+sd_base_31_24	mm/mmu.h	/^    unsigned sd_base_31_24 : 8;     \/\/ high bits of segment base address$/;"	m	struct:segdesc
+sd_db	mm/mmu.h	/^    unsigned sd_db : 1;             \/\/ 0 = 16-bit segment, 1 = 32-bit segment$/;"	m	struct:segdesc
+sd_dpl	mm/mmu.h	/^    unsigned sd_dpl : 2;            \/\/ descriptor Privilege Level$/;"	m	struct:segdesc
+sd_g	mm/mmu.h	/^    unsigned sd_g : 1;              \/\/ granularity: limit scaled by 4K when set$/;"	m	struct:segdesc
+sd_lim_15_0	mm/mmu.h	/^    unsigned sd_lim_15_0 : 16;      \/\/ low bits of segment limit$/;"	m	struct:segdesc
+sd_lim_19_16	mm/mmu.h	/^    unsigned sd_lim_19_16 : 4;      \/\/ high bits of segment limit$/;"	m	struct:segdesc
+sd_p	mm/mmu.h	/^    unsigned sd_p : 1;              \/\/ present$/;"	m	struct:segdesc
+sd_rsv1	mm/mmu.h	/^    unsigned sd_rsv1 : 1;           \/\/ reserved$/;"	m	struct:segdesc
+sd_s	mm/mmu.h	/^    unsigned sd_s : 1;              \/\/ 0 = system, 1 = application$/;"	m	struct:segdesc
+sd_type	mm/mmu.h	/^    unsigned sd_type : 4;           \/\/ segment type (see STS_ constants)$/;"	m	struct:segdesc
+segdesc	mm/mmu.h	/^struct segdesc {$/;"	s
+serial_exists	driver/console.c	/^static bool serial_exists = 0;$/;"	v
+serial_init	driver/console.c	/^serial_init(void) {$/;"	f
+serial_intr	driver/console.c	/^serial_intr(void) {$/;"	f
+serial_proc_data	driver/console.c	/^serial_proc_data(void) {$/;"	f
+serial_putc	driver/console.c	/^serial_putc(int c) {$/;"	f
+serial_putc_sub	driver/console.c	/^serial_putc_sub(int c) {$/;"	f
+set_links	process/proc.c	/^set_links(struct proc_struct *proc) {$/;"	f
+set_mm_count	mm/vmm.h	/^set_mm_count(struct mm_struct *mm, int val) {$/;"	f
+set_page_ref	mm/pmm.h	/^set_page_ref(struct Page *page, int val) {$/;"	f
+set_proc_name	process/proc.c	/^set_proc_name(struct proc_struct *proc, const char *name) {$/;"	f
+set_shmem_ref	mm/shmem.h	/^set_shmem_ref(struct shmem_struct *shmem, int val) {$/;"	f
+sets	driver/ide.c	/^    unsigned int sets;          \/\/ Commend Sets Supported$/;"	m	struct:ide_device
+setup_kstack	process/proc.c	/^setup_kstack(struct proc_struct *proc) {$/;"	f
+setup_pgdir	process/proc.c	/^setup_pgdir(struct mm_struct *mm) {$/;"	f
+shiftcode	driver/console.c	/^static uint8_t shiftcode[256] = {$/;"	v
+shiftmap	driver/console.c	/^static uint8_t shiftmap[256] = {$/;"	v
+shmem	mm/vmm.h	/^    struct shmem_struct *shmem;$/;"	m	struct:vma_struct	typeref:struct:vma_struct::shmem_struct
+shmem_create	mm/shmem.c	/^shmem_create(size_t len) {$/;"	f
+shmem_destroy	mm/shmem.c	/^shmem_destroy(struct shmem_struct *shmem) {$/;"	f
+shmem_get_entry	mm/shmem.c	/^shmem_get_entry(struct shmem_struct *shmem, uintptr_t addr, bool create) {$/;"	f
+shmem_insert_entry	mm/shmem.c	/^shmem_insert_entry(struct shmem_struct *shmem, uintptr_t addr, pte_t entry) {$/;"	f
+shmem_lock	mm/shmem.h	/^    lock_t shmem_lock;$/;"	m	struct:shmem_struct
+shmem_off	mm/vmm.h	/^    size_t shmem_off;$/;"	m	struct:vma_struct
+shmem_ref	mm/shmem.h	/^    atomic_t shmem_ref;$/;"	m	struct:shmem_struct
+shmem_ref	mm/shmem.h	/^shmem_ref(struct shmem_struct *shmem) {$/;"	f
+shmem_ref_dec	mm/shmem.h	/^shmem_ref_dec(struct shmem_struct *shmem) {$/;"	f
+shmem_ref_inc	mm/shmem.h	/^shmem_ref_inc(struct shmem_struct *shmem) {$/;"	f
+shmem_remove_entry	mm/shmem.c	/^shmem_remove_entry(struct shmem_struct *shmem, uintptr_t addr) {$/;"	f
+shmem_remove_entry_pte	mm/shmem.c	/^shmem_remove_entry_pte(pte_t *ptep) {$/;"	f
+shmem_struct	mm/shmem.h	/^struct shmem_struct {$/;"	s
+shmn_cache	mm/shmem.h	/^    shmn_t *shmn_cache;$/;"	m	struct:shmem_struct
+shmn_create	mm/shmem.c	/^shmn_create(uintptr_t start) {$/;"	f
+shmn_destroy	mm/shmem.c	/^shmn_destroy(shmn_t *shmn) {$/;"	f
+shmn_list	mm/shmem.h	/^    list_entry_t shmn_list;$/;"	m	struct:shmem_struct
+shmn_s	mm/shmem.h	/^typedef struct shmn_s {$/;"	s
+shmn_t	mm/shmem.h	/^} shmn_t;$/;"	t	typeref:struct:shmn_s
+size	driver/ide.c	/^    unsigned int size;          \/\/ Size in Sectors$/;"	m	struct:ide_device
+size	mm/memlayout.h	/^        uint64_t size;$/;"	m	struct:e820map::__anon3
+slab_allocated	mm/slab.c	/^slab_allocated(void) {$/;"	f
+slab_bufctl	mm/slab.c	257;"	d
+slab_cache	mm/slab.c	/^static kmem_cache_t slab_cache[SLAB_CACHE_NUM];$/;"	v
+slab_cachep	mm/slab.c	/^    kmem_cache_t *slab_cachep;$/;"	m	struct:kmem_cache_s
+slab_init	mm/slab.c	/^slab_init(void) {$/;"	f
+slab_link	mm/slab.c	/^    list_entry_t slab_link; \/\/ the list entry linked to kmem_cache list$/;"	m	struct:slab_s
+slab_mgmt_size	mm/slab.c	/^slab_mgmt_size(size_t num, size_t align) {$/;"	f
+slab_s	mm/slab.c	/^typedef struct slab_s {$/;"	s
+slab_t	mm/slab.c	/^} slab_t;$/;"	t	typeref:struct:slab_s
+slabs_full	mm/slab.c	/^    list_entry_t slabs_full;     \/\/ list for fully allocated slabs$/;"	m	struct:kmem_cache_s
+slabs_notfull	mm/slab.c	/^    list_entry_t slabs_notfull;  \/\/ list for not-fully allocated slabs$/;"	m	struct:kmem_cache_s
+spin	init/entry.S	/^spin:$/;"	l
+stab	debug/stab.h	/^struct stab {$/;"	s
+stab_binsearch	debug/kdebug.c	/^stab_binsearch(const struct stab *stabs, int *region_left, int *region_right,$/;"	f
+stab_end	debug/kdebug.c	/^    const struct stab *stab_end;$/;"	m	struct:userstabdata	typeref:struct:userstabdata::stab
+stabs	debug/kdebug.c	/^    const struct stab *stabs;$/;"	m	struct:userstabdata	typeref:struct:userstabdata::stab
+stabstr	debug/kdebug.c	/^    const char *stabstr;$/;"	m	struct:userstabdata
+stabstr_end	debug/kdebug.c	/^    const char *stabstr_end;$/;"	m	struct:userstabdata
+start	mm/shmem.h	/^    uintptr_t start;$/;"	m	struct:shmn_s
+state	process/proc.h	/^    enum proc_state state;                      \/\/ Process state$/;"	m	struct:proc_struct	typeref:enum:proc_struct::proc_state
+static_assert	debug/assert.h	21;"	d
+status_dr	debug/kdebug.c	/^static uint32_t local_dr[MAX_DR_NUM], status_dr, control_dr;$/;"	v
+swap_active_list_add	mm/swap.c	/^swap_active_list_add(struct Page *page) {$/;"	f
+swap_address	mm/vmm.h	/^    uintptr_t swap_address;$/;"	m	struct:mm_struct
+swap_copy_entry	mm/swap.c	/^swap_copy_entry(swap_entry_t entry, swap_entry_t *store) {$/;"	f
+swap_duplicate	mm/swap.c	/^swap_duplicate(swap_entry_t entry) {$/;"	f
+swap_entry_t	mm/memlayout.h	/^typedef pte_t swap_entry_t; \/\/the pte can also be a swap entry$/;"	t
+swap_free_page	mm/swap.c	/^swap_free_page(struct Page *page) {$/;"	f
+swap_hash_find	mm/swap.c	/^swap_hash_find(swap_entry_t entry) {$/;"	f
+swap_in_lock	mm/swap.c	/^static lock_t swap_in_lock;$/;"	v
+swap_in_page	mm/swap.c	/^swap_in_page(swap_entry_t entry, struct Page **pagep) {$/;"	f
+swap_inactive_list_add	mm/swap.c	/^swap_inactive_list_add(struct Page *page) {$/;"	f
+swap_init	mm/swap.c	/^swap_init(void) {$/;"	f
+swap_init_ok	mm/swap.c	/^static volatile bool swap_init_ok = 0;$/;"	v
+swap_link	mm/memlayout.h	/^    list_entry_t swap_link;         \/\/ swap hash link$/;"	m	struct:Page
+swap_list	mm/swap.c	/^    list_entry_t swap_list;$/;"	m	struct:__anon5
+swap_list_del	mm/swap.c	/^swap_list_del(struct Page *page) {$/;"	f
+swap_list_init	mm/swap.c	/^swap_list_init(swap_list_t *list) {$/;"	f
+swap_list_t	mm/swap.c	/^} swap_list_t;$/;"	t	typeref:struct:__anon5
+swap_offset	mm/swap.h	23;"	d
+swap_out_mm	mm/swap.c	/^swap_out_mm(struct mm_struct *mm, size_t require) {$/;"	f
+swap_out_vma	mm/swap.c	/^swap_out_vma(struct mm_struct *mm, struct vma_struct *vma, uintptr_t addr, size_t require) {$/;"	f
+swap_page_add	mm/swap.c	/^swap_page_add(struct Page *page, swap_entry_t entry) {$/;"	f
+swap_page_count	mm/swap.c	/^swap_page_count(struct Page *page) {$/;"	f
+swap_page_del	mm/swap.c	/^swap_page_del(struct Page *page) {$/;"	f
+swap_remove_entry	mm/swap.c	/^swap_remove_entry(swap_entry_t entry) {$/;"	f
+swapfs_init	fs/swapfs.c	/^swapfs_init(void) {$/;"	f
+swapfs_read	fs/swapfs.c	/^swapfs_read(swap_entry_t entry, struct Page *page) {$/;"	f
+swapfs_write	fs/swapfs.c	/^swapfs_write(swap_entry_t entry, struct Page *page) {$/;"	f
+switch_to	process/switch.S	/^switch_to:                      # switch_to(from, to)$/;"	l
+sys_brk	syscall/syscall.c	/^sys_brk(uint32_t arg[]) {$/;"	f
+sys_clone	syscall/syscall.c	/^sys_clone(uint32_t arg[]) {$/;"	f
+sys_exec	syscall/syscall.c	/^sys_exec(uint32_t arg[]) {$/;"	f
+sys_exit	syscall/syscall.c	/^sys_exit(uint32_t arg[]) {$/;"	f
+sys_exit_thread	syscall/syscall.c	/^sys_exit_thread(uint32_t arg[]) {$/;"	f
+sys_fork	syscall/syscall.c	/^sys_fork(uint32_t arg[]) {$/;"	f
+sys_getpid	syscall/syscall.c	/^sys_getpid(uint32_t arg[]) {$/;"	f
+sys_gettime	syscall/syscall.c	/^sys_gettime(uint32_t arg[]) {$/;"	f
+sys_kill	syscall/syscall.c	/^sys_kill(uint32_t arg[]) {$/;"	f
+sys_mmap	syscall/syscall.c	/^sys_mmap(uint32_t arg[]) {$/;"	f
+sys_munmap	syscall/syscall.c	/^sys_munmap(uint32_t arg[]) {$/;"	f
+sys_pgdir	syscall/syscall.c	/^sys_pgdir(uint32_t arg[]) {$/;"	f
+sys_putc	syscall/syscall.c	/^sys_putc(uint32_t arg[]) {$/;"	f
+sys_shmem	syscall/syscall.c	/^sys_shmem(uint32_t arg[]) {$/;"	f
+sys_sleep	syscall/syscall.c	/^sys_sleep(uint32_t arg[]) {$/;"	f
+sys_wait	syscall/syscall.c	/^sys_wait(uint32_t arg[]) {$/;"	f
+sys_yield	syscall/syscall.c	/^sys_yield(uint32_t arg[]) {$/;"	f
+syscall	syscall/syscall.c	/^syscall(void) {$/;"	f
+syscalls	syscall/syscall.c	/^static uint32_t (*syscalls[])(uint32_t arg[]) = {$/;"	v
+taskstate	mm/mmu.h	/^struct taskstate {$/;"	s
+tf	process/proc.h	/^    struct trapframe *tf;                       \/\/ Trap frame for current interrupt$/;"	m	struct:proc_struct	typeref:struct:proc_struct::trapframe
+tf_cs	trap/trap.h	/^    uint16_t tf_cs;$/;"	m	struct:trapframe
+tf_ds	trap/trap.h	/^    uint16_t tf_ds;$/;"	m	struct:trapframe
+tf_eflags	trap/trap.h	/^    uint32_t tf_eflags;$/;"	m	struct:trapframe
+tf_eip	trap/trap.h	/^    uintptr_t tf_eip;$/;"	m	struct:trapframe
+tf_err	trap/trap.h	/^    uint32_t tf_err;$/;"	m	struct:trapframe
+tf_es	trap/trap.h	/^    uint16_t tf_es;$/;"	m	struct:trapframe
+tf_esp	trap/trap.h	/^    uintptr_t tf_esp;$/;"	m	struct:trapframe
+tf_padding1	trap/trap.h	/^    uint16_t tf_padding1;$/;"	m	struct:trapframe
+tf_padding2	trap/trap.h	/^    uint16_t tf_padding2;$/;"	m	struct:trapframe
+tf_padding3	trap/trap.h	/^    uint16_t tf_padding3;$/;"	m	struct:trapframe
+tf_padding4	trap/trap.h	/^    uint16_t tf_padding4;$/;"	m	struct:trapframe
+tf_regs	trap/trap.h	/^    struct pushregs tf_regs;$/;"	m	struct:trapframe	typeref:struct:trapframe::pushregs
+tf_ss	trap/trap.h	/^    uint16_t tf_ss;$/;"	m	struct:trapframe
+tf_trapno	trap/trap.h	/^    uint32_t tf_trapno;$/;"	m	struct:trapframe
+thread_group	process/proc.h	/^    list_entry_t thread_group;                  \/\/ the threads list including this proc which share resource (mem\/file\/sem...)$/;"	m	struct:proc_struct
+ticks	driver/clock.c	/^volatile size_t ticks;$/;"	v
+time_slice	process/proc.h	/^    int time_slice;                             \/\/ time slice for occupying the CPU$/;"	m	struct:proc_struct
+timer_init	schedule/sched.h	/^timer_init(timer_t *timer, struct proc_struct *proc, int expires) {$/;"	f
+timer_link	schedule/sched.h	/^    list_entry_t timer_link;$/;"	m	struct:__anon6
+timer_list	schedule/sched.c	/^static list_entry_t timer_list;$/;"	v
+timer_t	schedule/sched.h	/^} timer_t;$/;"	t	typeref:struct:__anon6
+tlb_invalidate	mm/pmm.c	/^tlb_invalidate(pde_t *pgdir, uintptr_t la) {$/;"	f
+togglecode	driver/console.c	/^static uint8_t togglecode[256] = {$/;"	v
+trap	trap/trap.c	/^trap(struct trapframe *tf) {$/;"	f
+trap_dispatch	trap/trap.c	/^trap_dispatch(struct trapframe *tf) {$/;"	f
+trap_in_kernel	trap/trap.c	/^trap_in_kernel(struct trapframe *tf) {$/;"	f
+trapframe	trap/trap.h	/^struct trapframe {$/;"	s
+trapname	trap/trap.c	/^trapname(int trapno) {$/;"	f
+try_alloc_swap_entry	mm/swap.c	/^try_alloc_swap_entry(void) {$/;"	f
+try_free_pages	mm/swap.c	/^try_free_pages(size_t n) {$/;"	f
+try_free_swap_entry	mm/swap.c	/^try_free_swap_entry(swap_entry_t entry) {$/;"	f
+try_lock	sync/sync.h	/^try_lock(lock_t *lock) {$/;"	f
+try_lock_mm	mm/vmm.c	/^try_lock_mm(struct mm_struct *mm) {$/;"	f
+ts	mm/pmm.c	/^static struct taskstate ts = {0};$/;"	v	typeref:struct:taskstate
+ts_cr3	mm/mmu.h	/^    uintptr_t ts_cr3;       \/\/ page directory base$/;"	m	struct:taskstate
+ts_cs	mm/mmu.h	/^    uint16_t ts_cs;$/;"	m	struct:taskstate
+ts_ds	mm/mmu.h	/^    uint16_t ts_ds;$/;"	m	struct:taskstate
+ts_eax	mm/mmu.h	/^    uint32_t ts_eax;        \/\/ more saved state (registers)$/;"	m	struct:taskstate
+ts_ebp	mm/mmu.h	/^    uintptr_t ts_ebp;$/;"	m	struct:taskstate
+ts_ebx	mm/mmu.h	/^    uint32_t ts_ebx;$/;"	m	struct:taskstate
+ts_ecx	mm/mmu.h	/^    uint32_t ts_ecx;$/;"	m	struct:taskstate
+ts_edi	mm/mmu.h	/^    uint32_t ts_edi;$/;"	m	struct:taskstate
+ts_edx	mm/mmu.h	/^    uint32_t ts_edx;$/;"	m	struct:taskstate
+ts_eflags	mm/mmu.h	/^    uint32_t ts_eflags;$/;"	m	struct:taskstate
+ts_eip	mm/mmu.h	/^    uintptr_t ts_eip;       \/\/ saved state from last task switch$/;"	m	struct:taskstate
+ts_es	mm/mmu.h	/^    uint16_t ts_es;         \/\/ even more saved state (segment selectors)$/;"	m	struct:taskstate
+ts_esi	mm/mmu.h	/^    uint32_t ts_esi;$/;"	m	struct:taskstate
+ts_esp	mm/mmu.h	/^    uintptr_t ts_esp;$/;"	m	struct:taskstate
+ts_esp0	mm/mmu.h	/^    uintptr_t ts_esp0;      \/\/ stack pointers and segment selectors$/;"	m	struct:taskstate
+ts_esp1	mm/mmu.h	/^    uintptr_t ts_esp1;$/;"	m	struct:taskstate
+ts_esp2	mm/mmu.h	/^    uintptr_t ts_esp2;$/;"	m	struct:taskstate
+ts_fs	mm/mmu.h	/^    uint16_t ts_fs;$/;"	m	struct:taskstate
+ts_gs	mm/mmu.h	/^    uint16_t ts_gs;$/;"	m	struct:taskstate
+ts_iomb	mm/mmu.h	/^    uint16_t ts_iomb;       \/\/ i\/o map base address$/;"	m	struct:taskstate
+ts_ldt	mm/mmu.h	/^    uint16_t ts_ldt;$/;"	m	struct:taskstate
+ts_link	mm/mmu.h	/^    uint32_t ts_link;       \/\/ old ts selector$/;"	m	struct:taskstate
+ts_padding1	mm/mmu.h	/^    uint16_t ts_padding1;$/;"	m	struct:taskstate
+ts_padding10	mm/mmu.h	/^    uint16_t ts_padding10;$/;"	m	struct:taskstate
+ts_padding2	mm/mmu.h	/^    uint16_t ts_padding2;$/;"	m	struct:taskstate
+ts_padding3	mm/mmu.h	/^    uint16_t ts_padding3;$/;"	m	struct:taskstate
+ts_padding4	mm/mmu.h	/^    uint16_t ts_padding4;$/;"	m	struct:taskstate
+ts_padding5	mm/mmu.h	/^    uint16_t ts_padding5;$/;"	m	struct:taskstate
+ts_padding6	mm/mmu.h	/^    uint16_t ts_padding6;$/;"	m	struct:taskstate
+ts_padding7	mm/mmu.h	/^    uint16_t ts_padding7;$/;"	m	struct:taskstate
+ts_padding8	mm/mmu.h	/^    uint16_t ts_padding8;$/;"	m	struct:taskstate
+ts_padding9	mm/mmu.h	/^    uint16_t ts_padding9;$/;"	m	struct:taskstate
+ts_ss	mm/mmu.h	/^    uint16_t ts_ss;$/;"	m	struct:taskstate
+ts_ss0	mm/mmu.h	/^    uint16_t ts_ss0;        \/\/ after an increase in privilege level$/;"	m	struct:taskstate
+ts_ss1	mm/mmu.h	/^    uint16_t ts_ss1;$/;"	m	struct:taskstate
+ts_ss2	mm/mmu.h	/^    uint16_t ts_ss2;$/;"	m	struct:taskstate
+ts_t	mm/mmu.h	/^    uint16_t ts_t;          \/\/ trap on task switch$/;"	m	struct:taskstate
+type	mm/memlayout.h	/^        uint32_t type;$/;"	m	struct:e820map::__anon3
+unhash_proc	process/proc.c	/^unhash_proc(struct proc_struct *proc) {$/;"	f
+unlock	sync/sync.h	/^unlock(lock_t *lock) {$/;"	f
+unlock_mm	mm/vmm.c	/^unlock_mm(struct mm_struct *mm) {$/;"	f
+unlock_shmem	mm/shmem.h	/^unlock_shmem(struct shmem_struct *shmem) {$/;"	f
+unmap_range	mm/pmm.c	/^unmap_range(pde_t *pgdir, uintptr_t start, uintptr_t end) {$/;"	f
+user_main	process/proc.c	/^user_main(void *arg) {$/;"	f
+user_mem_check	mm/vmm.c	/^user_mem_check(struct mm_struct *mm, uintptr_t addr, size_t len, bool write) {$/;"	f
+userstabdata	debug/kdebug.c	/^struct userstabdata {$/;"	s
+valid	driver/ide.c	/^    unsigned char valid;        \/\/ 0 or 1 (If Device Really Exists)$/;"	m	struct:ide_device
+vcprintf	libs/stdio.c	/^vcprintf(const char *fmt, va_list ap) {$/;"	f
+vector0	trap/vectors.S	/^vector0:$/;"	l
+vector1	trap/vectors.S	/^vector1:$/;"	l
+vector10	trap/vectors.S	/^vector10:$/;"	l
+vector100	trap/vectors.S	/^vector100:$/;"	l
+vector101	trap/vectors.S	/^vector101:$/;"	l
+vector102	trap/vectors.S	/^vector102:$/;"	l
+vector103	trap/vectors.S	/^vector103:$/;"	l
+vector104	trap/vectors.S	/^vector104:$/;"	l
+vector105	trap/vectors.S	/^vector105:$/;"	l
+vector106	trap/vectors.S	/^vector106:$/;"	l
+vector107	trap/vectors.S	/^vector107:$/;"	l
+vector108	trap/vectors.S	/^vector108:$/;"	l
+vector109	trap/vectors.S	/^vector109:$/;"	l
+vector11	trap/vectors.S	/^vector11:$/;"	l
+vector110	trap/vectors.S	/^vector110:$/;"	l
+vector111	trap/vectors.S	/^vector111:$/;"	l
+vector112	trap/vectors.S	/^vector112:$/;"	l
+vector113	trap/vectors.S	/^vector113:$/;"	l
+vector114	trap/vectors.S	/^vector114:$/;"	l
+vector115	trap/vectors.S	/^vector115:$/;"	l
+vector116	trap/vectors.S	/^vector116:$/;"	l
+vector117	trap/vectors.S	/^vector117:$/;"	l
+vector118	trap/vectors.S	/^vector118:$/;"	l
+vector119	trap/vectors.S	/^vector119:$/;"	l
+vector12	trap/vectors.S	/^vector12:$/;"	l
+vector120	trap/vectors.S	/^vector120:$/;"	l
+vector121	trap/vectors.S	/^vector121:$/;"	l
+vector122	trap/vectors.S	/^vector122:$/;"	l
+vector123	trap/vectors.S	/^vector123:$/;"	l
+vector124	trap/vectors.S	/^vector124:$/;"	l
+vector125	trap/vectors.S	/^vector125:$/;"	l
+vector126	trap/vectors.S	/^vector126:$/;"	l
+vector127	trap/vectors.S	/^vector127:$/;"	l
+vector128	trap/vectors.S	/^vector128:$/;"	l
+vector129	trap/vectors.S	/^vector129:$/;"	l
+vector13	trap/vectors.S	/^vector13:$/;"	l
+vector130	trap/vectors.S	/^vector130:$/;"	l
+vector131	trap/vectors.S	/^vector131:$/;"	l
+vector132	trap/vectors.S	/^vector132:$/;"	l
+vector133	trap/vectors.S	/^vector133:$/;"	l
+vector134	trap/vectors.S	/^vector134:$/;"	l
+vector135	trap/vectors.S	/^vector135:$/;"	l
+vector136	trap/vectors.S	/^vector136:$/;"	l
+vector137	trap/vectors.S	/^vector137:$/;"	l
+vector138	trap/vectors.S	/^vector138:$/;"	l
+vector139	trap/vectors.S	/^vector139:$/;"	l
+vector14	trap/vectors.S	/^vector14:$/;"	l
+vector140	trap/vectors.S	/^vector140:$/;"	l
+vector141	trap/vectors.S	/^vector141:$/;"	l
+vector142	trap/vectors.S	/^vector142:$/;"	l
+vector143	trap/vectors.S	/^vector143:$/;"	l
+vector144	trap/vectors.S	/^vector144:$/;"	l
+vector145	trap/vectors.S	/^vector145:$/;"	l
+vector146	trap/vectors.S	/^vector146:$/;"	l
+vector147	trap/vectors.S	/^vector147:$/;"	l
+vector148	trap/vectors.S	/^vector148:$/;"	l
+vector149	trap/vectors.S	/^vector149:$/;"	l
+vector15	trap/vectors.S	/^vector15:$/;"	l
+vector150	trap/vectors.S	/^vector150:$/;"	l
+vector151	trap/vectors.S	/^vector151:$/;"	l
+vector152	trap/vectors.S	/^vector152:$/;"	l
+vector153	trap/vectors.S	/^vector153:$/;"	l
+vector154	trap/vectors.S	/^vector154:$/;"	l
+vector155	trap/vectors.S	/^vector155:$/;"	l
+vector156	trap/vectors.S	/^vector156:$/;"	l
+vector157	trap/vectors.S	/^vector157:$/;"	l
+vector158	trap/vectors.S	/^vector158:$/;"	l
+vector159	trap/vectors.S	/^vector159:$/;"	l
+vector16	trap/vectors.S	/^vector16:$/;"	l
+vector160	trap/vectors.S	/^vector160:$/;"	l
+vector161	trap/vectors.S	/^vector161:$/;"	l
+vector162	trap/vectors.S	/^vector162:$/;"	l
+vector163	trap/vectors.S	/^vector163:$/;"	l
+vector164	trap/vectors.S	/^vector164:$/;"	l
+vector165	trap/vectors.S	/^vector165:$/;"	l
+vector166	trap/vectors.S	/^vector166:$/;"	l
+vector167	trap/vectors.S	/^vector167:$/;"	l
+vector168	trap/vectors.S	/^vector168:$/;"	l
+vector169	trap/vectors.S	/^vector169:$/;"	l
+vector17	trap/vectors.S	/^vector17:$/;"	l
+vector170	trap/vectors.S	/^vector170:$/;"	l
+vector171	trap/vectors.S	/^vector171:$/;"	l
+vector172	trap/vectors.S	/^vector172:$/;"	l
+vector173	trap/vectors.S	/^vector173:$/;"	l
+vector174	trap/vectors.S	/^vector174:$/;"	l
+vector175	trap/vectors.S	/^vector175:$/;"	l
+vector176	trap/vectors.S	/^vector176:$/;"	l
+vector177	trap/vectors.S	/^vector177:$/;"	l
+vector178	trap/vectors.S	/^vector178:$/;"	l
+vector179	trap/vectors.S	/^vector179:$/;"	l
+vector18	trap/vectors.S	/^vector18:$/;"	l
+vector180	trap/vectors.S	/^vector180:$/;"	l
+vector181	trap/vectors.S	/^vector181:$/;"	l
+vector182	trap/vectors.S	/^vector182:$/;"	l
+vector183	trap/vectors.S	/^vector183:$/;"	l
+vector184	trap/vectors.S	/^vector184:$/;"	l
+vector185	trap/vectors.S	/^vector185:$/;"	l
+vector186	trap/vectors.S	/^vector186:$/;"	l
+vector187	trap/vectors.S	/^vector187:$/;"	l
+vector188	trap/vectors.S	/^vector188:$/;"	l
+vector189	trap/vectors.S	/^vector189:$/;"	l
+vector19	trap/vectors.S	/^vector19:$/;"	l
+vector190	trap/vectors.S	/^vector190:$/;"	l
+vector191	trap/vectors.S	/^vector191:$/;"	l
+vector192	trap/vectors.S	/^vector192:$/;"	l
+vector193	trap/vectors.S	/^vector193:$/;"	l
+vector194	trap/vectors.S	/^vector194:$/;"	l
+vector195	trap/vectors.S	/^vector195:$/;"	l
+vector196	trap/vectors.S	/^vector196:$/;"	l
+vector197	trap/vectors.S	/^vector197:$/;"	l
+vector198	trap/vectors.S	/^vector198:$/;"	l
+vector199	trap/vectors.S	/^vector199:$/;"	l
+vector2	trap/vectors.S	/^vector2:$/;"	l
+vector20	trap/vectors.S	/^vector20:$/;"	l
+vector200	trap/vectors.S	/^vector200:$/;"	l
+vector201	trap/vectors.S	/^vector201:$/;"	l
+vector202	trap/vectors.S	/^vector202:$/;"	l
+vector203	trap/vectors.S	/^vector203:$/;"	l
+vector204	trap/vectors.S	/^vector204:$/;"	l
+vector205	trap/vectors.S	/^vector205:$/;"	l
+vector206	trap/vectors.S	/^vector206:$/;"	l
+vector207	trap/vectors.S	/^vector207:$/;"	l
+vector208	trap/vectors.S	/^vector208:$/;"	l
+vector209	trap/vectors.S	/^vector209:$/;"	l
+vector21	trap/vectors.S	/^vector21:$/;"	l
+vector210	trap/vectors.S	/^vector210:$/;"	l
+vector211	trap/vectors.S	/^vector211:$/;"	l
+vector212	trap/vectors.S	/^vector212:$/;"	l
+vector213	trap/vectors.S	/^vector213:$/;"	l
+vector214	trap/vectors.S	/^vector214:$/;"	l
+vector215	trap/vectors.S	/^vector215:$/;"	l
+vector216	trap/vectors.S	/^vector216:$/;"	l
+vector217	trap/vectors.S	/^vector217:$/;"	l
+vector218	trap/vectors.S	/^vector218:$/;"	l
+vector219	trap/vectors.S	/^vector219:$/;"	l
+vector22	trap/vectors.S	/^vector22:$/;"	l
+vector220	trap/vectors.S	/^vector220:$/;"	l
+vector221	trap/vectors.S	/^vector221:$/;"	l
+vector222	trap/vectors.S	/^vector222:$/;"	l
+vector223	trap/vectors.S	/^vector223:$/;"	l
+vector224	trap/vectors.S	/^vector224:$/;"	l
+vector225	trap/vectors.S	/^vector225:$/;"	l
+vector226	trap/vectors.S	/^vector226:$/;"	l
+vector227	trap/vectors.S	/^vector227:$/;"	l
+vector228	trap/vectors.S	/^vector228:$/;"	l
+vector229	trap/vectors.S	/^vector229:$/;"	l
+vector23	trap/vectors.S	/^vector23:$/;"	l
+vector230	trap/vectors.S	/^vector230:$/;"	l
+vector231	trap/vectors.S	/^vector231:$/;"	l
+vector232	trap/vectors.S	/^vector232:$/;"	l
+vector233	trap/vectors.S	/^vector233:$/;"	l
+vector234	trap/vectors.S	/^vector234:$/;"	l
+vector235	trap/vectors.S	/^vector235:$/;"	l
+vector236	trap/vectors.S	/^vector236:$/;"	l
+vector237	trap/vectors.S	/^vector237:$/;"	l
+vector238	trap/vectors.S	/^vector238:$/;"	l
+vector239	trap/vectors.S	/^vector239:$/;"	l
+vector24	trap/vectors.S	/^vector24:$/;"	l
+vector240	trap/vectors.S	/^vector240:$/;"	l
+vector241	trap/vectors.S	/^vector241:$/;"	l
+vector242	trap/vectors.S	/^vector242:$/;"	l
+vector243	trap/vectors.S	/^vector243:$/;"	l
+vector244	trap/vectors.S	/^vector244:$/;"	l
+vector245	trap/vectors.S	/^vector245:$/;"	l
+vector246	trap/vectors.S	/^vector246:$/;"	l
+vector247	trap/vectors.S	/^vector247:$/;"	l
+vector248	trap/vectors.S	/^vector248:$/;"	l
+vector249	trap/vectors.S	/^vector249:$/;"	l
+vector25	trap/vectors.S	/^vector25:$/;"	l
+vector250	trap/vectors.S	/^vector250:$/;"	l
+vector251	trap/vectors.S	/^vector251:$/;"	l
+vector252	trap/vectors.S	/^vector252:$/;"	l
+vector253	trap/vectors.S	/^vector253:$/;"	l
+vector254	trap/vectors.S	/^vector254:$/;"	l
+vector255	trap/vectors.S	/^vector255:$/;"	l
+vector26	trap/vectors.S	/^vector26:$/;"	l
+vector27	trap/vectors.S	/^vector27:$/;"	l
+vector28	trap/vectors.S	/^vector28:$/;"	l
+vector29	trap/vectors.S	/^vector29:$/;"	l
+vector3	trap/vectors.S	/^vector3:$/;"	l
+vector30	trap/vectors.S	/^vector30:$/;"	l
+vector31	trap/vectors.S	/^vector31:$/;"	l
+vector32	trap/vectors.S	/^vector32:$/;"	l
+vector33	trap/vectors.S	/^vector33:$/;"	l
+vector34	trap/vectors.S	/^vector34:$/;"	l
+vector35	trap/vectors.S	/^vector35:$/;"	l
+vector36	trap/vectors.S	/^vector36:$/;"	l
+vector37	trap/vectors.S	/^vector37:$/;"	l
+vector38	trap/vectors.S	/^vector38:$/;"	l
+vector39	trap/vectors.S	/^vector39:$/;"	l
+vector4	trap/vectors.S	/^vector4:$/;"	l
+vector40	trap/vectors.S	/^vector40:$/;"	l
+vector41	trap/vectors.S	/^vector41:$/;"	l
+vector42	trap/vectors.S	/^vector42:$/;"	l
+vector43	trap/vectors.S	/^vector43:$/;"	l
+vector44	trap/vectors.S	/^vector44:$/;"	l
+vector45	trap/vectors.S	/^vector45:$/;"	l
+vector46	trap/vectors.S	/^vector46:$/;"	l
+vector47	trap/vectors.S	/^vector47:$/;"	l
+vector48	trap/vectors.S	/^vector48:$/;"	l
+vector49	trap/vectors.S	/^vector49:$/;"	l
+vector5	trap/vectors.S	/^vector5:$/;"	l
+vector50	trap/vectors.S	/^vector50:$/;"	l
+vector51	trap/vectors.S	/^vector51:$/;"	l
+vector52	trap/vectors.S	/^vector52:$/;"	l
+vector53	trap/vectors.S	/^vector53:$/;"	l
+vector54	trap/vectors.S	/^vector54:$/;"	l
+vector55	trap/vectors.S	/^vector55:$/;"	l
+vector56	trap/vectors.S	/^vector56:$/;"	l
+vector57	trap/vectors.S	/^vector57:$/;"	l
+vector58	trap/vectors.S	/^vector58:$/;"	l
+vector59	trap/vectors.S	/^vector59:$/;"	l
+vector6	trap/vectors.S	/^vector6:$/;"	l
+vector60	trap/vectors.S	/^vector60:$/;"	l
+vector61	trap/vectors.S	/^vector61:$/;"	l
+vector62	trap/vectors.S	/^vector62:$/;"	l
+vector63	trap/vectors.S	/^vector63:$/;"	l
+vector64	trap/vectors.S	/^vector64:$/;"	l
+vector65	trap/vectors.S	/^vector65:$/;"	l
+vector66	trap/vectors.S	/^vector66:$/;"	l
+vector67	trap/vectors.S	/^vector67:$/;"	l
+vector68	trap/vectors.S	/^vector68:$/;"	l
+vector69	trap/vectors.S	/^vector69:$/;"	l
+vector7	trap/vectors.S	/^vector7:$/;"	l
+vector70	trap/vectors.S	/^vector70:$/;"	l
+vector71	trap/vectors.S	/^vector71:$/;"	l
+vector72	trap/vectors.S	/^vector72:$/;"	l
+vector73	trap/vectors.S	/^vector73:$/;"	l
+vector74	trap/vectors.S	/^vector74:$/;"	l
+vector75	trap/vectors.S	/^vector75:$/;"	l
+vector76	trap/vectors.S	/^vector76:$/;"	l
+vector77	trap/vectors.S	/^vector77:$/;"	l
+vector78	trap/vectors.S	/^vector78:$/;"	l
+vector79	trap/vectors.S	/^vector79:$/;"	l
+vector8	trap/vectors.S	/^vector8:$/;"	l
+vector80	trap/vectors.S	/^vector80:$/;"	l
+vector81	trap/vectors.S	/^vector81:$/;"	l
+vector82	trap/vectors.S	/^vector82:$/;"	l
+vector83	trap/vectors.S	/^vector83:$/;"	l
+vector84	trap/vectors.S	/^vector84:$/;"	l
+vector85	trap/vectors.S	/^vector85:$/;"	l
+vector86	trap/vectors.S	/^vector86:$/;"	l
+vector87	trap/vectors.S	/^vector87:$/;"	l
+vector88	trap/vectors.S	/^vector88:$/;"	l
+vector89	trap/vectors.S	/^vector89:$/;"	l
+vector9	trap/vectors.S	/^vector9:$/;"	l
+vector90	trap/vectors.S	/^vector90:$/;"	l
+vector91	trap/vectors.S	/^vector91:$/;"	l
+vector92	trap/vectors.S	/^vector92:$/;"	l
+vector93	trap/vectors.S	/^vector93:$/;"	l
+vector94	trap/vectors.S	/^vector94:$/;"	l
+vector95	trap/vectors.S	/^vector95:$/;"	l
+vector96	trap/vectors.S	/^vector96:$/;"	l
+vector97	trap/vectors.S	/^vector97:$/;"	l
+vector98	trap/vectors.S	/^vector98:$/;"	l
+vector99	trap/vectors.S	/^vector99:$/;"	l
+vm_end	mm/vmm.h	/^    uintptr_t vm_end;        \/\/ end addr of vma$/;"	m	struct:vma_struct
+vm_flags	mm/vmm.h	/^    uint32_t vm_flags;       \/\/ flags of vma$/;"	m	struct:vma_struct
+vm_mm	mm/vmm.h	/^    struct mm_struct *vm_mm; \/\/ the set of vma using the same PDT $/;"	m	struct:vma_struct	typeref:struct:vma_struct::mm_struct
+vm_start	mm/vmm.h	/^    uintptr_t vm_start;      \/\/	start addr of vma	$/;"	m	struct:vma_struct
+vma_compare	mm/vmm.c	/^vma_compare(rb_node *node1, rb_node *node2) {$/;"	f
+vma_create	mm/vmm.c	/^vma_create(uintptr_t vm_start, uintptr_t vm_end, uint32_t vm_flags) {$/;"	f
+vma_destroy	mm/vmm.c	/^vma_destroy(struct vma_struct *vma) {$/;"	f
+vma_resize	mm/vmm.c	/^vma_resize(struct vma_struct *vma, uintptr_t start, uintptr_t end) {$/;"	f
+vma_struct	mm/vmm.h	/^struct vma_struct {$/;"	s
+vmm_init	mm/vmm.c	/^vmm_init(void) {$/;"	f
+vpd	mm/pmm.c	/^pde_t * const vpd = (pde_t *)PGADDR(PDX(VPT), PDX(VPT), 0);$/;"	v
+vpt	mm/pmm.c	/^pte_t * const vpt = (pte_t *)VPT;$/;"	v
+wait_head	sync/wait.h	/^    list_entry_t wait_head;$/;"	m	struct:__anon7
+wait_in_queue	sync/wait.c	/^wait_in_queue(wait_t *wait) {$/;"	f
+wait_init	sync/wait.c	/^wait_init(wait_t *wait, struct proc_struct *proc) {$/;"	f
+wait_link	sync/wait.h	/^    list_entry_t wait_link;$/;"	m	struct:__anon8
+wait_queue	sync/wait.h	/^    wait_queue_t *wait_queue;$/;"	m	struct:__anon8
+wait_queue_add	sync/wait.c	/^wait_queue_add(wait_queue_t *queue, wait_t *wait) {$/;"	f
+wait_queue_del	sync/wait.c	/^wait_queue_del(wait_queue_t *queue, wait_t *wait) {$/;"	f
+wait_queue_empty	sync/wait.c	/^wait_queue_empty(wait_queue_t *queue) {$/;"	f
+wait_queue_first	sync/wait.c	/^wait_queue_first(wait_queue_t *queue) {$/;"	f
+wait_queue_init	sync/wait.c	/^wait_queue_init(wait_queue_t *queue) {$/;"	f
+wait_queue_last	sync/wait.c	/^wait_queue_last(wait_queue_t *queue) {$/;"	f
+wait_queue_next	sync/wait.c	/^wait_queue_next(wait_queue_t *queue, wait_t *wait) {$/;"	f
+wait_queue_prev	sync/wait.c	/^wait_queue_prev(wait_queue_t *queue, wait_t *wait) {$/;"	f
+wait_queue_t	sync/wait.h	/^} wait_queue_t;$/;"	t	typeref:struct:__anon7
+wait_state	process/proc.h	/^    uint32_t wait_state;                        \/\/ Process waiting state: the reason of sleeping$/;"	m	struct:proc_struct
+wait_t	sync/wait.h	/^} wait_t;$/;"	t	typeref:struct:__anon8
+wakeup_first	sync/wait.c	/^wakeup_first(wait_queue_t *queue, uint32_t wakeup_flags, bool del) {$/;"	f
+wakeup_flags	sync/wait.h	/^    uint32_t wakeup_flags;$/;"	m	struct:__anon8
+wakeup_proc	schedule/sched.c	/^wakeup_proc(struct proc_struct *proc) {$/;"	f
+wakeup_queue	sync/wait.c	/^wakeup_queue(wait_queue_t *queue, uint32_t wakeup_flags, bool del) {$/;"	f
+wakeup_wait	sync/wait.c	/^wakeup_wait(wait_queue_t *queue, wait_t *wait, uint32_t wakeup_flags, bool del) {$/;"	f
+warn	debug/assert.h	7;"	d
+wpos	driver/console.c	/^    uint32_t wpos;$/;"	m	struct:__anon1
+yptr	process/proc.h	/^    struct proc_struct *cptr, *yptr, *optr;     \/\/ Process's children, yonger sibling, Old sibling$/;"	m	struct:proc_struct	typeref:struct:proc_struct::
+zone_num	mm/memlayout.h	/^    int zone_num;                   \/\/ used in buddy system, the No. of zone which the page belongs to$/;"	m	struct:Page
+zones	mm/buddy_pmm.c	/^} zones[MAX_ZONE_NUM] = {{NULL}};$/;"	v	typeref:struct:Zone

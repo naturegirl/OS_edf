@@ -1,0 +1,196 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ARRAYSIZE	testbss.c	4;"	d
+DEPTH	forktree.c	5;"	d
+INIT_LOCK	libs/lock.h	8;"	d
+MATSIZE	matrix.c	6;"	d
+MAX_ARGS	libs/syscall.c	6;"	d
+THREAD_STACKSIZE	libs/thread.h	9;"	d
+__USER_LIBS_LOCK_H__	libs/lock.h	2;"	d
+__USER_LIBS_MALLOC_H__	libs/malloc.h	2;"	d
+__USER_LIBS_SYSCALL_H__	libs/syscall.h	2;"	d
+__USER_LIBS_THREAD_H__	libs/thread.h	2;"	d
+__USER_LIBS_ULIB_H__	libs/ulib.h	2;"	d
+__clone	libs/clone.S	/^__clone:                        # __clone(clone_flags, stack, fn, arg)$/;"	l
+__panic	libs/panic.c	/^__panic(const char *file, int line, const char *fmt, ...) {$/;"	f
+__warn	libs/panic.c	/^__warn(const char *file, int line, const char *fmt, ...) {$/;"	f
+_start	libs/initcode.S	/^_start:$/;"	l
+addr	buggy_wait.c	/^uintptr_t addr = 0;$/;"	v
+addr	buggy_wait2.c	/^uintptr_t addr = 0;$/;"	v
+align	libs/malloc.c	/^    uint32_t align[16];$/;"	m	union:header
+assert	libs/ulib.h	15;"	d
+base	libs/malloc.c	/^static header_t base;$/;"	v
+bigarray	testbss.c	/^uint32_t bigarray[ARRAYSIZE];$/;"	v
+brkfreetest	brkfreetest.c	/^brkfreetest(void) {$/;"	f
+buf1	shmemtest.c	/^void *buf1, *buf2;$/;"	v
+buf2	shmemtest.c	/^void *buf1, *buf2;$/;"	v
+buffer	swaptest.c	/^char *buffer;$/;"	v
+buffer	threadwork.c	/^char **buffer;$/;"	v
+clone	libs/ulib.c	/^clone(uint32_t clone_flags, uintptr_t stack, int (*fn)(void *), void *arg) {$/;"	f
+cprintf	libs/stdio.c	/^cprintf(const char *fmt, ...) {$/;"	f
+cputch	libs/stdio.c	/^cputch(int c, int *cnt) {$/;"	f
+cputs	libs/stdio.c	/^cputs(const char *str) {$/;"	f
+data	badbrktest.c	/^    char data[4096];$/;"	m	struct:slot
+data	brktest.c	/^    char data[4096];$/;"	m	struct:slot
+data	cowtest.c	/^    char data[4096];$/;"	m	struct:slot
+data	sleep.c	/^    char data[4096];$/;"	m	struct:slot
+do_yield	swaptest.c	/^do_yield(void) {$/;"	f
+do_yield	threadfork.c	/^do_yield(void) {$/;"	f
+do_yield	waitkill.c	/^do_yield(void) {$/;"	f
+exit	libs/ulib.c	/^exit(int error_code) {$/;"	f
+expand	cowtest.c	/^expand(int num) {$/;"	f
+fork	libs/ulib.c	/^fork(void) {$/;"	f
+fork_lock	libs/ulib.c	/^static lock_t fork_lock = INIT_LOCK;$/;"	v
+forkchild	forktree.c	/^forkchild(const char *cur, char branch) {$/;"	f
+forknum	threadfork.c	/^const int forknum = 125;$/;"	v
+forktree	forktree.c	/^forktree(const char *cur) {$/;"	f
+free	libs/malloc.c	/^free(void *ap) {$/;"	f
+free_locked	libs/malloc.c	/^free_locked(void *ap) {$/;"	f
+freep	libs/malloc.c	/^static header_t *freep = NULL;$/;"	v
+getpid	libs/ulib.c	/^getpid(void) {$/;"	f
+gettime_msec	libs/ulib.c	/^gettime_msec(void) {$/;"	f
+glutton	sleep.c	/^glutton(void) {$/;"	f
+head	cowtest.c	/^struct slot *head;$/;"	v	typeref:struct:slot
+header	libs/malloc.c	/^union header {$/;"	u
+header_t	libs/malloc.c	/^typedef union header header_t;$/;"	t	typeref:union:header
+kill	libs/ulib.c	/^kill(int pid) {$/;"	f
+lock	libs/lock.h	/^lock(lock_t *l) {$/;"	f
+lock_fork	libs/ulib.c	/^lock_fork(void) {$/;"	f
+lock_init	libs/lock.h	/^lock_init(lock_t *l) {$/;"	f
+lock_malloc	libs/malloc.c	/^lock_malloc(void) {$/;"	f
+lock_t	libs/lock.h	/^typedef volatile bool lock_t;$/;"	t
+locks	primer.c	/^lock_t *locks;$/;"	v
+loop	threadwork.c	/^loop(void *arg) {$/;"	f
+loop	waitkill.c	/^loop(void) {$/;"	f
+magic	exit.c	/^int magic = -0x10384;$/;"	v
+main	badarg.c	/^main(void) {$/;"	f
+main	badbrktest.c	/^main(void) {$/;"	f
+main	badsegment.c	/^main(void) {$/;"	f
+main	brkfreetest.c	/^main(void) {$/;"	f
+main	brktest.c	/^main(void) {$/;"	f
+main	buggy_wait.c	/^main(void) {$/;"	f
+main	buggy_wait2.c	/^main(void) {$/;"	f
+main	cowtest.c	/^main(void) {$/;"	f
+main	divzero.c	/^main(void) {$/;"	f
+main	exit.c	/^main(void) {$/;"	f
+main	faultread.c	/^main(void) {$/;"	f
+main	faultreadkernel.c	/^main(void) {$/;"	f
+main	forktest.c	/^main(void) {$/;"	f
+main	forktree.c	/^main(void) {$/;"	f
+main	hello.c	/^main(void) {$/;"	f
+main	matrix.c	/^main(void) {$/;"	f
+main	mmaptest.c	/^main(void) {$/;"	f
+main	pgdir.c	/^main(void) {$/;"	f
+main	primer.c	/^main(void) {$/;"	f
+main	shmemtest.c	/^main(void) {$/;"	f
+main	sleep.c	/^main(void) {$/;"	f
+main	sleepkill.c	/^main(void) {$/;"	f
+main	softint.c	/^main(void) {$/;"	f
+main	spin.c	/^main(void) {$/;"	f
+main	swaptest.c	/^main(void) {$/;"	f
+main	testbss.c	/^main(void) {$/;"	f
+main	threadfork.c	/^main(void) {$/;"	f
+main	threadgroup1.c	/^main(void) {$/;"	f
+main	threadgroup2.c	/^main(void) {$/;"	f
+main	threadtest.c	/^main(void) {$/;"	f
+main	threadwork.c	/^main(void) {$/;"	f
+main	waitkill.c	/^main(void) {$/;"	f
+main	yield.c	/^main(void) {$/;"	f
+malloc	libs/malloc.c	/^malloc(size_t size) {$/;"	f
+malloc_locked	libs/malloc.c	/^malloc_locked(size_t size, bool type) {$/;"	f
+mata	matrix.c	/^static int mata[MATSIZE][MATSIZE];$/;"	v
+matb	matrix.c	/^static int matb[MATSIZE][MATSIZE];$/;"	v
+matc	matrix.c	/^static int matc[MATSIZE][MATSIZE];$/;"	v
+max_child	forktest.c	/^const int max_child = 32;$/;"	v
+mem_lock	libs/malloc.c	/^static lock_t mem_lock = INIT_LOCK;$/;"	v
+mmap	libs/ulib.c	/^mmap(uintptr_t *addr_store, size_t len, uint32_t mmap_flags) {$/;"	f
+morecore_brk_locked	libs/malloc.c	/^morecore_brk_locked(size_t nu) {$/;"	f
+morecore_shmem_locked	libs/malloc.c	/^morecore_shmem_locked(size_t nu) {$/;"	f
+munmap	libs/ulib.c	/^munmap(uintptr_t addr, size_t len) {$/;"	f
+next	badbrktest.c	/^    struct slot *next;$/;"	m	struct:slot	typeref:struct:slot::slot
+next	brktest.c	/^    struct slot *next;$/;"	m	struct:slot	typeref:struct:slot::slot
+next	cowtest.c	/^    struct slot *next;$/;"	m	struct:slot	typeref:struct:slot::slot
+next	sleep.c	/^    struct slot *next;$/;"	m	struct:slot	typeref:struct:slot::slot
+note	primer.c	/^int *note;$/;"	v
+panic	libs/ulib.h	12;"	d
+parent	waitkill.c	/^int parent, pid1, pid2;$/;"	v
+pid	libs/thread.h	/^    int pid;$/;"	m	struct:__anon1
+pid	swaptest.c	/^int pid[10] = {0}, pids;$/;"	v
+pid1	waitkill.c	/^int parent, pid1, pid2;$/;"	v
+pid2	waitkill.c	/^int parent, pid1, pid2;$/;"	v
+pids	swaptest.c	/^int pid[10] = {0}, pids;$/;"	v
+primeproc	primer.c	/^primeproc(void) {$/;"	f
+print_pgdir	libs/ulib.c	/^print_pgdir(void) {$/;"	f
+printf	swaptest.c	21;"	d
+printf	swaptest.c	51;"	d
+process_main	threadfork.c	/^process_main(void) {$/;"	f
+ptr	libs/malloc.c	/^        union header *ptr;$/;"	m	struct:header::__anon2	typeref:union:header::__anon2::header
+read	primer.c	/^read(int index) {$/;"	f
+rounds	threadwork.c	/^const int size = 47, rounds = 103;$/;"	v
+s	libs/malloc.c	/^    } s;$/;"	m	union:header	typeref:struct:header::__anon2
+safe_shmem_malloc	primer.c	/^safe_shmem_malloc(size_t size) {$/;"	f
+shmem	libs/ulib.c	/^shmem(uintptr_t *addr_store, size_t len, uint32_t mmap_flags) {$/;"	f
+shmem_malloc	libs/malloc.c	/^shmem_malloc(size_t size) {$/;"	f
+size	buggy_wait.c	/^const size_t size = 4096;$/;"	v
+size	buggy_wait2.c	/^const size_t size = 4096;$/;"	v
+size	libs/malloc.c	/^        size_t size;$/;"	m	struct:header::__anon2
+size	swaptest.c	/^const int size = 5 * 1024 * 1024;$/;"	v
+size	threadwork.c	/^const int size = 47, rounds = 103;$/;"	v
+sleep	libs/ulib.c	/^sleep(unsigned int time) {$/;"	f
+sleepy	sleep.c	/^sleepy(int pid) {$/;"	f
+slot	badbrktest.c	/^struct slot {$/;"	s
+slot	brktest.c	/^struct slot {$/;"	s
+slot	cowtest.c	/^struct slot {$/;"	s
+slot	sleep.c	/^struct slot {$/;"	s
+spin	libs/clone.S	/^spin:                           # error ?$/;"	l
+stack	libs/thread.h	/^    void *stack;$/;"	m	struct:__anon1
+static_assert	libs/ulib.h	23;"	d
+sweeper	cowtest.c	/^sweeper(void) {$/;"	f
+sys_brk	libs/syscall.c	/^sys_brk(uintptr_t *brk_store) {$/;"	f
+sys_exit	libs/syscall.c	/^sys_exit(int error_code) {$/;"	f
+sys_fork	libs/syscall.c	/^sys_fork(void) {$/;"	f
+sys_getpid	libs/syscall.c	/^sys_getpid(void) {$/;"	f
+sys_gettime	libs/syscall.c	/^sys_gettime(void) {$/;"	f
+sys_kill	libs/syscall.c	/^sys_kill(int pid) {$/;"	f
+sys_mmap	libs/syscall.c	/^sys_mmap(uintptr_t *addr_store, size_t len, uint32_t mmap_flags) {$/;"	f
+sys_munmap	libs/syscall.c	/^sys_munmap(uintptr_t addr, size_t len) {$/;"	f
+sys_pgdir	libs/syscall.c	/^sys_pgdir(void) {$/;"	f
+sys_putc	libs/syscall.c	/^sys_putc(int c) {$/;"	f
+sys_shmem	libs/syscall.c	/^sys_shmem(uintptr_t *addr_store, size_t len, uint32_t mmap_flags) {$/;"	f
+sys_sleep	libs/syscall.c	/^sys_sleep(unsigned int time) {$/;"	f
+sys_wait	libs/syscall.c	/^sys_wait(int pid, int *store) {$/;"	f
+sys_yield	libs/syscall.c	/^sys_yield(void) {$/;"	f
+syscall	libs/syscall.c	/^syscall(int num, ...) {$/;"	f
+test	buggy_wait.c	/^test(void *arg) {$/;"	f
+test	threadtest.c	/^test(void *arg) {$/;"	f
+thread	libs/thread.c	/^thread(int (*fn)(void *), void *arg, thread_t *tidp) {$/;"	f
+thread_kill	libs/thread.c	/^thread_kill(thread_t *tidp) {$/;"	f
+thread_loop	threadgroup1.c	/^thread_loop(void *arg) {$/;"	f
+thread_loop	threadgroup2.c	/^thread_loop(void *arg) {$/;"	f
+thread_main	threadfork.c	/^thread_main(void *arg) {$/;"	f
+thread_t	libs/thread.h	/^} thread_t;$/;"	t	typeref:struct:__anon1
+thread_wait	libs/thread.c	/^thread_wait(thread_t *tidp, int *exit_code) {$/;"	f
+tids	threadwork.c	/^thread_t *tids;$/;"	v
+total	matrix.c	/^const int total = 20;$/;"	v
+total	primer.c	/^int total = 1000;$/;"	v
+try_lock	libs/lock.h	/^try_lock(lock_t *l) {$/;"	f
+type	libs/malloc.c	/^        bool type;          \/\/ 0: normal, sys_brk; 1: shared memory, shmem$/;"	m	struct:header::__anon2
+umain	libs/umain.c	/^umain(void) {$/;"	f
+unlock	libs/lock.h	/^unlock(lock_t *l) {$/;"	f
+unlock_fork	libs/ulib.c	/^unlock_fork(void) {$/;"	f
+unlock_malloc	libs/malloc.c	/^unlock_malloc(void) {$/;"	f
+vcprintf	libs/stdio.c	/^vcprintf(const char *fmt, va_list ap) {$/;"	f
+wait	libs/ulib.c	/^wait(void) {$/;"	f
+waitpid	libs/ulib.c	/^waitpid(int pid, int *store) {$/;"	f
+warn	libs/ulib.h	9;"	d
+work	matrix.c	/^work(unsigned int times) {$/;"	f
+work	swaptest.c	/^work(int num, bool print) {$/;"	f
+work	threadwork.c	/^work(void *arg) {$/;"	f
+work	waitkill.c	/^work(void) {$/;"	f
+write	primer.c	/^write(int index, int val, bool force) {$/;"	f
+yield	libs/ulib.c	/^yield(void) {$/;"	f
+zero	divzero.c	/^int zero;$/;"	v

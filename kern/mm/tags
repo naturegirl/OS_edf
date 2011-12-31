@@ -1,0 +1,523 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+BUFCTL_END	slab.c	64;"	d
+CR0_AM	mmu.h	259;"	d
+CR0_CD	mmu.h	261;"	d
+CR0_EM	mmu.h	254;"	d
+CR0_ET	mmu.h	256;"	d
+CR0_MP	mmu.h	253;"	d
+CR0_NE	mmu.h	257;"	d
+CR0_NW	mmu.h	260;"	d
+CR0_PE	mmu.h	252;"	d
+CR0_PG	mmu.h	262;"	d
+CR0_TS	mmu.h	255;"	d
+CR0_WP	mmu.h	258;"	d
+CR4_DE	mmu.h	267;"	d
+CR4_MCE	mmu.h	265;"	d
+CR4_PCE	mmu.h	264;"	d
+CR4_PSE	mmu.h	266;"	d
+CR4_PVI	mmu.h	269;"	d
+CR4_TSD	mmu.h	268;"	d
+CR4_VME	mmu.h	270;"	d
+ClearPageActive	memlayout.h	163;"	d
+ClearPageDirty	memlayout.h	157;"	d
+ClearPageProperty	memlayout.h	151;"	d
+ClearPageReserved	memlayout.h	148;"	d
+ClearPageSlab	memlayout.h	154;"	d
+ClearPageSwap	memlayout.h	160;"	d
+DPL_KERNEL	memlayout.h	20;"	d
+DPL_USER	memlayout.h	21;"	d
+E820MAX	memlayout.h	111;"	d
+E820_ARM	memlayout.h	112;"	d
+E820_ARR	memlayout.h	113;"	d
+FL_AC	mmu.h	22;"	d
+FL_AF	mmu.h	7;"	d
+FL_CF	mmu.h	5;"	d
+FL_DF	mmu.h	12;"	d
+FL_ID	mmu.h	25;"	d
+FL_IF	mmu.h	11;"	d
+FL_IOPL_0	mmu.h	15;"	d
+FL_IOPL_1	mmu.h	16;"	d
+FL_IOPL_2	mmu.h	17;"	d
+FL_IOPL_3	mmu.h	18;"	d
+FL_IOPL_MASK	mmu.h	14;"	d
+FL_NT	mmu.h	19;"	d
+FL_OF	mmu.h	13;"	d
+FL_PF	mmu.h	6;"	d
+FL_RF	mmu.h	20;"	d
+FL_SF	mmu.h	9;"	d
+FL_TF	mmu.h	10;"	d
+FL_VIF	mmu.h	23;"	d
+FL_VIP	mmu.h	24;"	d
+FL_VM	mmu.h	21;"	d
+FL_ZF	mmu.h	8;"	d
+GD_KDATA	memlayout.h	15;"	d
+GD_KTEXT	memlayout.h	14;"	d
+GD_TSS	memlayout.h	18;"	d
+GD_UDATA	memlayout.h	17;"	d
+GD_UTEXT	memlayout.h	16;"	d
+GET_PAGE_CACHE	slab.c	434;"	d
+GET_PAGE_SLAB	slab.c	437;"	d
+HASH_LIST_SIZE	swap.c	106;"	d
+HASH_SHIFT	swap.c	105;"	d
+KADDR	pmm.h	69;"	d
+KERNBASE	memlayout.h	70;"	d
+KERNEL_CS	memlayout.h	23;"	d
+KERNEL_DS	memlayout.h	24;"	d
+KERNTOP	memlayout.h	72;"	d
+KERN_ACCESS	memlayout.h	97;"	d
+KMALLOC_MAX_ORDER	slab.h	6;"	d
+KMEMSIZE	memlayout.h	71;"	d
+KSTACKPAGE	memlayout.h	82;"	d
+KSTACKSIZE	memlayout.h	83;"	d
+MAX_ORDER	buddy_pmm.c	28;"	d
+MAX_SIZE_ORDER	slab.c	100;"	d
+MAX_SWAP_OFFSET_LIMIT	swap.h	15;"	d
+MAX_SWAP_REF	swap.c	101;"	d
+MAX_ZONE_NUM	buddy_pmm.c	35;"	d
+MIN_SIZE_ORDER	slab.c	99;"	d
+NPDEENTRY	mmu.h	223;"	d
+NPTEENTRY	mmu.h	224;"	d
+PADDR	pmm.h	57;"	d
+PDE_ADDR	mmu.h	220;"	d
+PDX	mmu.h	204;"	d
+PDXSHIFT	mmu.h	232;"	d
+PGADDR	mmu.h	216;"	d
+PGOFF	mmu.h	213;"	d
+PGSHIFT	mmu.h	227;"	d
+PGSIZE	mmu.h	226;"	d
+PG_active	memlayout.h	145;"	d
+PG_dirty	memlayout.h	143;"	d
+PG_property	memlayout.h	141;"	d
+PG_reserved	memlayout.h	140;"	d
+PG_slab	memlayout.h	142;"	d
+PG_swap	memlayout.h	144;"	d
+PPN	mmu.h	210;"	d
+PTE_A	mmu.h	240;"	d
+PTE_ADDR	mmu.h	219;"	d
+PTE_AVAIL	mmu.h	244;"	d
+PTE_D	mmu.h	241;"	d
+PTE_MBZ	mmu.h	243;"	d
+PTE_P	mmu.h	235;"	d
+PTE_PCD	mmu.h	239;"	d
+PTE_PS	mmu.h	242;"	d
+PTE_PWT	mmu.h	238;"	d
+PTE_SWAP	mmu.h	248;"	d
+PTE_U	mmu.h	237;"	d
+PTE_USER	mmu.h	249;"	d
+PTE_W	mmu.h	236;"	d
+PTSHIFT	mmu.h	229;"	d
+PTSIZE	mmu.h	228;"	d
+PTX	mmu.h	207;"	d
+PTXSHIFT	mmu.h	231;"	d
+Page	memlayout.h	/^struct Page {$/;"	s
+PageActive	memlayout.h	164;"	d
+PageDirty	memlayout.h	158;"	d
+PageProperty	memlayout.h	152;"	d
+PageReserved	memlayout.h	149;"	d
+PageSlab	memlayout.h	155;"	d
+PageSwap	memlayout.h	161;"	d
+RB_MIN_MAP_COUNT	vmm.h	61;"	d
+SEG	mmu.h	131;"	d
+SEGTSS	mmu.h	139;"	d
+SEG_ASM	mmu.h	55;"	d
+SEG_KDATA	memlayout.h	8;"	d
+SEG_KTEXT	memlayout.h	7;"	d
+SEG_NULL	mmu.h	128;"	d
+SEG_NULL	mmu.h	51;"	d
+SEG_TSS	memlayout.h	11;"	d
+SEG_UDATA	memlayout.h	10;"	d
+SEG_UTEXT	memlayout.h	9;"	d
+SETCALLGATE	mmu.h	99;"	d
+SETGATE	mmu.h	86;"	d
+SET_PAGE_CACHE	slab.c	280;"	d
+SET_PAGE_SLAB	slab.c	287;"	d
+SHMN_NENTRY	shmem.h	17;"	d
+SLAB_CACHE_NUM	slab.c	101;"	d
+SLAB_LIMIT	slab.c	65;"	d
+STA_A	mmu.h	33;"	d
+STA_C	mmu.h	30;"	d
+STA_E	mmu.h	29;"	d
+STA_R	mmu.h	32;"	d
+STA_W	mmu.h	31;"	d
+STA_X	mmu.h	28;"	d
+STS_CG16	mmu.h	39;"	d
+STS_CG32	mmu.h	45;"	d
+STS_IG16	mmu.h	41;"	d
+STS_IG32	mmu.h	46;"	d
+STS_LDT	mmu.h	37;"	d
+STS_T16A	mmu.h	36;"	d
+STS_T16B	mmu.h	38;"	d
+STS_T32A	mmu.h	43;"	d
+STS_T32B	mmu.h	44;"	d
+STS_TG	mmu.h	40;"	d
+STS_TG16	mmu.h	42;"	d
+STS_TG32	mmu.h	47;"	d
+SWAP_UNUSED	swap.c	100;"	d
+SetPageActive	memlayout.h	162;"	d
+SetPageDirty	memlayout.h	156;"	d
+SetPageProperty	memlayout.h	150;"	d
+SetPageReserved	memlayout.h	147;"	d
+SetPageSlab	memlayout.h	153;"	d
+SetPageSwap	memlayout.h	159;"	d
+USERBASE	memlayout.h	90;"	d
+USERTOP	memlayout.h	85;"	d
+USER_ACCESS	memlayout.h	94;"	d
+USER_CS	memlayout.h	25;"	d
+USER_DS	memlayout.h	26;"	d
+USTAB	memlayout.h	92;"	d
+USTACKPAGE	memlayout.h	87;"	d
+USTACKSIZE	memlayout.h	88;"	d
+USTACKTOP	memlayout.h	86;"	d
+UTEXT	memlayout.h	91;"	d
+VM_EXEC	vmm.h	35;"	d
+VM_READ	vmm.h	33;"	d
+VM_SHARE	vmm.h	37;"	d
+VM_STACK	vmm.h	36;"	d
+VM_WRITE	vmm.h	34;"	d
+VPT	memlayout.h	80;"	d
+Zone	buddy_pmm.c	/^struct Zone {$/;"	s
+__KERN_MM_BUDDY_PMM_H__	buddy_pmm.h	2;"	d
+__KERN_MM_MEMLAYOUT_H__	memlayout.h	2;"	d
+__KERN_MM_MMU_H__	mmu.h	2;"	d
+__KERN_MM_PMM_H__	pmm.h	2;"	d
+__KERN_MM_SHMEM_H__	shmem.h	2;"	d
+__KERN_MM_SLAB_H__	slab.h	2;"	d
+__KERN_MM_SWAP_H__	swap.h	2;"	d
+__KERN_MM_VMM_H__	vmm.h	2;"	d
+active_list	swap.c	/^static swap_list_t active_list;$/;"	v
+addr	memlayout.h	/^        uint64_t addr;$/;"	m	struct:e820map::__anon1
+alloc_page	pmm.h	35;"	d
+alloc_pages	pmm.c	/^alloc_pages(size_t n) {$/;"	f
+alloc_pages	pmm.h	/^    struct Page *(*alloc_pages)(size_t n);            \/\/ allocate >=n pages, depend on the allocation algorithm $/;"	m	struct:pmm_manager	typeref:struct:pmm_manager::alloc_pages
+boot_alloc_page	pmm.c	/^boot_alloc_page(void) {$/;"	f
+boot_cr3	pmm.c	/^uintptr_t boot_cr3;$/;"	v
+boot_map_segment	pmm.c	/^boot_map_segment(pde_t *pgdir, uintptr_t la, size_t size, uintptr_t pa, uint32_t perm) {$/;"	f
+boot_pgdir	pmm.c	/^pde_t *boot_pgdir = NULL;$/;"	v
+brk	vmm.h	/^    uintptr_t brk_start, brk;$/;"	m	struct:mm_struct
+brk_start	vmm.h	/^    uintptr_t brk_start, brk;$/;"	m	struct:mm_struct
+buddy_alloc_pages	buddy_pmm.c	/^buddy_alloc_pages(size_t n) {$/;"	f
+buddy_alloc_pages_sub	buddy_pmm.c	/^buddy_alloc_pages_sub(size_t order) {$/;"	f
+buddy_check	buddy_pmm.c	/^buddy_check(void) {$/;"	f
+buddy_free_pages	buddy_pmm.c	/^buddy_free_pages(struct Page *base, size_t n) {$/;"	f
+buddy_free_pages_sub	buddy_pmm.c	/^buddy_free_pages_sub(struct Page *base, size_t order) {$/;"	f
+buddy_init	buddy_pmm.c	/^buddy_init(void) {$/;"	f
+buddy_init_memmap	buddy_pmm.c	/^buddy_init_memmap(struct Page *base, size_t n) {$/;"	f
+buddy_nr_free_pages	buddy_pmm.c	/^buddy_nr_free_pages(void) {$/;"	f
+buddy_pmm_manager	buddy_pmm.c	/^const struct pmm_manager buddy_pmm_manager = {$/;"	v	typeref:struct:pmm_manager
+cache_estimate	slab.c	/^cache_estimate(size_t order, size_t objsize, size_t align, bool off_slab, size_t *remainder, size_t *num) {$/;"	f
+calculate_slab_order	slab.c	/^calculate_slab_order(kmem_cache_t *cachep, size_t objsize, size_t align, bool off_slab, size_t *left_over) {$/;"	f
+check	pmm.h	/^    void (*check)(void);                              \/\/ check the correctness of XXX_pmm_manager $/;"	m	struct:pmm_manager
+check_alloc_page	pmm.c	/^check_alloc_page(void) {$/;"	f
+check_boot_pgdir	pmm.c	/^check_boot_pgdir(void) {$/;"	f
+check_mm_shm_swap	swap.c	/^check_mm_shm_swap(void) {$/;"	f
+check_mm_struct	vmm.c	/^struct mm_struct *check_mm_struct;$/;"	v	typeref:struct:mm_struct
+check_mm_swap	swap.c	/^check_mm_swap(void) {$/;"	f
+check_pgdir	pmm.c	/^check_pgdir(void) {$/;"	f
+check_pgfault	vmm.c	/^check_pgfault(void) {$/;"	f
+check_shmn_overlap	shmem.c	/^check_shmn_overlap(shmn_t *prev, shmn_t *next) {$/;"	f
+check_slab	slab.c	/^check_slab(void) {$/;"	f
+check_slab_empty	slab.c	/^check_slab_empty(void) {$/;"	f
+check_swap	swap.c	/^check_swap(void) {$/;"	f
+check_vma_overlap	vmm.c	/^check_vma_overlap(struct vma_struct *prev, struct vma_struct *next) {$/;"	f
+check_vma_struct	vmm.c	/^check_vma_struct(void) {$/;"	f
+check_vmm	vmm.c	/^check_vmm(void) {$/;"	f
+copy_from_user	vmm.c	/^copy_from_user(struct mm_struct *mm, void *dst, const void *src, size_t len, bool writable) {$/;"	f
+copy_range	pmm.c	/^copy_range(pde_t *to, pde_t *from, uintptr_t start, uintptr_t end, bool share) {$/;"	f
+copy_to_user	vmm.c	/^copy_to_user(struct mm_struct *mm, void *dst, const void *src, size_t len) {$/;"	f
+do_pgfault	vmm.c	/^do_pgfault(struct mm_struct *mm, uint32_t error_code, uintptr_t addr) {$/;"	f
+dup_mmap	vmm.c	/^dup_mmap(struct mm_struct *to, struct mm_struct *from) {$/;"	f
+e820map	memlayout.h	/^struct e820map {$/;"	s
+enable_paging	pmm.c	/^enable_paging(void) {$/;"	f
+end	shmem.h	/^    uintptr_t end;$/;"	m	struct:shmn_s
+entry	shmem.h	/^    pte_t *entry;$/;"	m	struct:shmn_s
+entry_hashfn	swap.c	107;"	d
+exit_mmap	vmm.c	/^exit_mmap(struct mm_struct *mm) {$/;"	f
+exit_range	pmm.c	/^exit_range(pde_t *pgdir, uintptr_t start, uintptr_t end) {$/;"	f
+find_shmn	shmem.c	/^find_shmn(struct shmem_struct *shmem, uintptr_t addr) {$/;"	f
+find_vma	vmm.c	/^find_vma(struct mm_struct *mm, uintptr_t addr) {$/;"	f
+find_vma_intersection	vmm.c	/^find_vma_intersection(struct mm_struct *mm, uintptr_t start, uintptr_t end) {$/;"	f
+find_vma_rb	vmm.c	/^find_vma_rb(rb_tree *tree, uintptr_t addr) {$/;"	f
+flags	memlayout.h	/^    uint32_t flags;                 \/\/ array of flags that describe the status of the page frame$/;"	m	struct:Page
+free	slab.c	/^    kmem_bufctl_t free;     \/\/ the first free obj's index in slab  $/;"	m	struct:slab_s
+free_area	buddy_pmm.c	/^static free_area_t free_area[MAX_ORDER + 1];$/;"	v
+free_area_t	memlayout.h	/^} free_area_t;$/;"	t	typeref:struct:__anon2
+free_list	buddy_pmm.c	32;"	d
+free_list	memlayout.h	/^    list_entry_t free_list;         \/\/ the list header$/;"	m	struct:__anon2
+free_page	pmm.h	36;"	d
+free_pages	pmm.c	/^free_pages(struct Page *base, size_t n) {$/;"	f
+free_pages	pmm.h	/^    void (*free_pages)(struct Page *base, size_t n);  \/\/ free >=n pages with "base" addr of Page descriptor structures(memlayout.h)$/;"	m	struct:pmm_manager
+gatedesc	mmu.h	/^struct gatedesc {$/;"	s
+gd_args	mmu.h	/^    unsigned gd_args : 5;           \/\/ # args, 0 for interrupt\/trap gates$/;"	m	struct:gatedesc
+gd_dpl	mmu.h	/^    unsigned gd_dpl : 2;            \/\/ descriptor(meaning new) privilege level$/;"	m	struct:gatedesc
+gd_off_15_0	mmu.h	/^    unsigned gd_off_15_0 : 16;      \/\/ low 16 bits of offset in segment$/;"	m	struct:gatedesc
+gd_off_31_16	mmu.h	/^    unsigned gd_off_31_16 : 16;     \/\/ high bits of offset in segment$/;"	m	struct:gatedesc
+gd_p	mmu.h	/^    unsigned gd_p : 1;              \/\/ Present$/;"	m	struct:gatedesc
+gd_rsv1	mmu.h	/^    unsigned gd_rsv1 : 3;           \/\/ reserved(should be zero I guess)$/;"	m	struct:gatedesc
+gd_s	mmu.h	/^    unsigned gd_s : 1;              \/\/ must be 0 (system)$/;"	m	struct:gatedesc
+gd_ss	mmu.h	/^    unsigned gd_ss : 16;            \/\/ segment selector$/;"	m	struct:gatedesc
+gd_type	mmu.h	/^    unsigned gd_type : 4;           \/\/ type(STS_{TG,IG32,TG32})$/;"	m	struct:gatedesc
+gdt	pmm.c	/^static struct segdesc gdt[] = {$/;"	v	typeref:struct:segdesc
+gdt_init	pmm.c	/^gdt_init(void) {$/;"	f
+gdt_pd	pmm.c	/^static struct pseudodesc gdt_pd = {$/;"	v	typeref:struct:pseudodesc
+get_page	pmm.c	/^get_page(pde_t *pgdir, uintptr_t la, pte_t **ptep_store) {$/;"	f
+get_pgtable_items	pmm.c	/^get_pgtable_items(size_t left, size_t right, size_t start, uintptr_t *table, size_t *left_store, size_t *right_store) {$/;"	f
+get_pte	pmm.c	/^get_pte(pde_t *pgdir, uintptr_t la, bool create) {$/;"	f
+get_unmapped_area	vmm.c	/^get_unmapped_area(struct mm_struct *mm, size_t len) {$/;"	f
+getorder	buddy_pmm.c	/^getorder(size_t n) {$/;"	f
+getorder	slab.c	/^getorder(size_t n) {$/;"	f
+hash_list	swap.c	/^static list_entry_t hash_list[HASH_LIST_SIZE];$/;"	v
+idx2page	buddy_pmm.c	/^idx2page(int zone_num, ppn_t idx) {$/;"	f
+inactive_list	swap.c	/^static swap_list_t inactive_list;$/;"	v
+index	memlayout.h	/^    swap_entry_t index;             \/\/ stores a swapped-out page identifier$/;"	m	struct:Page
+init	pmm.h	/^    void (*init)(void);                               \/\/ initialize internal description&management data structure$/;"	m	struct:pmm_manager
+init_kmem_cache	slab.c	/^init_kmem_cache(kmem_cache_t *cachep, size_t objsize, size_t align) {$/;"	f
+init_memmap	pmm.c	/^init_memmap(struct Page *base, size_t n) {$/;"	f
+init_memmap	pmm.h	/^    void (*init_memmap)(struct Page *base, size_t n); \/\/ setup description&management data structcure according to$/;"	m	struct:pmm_manager
+init_pmm_manager	pmm.c	/^init_pmm_manager(void) {$/;"	f
+insert_shmn	shmem.c	/^insert_shmn(struct shmem_struct *shmem, shmn_t *shmn) {$/;"	f
+insert_vma_rb	vmm.c	/^insert_vma_rb(rb_tree *tree, struct vma_struct *vma, struct vma_struct **vma_prevp) {$/;"	f
+insert_vma_struct	vmm.c	/^insert_vma_struct(struct mm_struct *mm, struct vma_struct *vma) {$/;"	f
+inuse	slab.c	/^    size_t inuse;           \/\/ the number of allocated objs$/;"	m	struct:slab_s
+kfree	slab.c	/^kfree(void *objp) {$/;"	f
+kmalloc	slab.c	/^kmalloc(size_t size) {$/;"	f
+kmem_bufctl_t	slab.c	/^typedef size_t kmem_bufctl_t; \/\/the index of obj in slab$/;"	t
+kmem_cache_alloc	slab.c	/^kmem_cache_alloc(kmem_cache_t *cachep) {$/;"	f
+kmem_cache_alloc_one	slab.c	/^kmem_cache_alloc_one(kmem_cache_t *cachep, slab_t *slabp) {$/;"	f
+kmem_cache_free	slab.c	/^kmem_cache_free(kmem_cache_t *cachep, void *objp) {$/;"	f
+kmem_cache_free_one	slab.c	/^kmem_cache_free_one(kmem_cache_t *cachep, slab_t *slabp, void *objp) {$/;"	f
+kmem_cache_grow	slab.c	/^kmem_cache_grow(kmem_cache_t *cachep) {$/;"	f
+kmem_cache_s	slab.c	/^struct kmem_cache_s {$/;"	s
+kmem_cache_slabmgmt	slab.c	/^kmem_cache_slabmgmt(kmem_cache_t *cachep, struct Page *page) {$/;"	f
+kmem_cache_t	slab.c	/^typedef struct kmem_cache_s kmem_cache_t;$/;"	t	typeref:struct:kmem_cache_s
+kmem_slab_destroy	slab.c	/^kmem_slab_destroy(kmem_cache_t *cachep, slab_t *slabp) {$/;"	f
+kswapd_done	swap.c	/^static wait_queue_t kswapd_done;$/;"	v
+kswapd_main	swap.c	/^kswapd_main(void *arg) {$/;"	f
+kswapd_wakeup_all	swap.c	/^kswapd_wakeup_all(void) {$/;"	f
+kva2page	pmm.h	/^kva2page(void *kva) {$/;"	f
+le2mm	vmm.h	58;"	d
+le2page	memlayout.h	167;"	d
+le2shmn	shmem.h	19;"	d
+le2slab	slab.c	78;"	d
+le2vma	vmm.h	27;"	d
+len	shmem.h	/^    size_t len;$/;"	m	struct:shmem_struct
+lgdt	pmm.c	/^lgdt(struct pseudodesc *pd) {$/;"	f
+list_link	shmem.h	/^    list_entry_t list_link;$/;"	m	struct:shmn_s
+list_link	vmm.h	/^    list_entry_t list_link;  \/\/ linear list link which sorted by start addr of vma$/;"	m	struct:vma_struct
+load_esp0	pmm.c	/^load_esp0(uintptr_t esp0) {$/;"	f
+lock_mm	vmm.c	/^lock_mm(struct mm_struct *mm) {$/;"	f
+lock_shmem	shmem.h	/^lock_shmem(struct shmem_struct *shmem) {$/;"	f
+locked_by	vmm.h	/^    int locked_by;$/;"	m	struct:mm_struct
+map	memlayout.h	/^    } __attribute__((packed)) map[E820MAX];$/;"	m	struct:e820map	typeref:struct:e820map::__anon1
+map_count	vmm.h	/^    int map_count;                 \/\/ the count of these vma$/;"	m	struct:mm_struct
+max_swap_offset	swap.c	/^size_t max_swap_offset;$/;"	v
+mem_base	buddy_pmm.c	/^    struct Page *mem_base;$/;"	m	struct:Zone	typeref:struct:Zone::Page
+mem_map	swap.c	/^static unsigned short *mem_map;$/;"	v
+mm_brk	vmm.c	/^mm_brk(struct mm_struct *mm, uintptr_t addr, size_t len) {$/;"	f
+mm_count	vmm.h	/^    atomic_t mm_count;$/;"	m	struct:mm_struct
+mm_count	vmm.h	/^mm_count(struct mm_struct *mm) {$/;"	f
+mm_count_dec	vmm.h	/^mm_count_dec(struct mm_struct *mm) {$/;"	f
+mm_count_inc	vmm.h	/^mm_count_inc(struct mm_struct *mm) {$/;"	f
+mm_create	vmm.c	/^mm_create(void) {$/;"	f
+mm_destroy	vmm.c	/^mm_destroy(struct mm_struct *mm) {$/;"	f
+mm_lock	vmm.h	/^    lock_t mm_lock;$/;"	m	struct:mm_struct
+mm_map	vmm.c	/^mm_map(struct mm_struct *mm, uintptr_t addr, size_t len, uint32_t vm_flags,$/;"	f
+mm_map_shmem	vmm.c	/^mm_map_shmem(struct mm_struct *mm, uintptr_t addr, uint32_t vm_flags,$/;"	f
+mm_struct	vmm.h	/^struct mm_struct {$/;"	s
+mm_unmap	vmm.c	/^mm_unmap(struct mm_struct *mm, uintptr_t addr, size_t len) {$/;"	f
+mmap_cache	vmm.h	/^    struct vma_struct *mmap_cache; \/\/ current accessed vma, used for speed purpose$/;"	m	struct:mm_struct	typeref:struct:mm_struct::vma_struct
+mmap_list	vmm.h	/^    list_entry_t mmap_list;        \/\/ linear list link which sorted by start addr of vma$/;"	m	struct:mm_struct
+mmap_tree	vmm.h	/^    rb_tree *mmap_tree;            \/\/ redblack tree link which sorted by start addr of vma$/;"	m	struct:mm_struct
+name	pmm.h	/^    const char *name;                                 \/\/ XXX_pmm_manager's name$/;"	m	struct:pmm_manager
+npage	pmm.c	/^size_t npage = 0;$/;"	v
+nr_active_pages	swap.c	91;"	d
+nr_free	buddy_pmm.c	33;"	d
+nr_free	memlayout.h	/^    unsigned int nr_free;           \/\/ # of free pages in this free list$/;"	m	struct:__anon2
+nr_free_pages	pmm.c	/^nr_free_pages(void) {$/;"	f
+nr_free_pages	pmm.h	/^    size_t (*nr_free_pages)(void);                    \/\/ return the number of free pages $/;"	m	struct:pmm_manager
+nr_inactive_pages	swap.c	92;"	d
+nr_map	memlayout.h	/^    int nr_map;$/;"	m	struct:e820map
+nr_pages	swap.c	/^    size_t nr_pages;$/;"	m	struct:__anon3
+num	slab.c	/^    size_t num;                  \/\/ number of objs per slab$/;"	m	struct:kmem_cache_s
+objsize	slab.c	/^    size_t objsize;              \/\/ the fixed size of obj$/;"	m	struct:kmem_cache_s
+off_slab	slab.c	/^    bool off_slab;               \/\/ the control part of slab in slab or not.$/;"	m	struct:kmem_cache_s
+offset	slab.c	/^    size_t offset;               \/\/ this first obj's offset in slab $/;"	m	struct:kmem_cache_s
+offset	slab.c	/^    size_t offset;          \/\/ the first obj's offset value in slab$/;"	m	struct:slab_s
+pa2page	pmm.h	/^pa2page(uintptr_t pa) {$/;"	f
+page2idx	buddy_pmm.c	/^page2idx(struct Page *page) {$/;"	f
+page2kva	pmm.h	/^page2kva(struct Page *page) {$/;"	f
+page2pa	pmm.h	/^page2pa(struct Page *page) {$/;"	f
+page2ppn	pmm.h	/^page2ppn(struct Page *page) {$/;"	f
+page_init	pmm.c	/^page_init(void) {$/;"	f
+page_insert	pmm.c	/^page_insert(pde_t *pgdir, struct Page *page, uintptr_t la, uint32_t perm) {$/;"	f
+page_is_buddy	buddy_pmm.c	/^page_is_buddy(struct Page *page, size_t order, int zone_num) {$/;"	f
+page_launder	swap.c	/^page_launder(void) {$/;"	f
+page_link	memlayout.h	/^    list_entry_t page_link;         \/\/ free list link$/;"	m	struct:Page
+page_order	slab.c	/^    size_t page_order;$/;"	m	struct:kmem_cache_s
+page_ref	pmm.h	/^page_ref(struct Page *page) {$/;"	f
+page_ref_dec	pmm.h	/^page_ref_dec(struct Page *page) {$/;"	f
+page_ref_inc	pmm.h	/^page_ref_inc(struct Page *page) {$/;"	f
+page_remove	pmm.c	/^page_remove(pde_t *pgdir, uintptr_t la) {$/;"	f
+page_remove_pte	pmm.c	/^page_remove_pte(pde_t *pgdir, uintptr_t la, pte_t *ptep) {$/;"	f
+pages	pmm.c	/^struct Page *pages;$/;"	v	typeref:struct:Page
+pde2page	pmm.h	/^pde2page(pde_t pde) {$/;"	f
+pde_t	memlayout.h	/^typedef uintptr_t pde_t;$/;"	t
+perm2str	pmm.c	/^perm2str(int perm) {$/;"	f
+pgdir	vmm.h	/^    pde_t *pgdir;                  \/\/ the PDT of these vma$/;"	m	struct:mm_struct
+pgdir_alloc_page	pmm.c	/^pgdir_alloc_page(pde_t *pgdir, uintptr_t la, uint32_t perm) {$/;"	f
+pmm_init	pmm.c	/^pmm_init(void) {$/;"	f
+pmm_manager	pmm.c	/^const struct pmm_manager *pmm_manager;$/;"	v	typeref:struct:pmm_manager
+pmm_manager	pmm.h	/^struct pmm_manager {$/;"	s
+pressure	swap.c	/^static volatile int pressure = 0;$/;"	v
+print_pgdir	pmm.c	/^print_pgdir(void) {$/;"	f
+proc_mm_link	vmm.h	/^    list_entry_t proc_mm_link;$/;"	m	struct:mm_struct
+property	memlayout.h	/^    unsigned int property;          \/\/ used in buddy system, stores the order (the X in 2^X) of the continuous memory block$/;"	m	struct:Page
+pte2page	pmm.h	/^pte2page(pte_t pte) {$/;"	f
+pte_t	memlayout.h	/^typedef uintptr_t pte_t;$/;"	t
+rb_link	vmm.h	/^    rb_node rb_link;         \/\/ redblack link which sorted by start addr of vma$/;"	m	struct:vma_struct
+rbn2vma	vmm.h	30;"	d
+ref	memlayout.h	/^    atomic_t ref;                   \/\/ page frame's reference counter$/;"	m	struct:Page
+refill_inactive_scan	swap.c	/^refill_inactive_scan(void) {$/;"	f
+remove_vma_struct	vmm.c	/^remove_vma_struct(struct mm_struct *mm, struct vma_struct *vma) {$/;"	f
+s_mem	slab.c	/^    void *s_mem;            \/\/ the kernel virtual address of the first obj in slab $/;"	m	struct:slab_s
+sd_avl	mmu.h	/^    unsigned sd_avl : 1;            \/\/ unused (available for software use)$/;"	m	struct:segdesc
+sd_base_15_0	mmu.h	/^    unsigned sd_base_15_0 : 16;     \/\/ low bits of segment base address$/;"	m	struct:segdesc
+sd_base_23_16	mmu.h	/^    unsigned sd_base_23_16 : 8;     \/\/ middle bits of segment base address$/;"	m	struct:segdesc
+sd_base_31_24	mmu.h	/^    unsigned sd_base_31_24 : 8;     \/\/ high bits of segment base address$/;"	m	struct:segdesc
+sd_db	mmu.h	/^    unsigned sd_db : 1;             \/\/ 0 = 16-bit segment, 1 = 32-bit segment$/;"	m	struct:segdesc
+sd_dpl	mmu.h	/^    unsigned sd_dpl : 2;            \/\/ descriptor Privilege Level$/;"	m	struct:segdesc
+sd_g	mmu.h	/^    unsigned sd_g : 1;              \/\/ granularity: limit scaled by 4K when set$/;"	m	struct:segdesc
+sd_lim_15_0	mmu.h	/^    unsigned sd_lim_15_0 : 16;      \/\/ low bits of segment limit$/;"	m	struct:segdesc
+sd_lim_19_16	mmu.h	/^    unsigned sd_lim_19_16 : 4;      \/\/ high bits of segment limit$/;"	m	struct:segdesc
+sd_p	mmu.h	/^    unsigned sd_p : 1;              \/\/ present$/;"	m	struct:segdesc
+sd_rsv1	mmu.h	/^    unsigned sd_rsv1 : 1;           \/\/ reserved$/;"	m	struct:segdesc
+sd_s	mmu.h	/^    unsigned sd_s : 1;              \/\/ 0 = system, 1 = application$/;"	m	struct:segdesc
+sd_type	mmu.h	/^    unsigned sd_type : 4;           \/\/ segment type (see STS_ constants)$/;"	m	struct:segdesc
+segdesc	mmu.h	/^struct segdesc {$/;"	s
+set_mm_count	vmm.h	/^set_mm_count(struct mm_struct *mm, int val) {$/;"	f
+set_page_ref	pmm.h	/^set_page_ref(struct Page *page, int val) {$/;"	f
+set_shmem_ref	shmem.h	/^set_shmem_ref(struct shmem_struct *shmem, int val) {$/;"	f
+shmem	vmm.h	/^    struct shmem_struct *shmem;$/;"	m	struct:vma_struct	typeref:struct:vma_struct::shmem_struct
+shmem_create	shmem.c	/^shmem_create(size_t len) {$/;"	f
+shmem_destroy	shmem.c	/^shmem_destroy(struct shmem_struct *shmem) {$/;"	f
+shmem_get_entry	shmem.c	/^shmem_get_entry(struct shmem_struct *shmem, uintptr_t addr, bool create) {$/;"	f
+shmem_insert_entry	shmem.c	/^shmem_insert_entry(struct shmem_struct *shmem, uintptr_t addr, pte_t entry) {$/;"	f
+shmem_lock	shmem.h	/^    lock_t shmem_lock;$/;"	m	struct:shmem_struct
+shmem_off	vmm.h	/^    size_t shmem_off;$/;"	m	struct:vma_struct
+shmem_ref	shmem.h	/^    atomic_t shmem_ref;$/;"	m	struct:shmem_struct
+shmem_ref	shmem.h	/^shmem_ref(struct shmem_struct *shmem) {$/;"	f
+shmem_ref_dec	shmem.h	/^shmem_ref_dec(struct shmem_struct *shmem) {$/;"	f
+shmem_ref_inc	shmem.h	/^shmem_ref_inc(struct shmem_struct *shmem) {$/;"	f
+shmem_remove_entry	shmem.c	/^shmem_remove_entry(struct shmem_struct *shmem, uintptr_t addr) {$/;"	f
+shmem_remove_entry_pte	shmem.c	/^shmem_remove_entry_pte(pte_t *ptep) {$/;"	f
+shmem_struct	shmem.h	/^struct shmem_struct {$/;"	s
+shmn_cache	shmem.h	/^    shmn_t *shmn_cache;$/;"	m	struct:shmem_struct
+shmn_create	shmem.c	/^shmn_create(uintptr_t start) {$/;"	f
+shmn_destroy	shmem.c	/^shmn_destroy(shmn_t *shmn) {$/;"	f
+shmn_list	shmem.h	/^    list_entry_t shmn_list;$/;"	m	struct:shmem_struct
+shmn_s	shmem.h	/^typedef struct shmn_s {$/;"	s
+shmn_t	shmem.h	/^} shmn_t;$/;"	t	typeref:struct:shmn_s
+size	memlayout.h	/^        uint64_t size;$/;"	m	struct:e820map::__anon1
+slab_allocated	slab.c	/^slab_allocated(void) {$/;"	f
+slab_bufctl	slab.c	257;"	d
+slab_cache	slab.c	/^static kmem_cache_t slab_cache[SLAB_CACHE_NUM];$/;"	v
+slab_cachep	slab.c	/^    kmem_cache_t *slab_cachep;$/;"	m	struct:kmem_cache_s
+slab_init	slab.c	/^slab_init(void) {$/;"	f
+slab_link	slab.c	/^    list_entry_t slab_link; \/\/ the list entry linked to kmem_cache list$/;"	m	struct:slab_s
+slab_mgmt_size	slab.c	/^slab_mgmt_size(size_t num, size_t align) {$/;"	f
+slab_s	slab.c	/^typedef struct slab_s {$/;"	s
+slab_t	slab.c	/^} slab_t;$/;"	t	typeref:struct:slab_s
+slabs_full	slab.c	/^    list_entry_t slabs_full;     \/\/ list for fully allocated slabs$/;"	m	struct:kmem_cache_s
+slabs_notfull	slab.c	/^    list_entry_t slabs_notfull;  \/\/ list for not-fully allocated slabs$/;"	m	struct:kmem_cache_s
+start	shmem.h	/^    uintptr_t start;$/;"	m	struct:shmn_s
+swap_active_list_add	swap.c	/^swap_active_list_add(struct Page *page) {$/;"	f
+swap_address	vmm.h	/^    uintptr_t swap_address;$/;"	m	struct:mm_struct
+swap_copy_entry	swap.c	/^swap_copy_entry(swap_entry_t entry, swap_entry_t *store) {$/;"	f
+swap_duplicate	swap.c	/^swap_duplicate(swap_entry_t entry) {$/;"	f
+swap_entry_t	memlayout.h	/^typedef pte_t swap_entry_t; \/\/the pte can also be a swap entry$/;"	t
+swap_free_page	swap.c	/^swap_free_page(struct Page *page) {$/;"	f
+swap_hash_find	swap.c	/^swap_hash_find(swap_entry_t entry) {$/;"	f
+swap_in_lock	swap.c	/^static lock_t swap_in_lock;$/;"	v
+swap_in_page	swap.c	/^swap_in_page(swap_entry_t entry, struct Page **pagep) {$/;"	f
+swap_inactive_list_add	swap.c	/^swap_inactive_list_add(struct Page *page) {$/;"	f
+swap_init	swap.c	/^swap_init(void) {$/;"	f
+swap_init_ok	swap.c	/^static volatile bool swap_init_ok = 0;$/;"	v
+swap_link	memlayout.h	/^    list_entry_t swap_link;         \/\/ swap hash link$/;"	m	struct:Page
+swap_list	swap.c	/^    list_entry_t swap_list;$/;"	m	struct:__anon3
+swap_list_del	swap.c	/^swap_list_del(struct Page *page) {$/;"	f
+swap_list_init	swap.c	/^swap_list_init(swap_list_t *list) {$/;"	f
+swap_list_t	swap.c	/^} swap_list_t;$/;"	t	typeref:struct:__anon3
+swap_offset	swap.h	23;"	d
+swap_out_mm	swap.c	/^swap_out_mm(struct mm_struct *mm, size_t require) {$/;"	f
+swap_out_vma	swap.c	/^swap_out_vma(struct mm_struct *mm, struct vma_struct *vma, uintptr_t addr, size_t require) {$/;"	f
+swap_page_add	swap.c	/^swap_page_add(struct Page *page, swap_entry_t entry) {$/;"	f
+swap_page_count	swap.c	/^swap_page_count(struct Page *page) {$/;"	f
+swap_page_del	swap.c	/^swap_page_del(struct Page *page) {$/;"	f
+swap_remove_entry	swap.c	/^swap_remove_entry(swap_entry_t entry) {$/;"	f
+taskstate	mmu.h	/^struct taskstate {$/;"	s
+tlb_invalidate	pmm.c	/^tlb_invalidate(pde_t *pgdir, uintptr_t la) {$/;"	f
+try_alloc_swap_entry	swap.c	/^try_alloc_swap_entry(void) {$/;"	f
+try_free_pages	swap.c	/^try_free_pages(size_t n) {$/;"	f
+try_free_swap_entry	swap.c	/^try_free_swap_entry(swap_entry_t entry) {$/;"	f
+try_lock_mm	vmm.c	/^try_lock_mm(struct mm_struct *mm) {$/;"	f
+ts	pmm.c	/^static struct taskstate ts = {0};$/;"	v	typeref:struct:taskstate
+ts_cr3	mmu.h	/^    uintptr_t ts_cr3;       \/\/ page directory base$/;"	m	struct:taskstate
+ts_cs	mmu.h	/^    uint16_t ts_cs;$/;"	m	struct:taskstate
+ts_ds	mmu.h	/^    uint16_t ts_ds;$/;"	m	struct:taskstate
+ts_eax	mmu.h	/^    uint32_t ts_eax;        \/\/ more saved state (registers)$/;"	m	struct:taskstate
+ts_ebp	mmu.h	/^    uintptr_t ts_ebp;$/;"	m	struct:taskstate
+ts_ebx	mmu.h	/^    uint32_t ts_ebx;$/;"	m	struct:taskstate
+ts_ecx	mmu.h	/^    uint32_t ts_ecx;$/;"	m	struct:taskstate
+ts_edi	mmu.h	/^    uint32_t ts_edi;$/;"	m	struct:taskstate
+ts_edx	mmu.h	/^    uint32_t ts_edx;$/;"	m	struct:taskstate
+ts_eflags	mmu.h	/^    uint32_t ts_eflags;$/;"	m	struct:taskstate
+ts_eip	mmu.h	/^    uintptr_t ts_eip;       \/\/ saved state from last task switch$/;"	m	struct:taskstate
+ts_es	mmu.h	/^    uint16_t ts_es;         \/\/ even more saved state (segment selectors)$/;"	m	struct:taskstate
+ts_esi	mmu.h	/^    uint32_t ts_esi;$/;"	m	struct:taskstate
+ts_esp	mmu.h	/^    uintptr_t ts_esp;$/;"	m	struct:taskstate
+ts_esp0	mmu.h	/^    uintptr_t ts_esp0;      \/\/ stack pointers and segment selectors$/;"	m	struct:taskstate
+ts_esp1	mmu.h	/^    uintptr_t ts_esp1;$/;"	m	struct:taskstate
+ts_esp2	mmu.h	/^    uintptr_t ts_esp2;$/;"	m	struct:taskstate
+ts_fs	mmu.h	/^    uint16_t ts_fs;$/;"	m	struct:taskstate
+ts_gs	mmu.h	/^    uint16_t ts_gs;$/;"	m	struct:taskstate
+ts_iomb	mmu.h	/^    uint16_t ts_iomb;       \/\/ i\/o map base address$/;"	m	struct:taskstate
+ts_ldt	mmu.h	/^    uint16_t ts_ldt;$/;"	m	struct:taskstate
+ts_link	mmu.h	/^    uint32_t ts_link;       \/\/ old ts selector$/;"	m	struct:taskstate
+ts_padding1	mmu.h	/^    uint16_t ts_padding1;$/;"	m	struct:taskstate
+ts_padding10	mmu.h	/^    uint16_t ts_padding10;$/;"	m	struct:taskstate
+ts_padding2	mmu.h	/^    uint16_t ts_padding2;$/;"	m	struct:taskstate
+ts_padding3	mmu.h	/^    uint16_t ts_padding3;$/;"	m	struct:taskstate
+ts_padding4	mmu.h	/^    uint16_t ts_padding4;$/;"	m	struct:taskstate
+ts_padding5	mmu.h	/^    uint16_t ts_padding5;$/;"	m	struct:taskstate
+ts_padding6	mmu.h	/^    uint16_t ts_padding6;$/;"	m	struct:taskstate
+ts_padding7	mmu.h	/^    uint16_t ts_padding7;$/;"	m	struct:taskstate
+ts_padding8	mmu.h	/^    uint16_t ts_padding8;$/;"	m	struct:taskstate
+ts_padding9	mmu.h	/^    uint16_t ts_padding9;$/;"	m	struct:taskstate
+ts_ss	mmu.h	/^    uint16_t ts_ss;$/;"	m	struct:taskstate
+ts_ss0	mmu.h	/^    uint16_t ts_ss0;        \/\/ after an increase in privilege level$/;"	m	struct:taskstate
+ts_ss1	mmu.h	/^    uint16_t ts_ss1;$/;"	m	struct:taskstate
+ts_ss2	mmu.h	/^    uint16_t ts_ss2;$/;"	m	struct:taskstate
+ts_t	mmu.h	/^    uint16_t ts_t;          \/\/ trap on task switch$/;"	m	struct:taskstate
+type	memlayout.h	/^        uint32_t type;$/;"	m	struct:e820map::__anon1
+unlock_mm	vmm.c	/^unlock_mm(struct mm_struct *mm) {$/;"	f
+unlock_shmem	shmem.h	/^unlock_shmem(struct shmem_struct *shmem) {$/;"	f
+unmap_range	pmm.c	/^unmap_range(pde_t *pgdir, uintptr_t start, uintptr_t end) {$/;"	f
+user_mem_check	vmm.c	/^user_mem_check(struct mm_struct *mm, uintptr_t addr, size_t len, bool write) {$/;"	f
+vm_end	vmm.h	/^    uintptr_t vm_end;        \/\/ end addr of vma$/;"	m	struct:vma_struct
+vm_flags	vmm.h	/^    uint32_t vm_flags;       \/\/ flags of vma$/;"	m	struct:vma_struct
+vm_mm	vmm.h	/^    struct mm_struct *vm_mm; \/\/ the set of vma using the same PDT $/;"	m	struct:vma_struct	typeref:struct:vma_struct::mm_struct
+vm_start	vmm.h	/^    uintptr_t vm_start;      \/\/	start addr of vma	$/;"	m	struct:vma_struct
+vma_compare	vmm.c	/^vma_compare(rb_node *node1, rb_node *node2) {$/;"	f
+vma_create	vmm.c	/^vma_create(uintptr_t vm_start, uintptr_t vm_end, uint32_t vm_flags) {$/;"	f
+vma_destroy	vmm.c	/^vma_destroy(struct vma_struct *vma) {$/;"	f
+vma_resize	vmm.c	/^vma_resize(struct vma_struct *vma, uintptr_t start, uintptr_t end) {$/;"	f
+vma_struct	vmm.h	/^struct vma_struct {$/;"	s
+vmm_init	vmm.c	/^vmm_init(void) {$/;"	f
+vpd	pmm.c	/^pde_t * const vpd = (pde_t *)PGADDR(PDX(VPT), PDX(VPT), 0);$/;"	v
+vpt	pmm.c	/^pte_t * const vpt = (pte_t *)VPT;$/;"	v
+zone_num	memlayout.h	/^    int zone_num;                   \/\/ used in buddy system, the No. of zone which the page belongs to$/;"	m	struct:Page
+zones	buddy_pmm.c	/^} zones[MAX_ZONE_NUM] = {{NULL}};$/;"	v	typeref:struct:Zone

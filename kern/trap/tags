@@ -1,0 +1,330 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+IA32flags	trap.c	/^static const char *IA32flags[] = {$/;"	v
+IRQ_COM1	trap.h	35;"	d
+IRQ_ERROR	trap.h	38;"	d
+IRQ_IDE1	trap.h	36;"	d
+IRQ_IDE2	trap.h	37;"	d
+IRQ_KBD	trap.h	34;"	d
+IRQ_OFFSET	trap.h	31;"	d
+IRQ_SPURIOUS	trap.h	39;"	d
+IRQ_TIMER	trap.h	33;"	d
+TICK_NUM	trap.c	20;"	d
+T_ALIGN	trap.h	26;"	d
+T_BOUND	trap.h	14;"	d
+T_BRKPT	trap.h	12;"	d
+T_DBLFLT	trap.h	17;"	d
+T_DEBUG	trap.h	10;"	d
+T_DEVICE	trap.h	16;"	d
+T_DIVIDE	trap.h	9;"	d
+T_FPERR	trap.h	25;"	d
+T_GPFLT	trap.h	22;"	d
+T_ILLOP	trap.h	15;"	d
+T_MCHK	trap.h	27;"	d
+T_NMI	trap.h	11;"	d
+T_OFLOW	trap.h	13;"	d
+T_PGFLT	trap.h	23;"	d
+T_SEGNP	trap.h	20;"	d
+T_SIMDERR	trap.h	28;"	d
+T_STACK	trap.h	21;"	d
+T_TSS	trap.h	19;"	d
+__KERN_TRAP_TRAP_H__	trap.h	2;"	d
+__alltraps	trapentry.S	/^__alltraps:$/;"	l
+__trapret	trapentry.S	/^__trapret:$/;"	l
+__vectors	vectors.S	/^__vectors:$/;"	l
+forkrets	trapentry.S	/^forkrets:$/;"	l
+idt	trap.c	/^static struct gatedesc idt[256] = {{0}};$/;"	v	typeref:struct:gatedesc
+idt_init	trap.c	/^idt_init(void) {$/;"	f
+idt_pd	trap.c	/^static struct pseudodesc idt_pd = {$/;"	v	typeref:struct:pseudodesc
+pgfault_handler	trap.c	/^pgfault_handler(struct trapframe *tf) {$/;"	f
+print_pgfault	trap.c	/^print_pgfault(struct trapframe *tf) {$/;"	f
+print_regs	trap.c	/^print_regs(struct pushregs *regs) {$/;"	f
+print_trapframe	trap.c	/^print_trapframe(struct trapframe *tf) {$/;"	f
+pushregs	trap.h	/^struct pushregs {$/;"	s
+reg_eax	trap.h	/^    uint32_t reg_eax;$/;"	m	struct:pushregs
+reg_ebp	trap.h	/^    uint32_t reg_ebp;$/;"	m	struct:pushregs
+reg_ebx	trap.h	/^    uint32_t reg_ebx;$/;"	m	struct:pushregs
+reg_ecx	trap.h	/^    uint32_t reg_ecx;$/;"	m	struct:pushregs
+reg_edi	trap.h	/^    uint32_t reg_edi;$/;"	m	struct:pushregs
+reg_edx	trap.h	/^    uint32_t reg_edx;$/;"	m	struct:pushregs
+reg_esi	trap.h	/^    uint32_t reg_esi;$/;"	m	struct:pushregs
+reg_oesp	trap.h	/^    uint32_t reg_oesp;          \/* Useless *\/$/;"	m	struct:pushregs
+tf_cs	trap.h	/^    uint16_t tf_cs;$/;"	m	struct:trapframe
+tf_ds	trap.h	/^    uint16_t tf_ds;$/;"	m	struct:trapframe
+tf_eflags	trap.h	/^    uint32_t tf_eflags;$/;"	m	struct:trapframe
+tf_eip	trap.h	/^    uintptr_t tf_eip;$/;"	m	struct:trapframe
+tf_err	trap.h	/^    uint32_t tf_err;$/;"	m	struct:trapframe
+tf_es	trap.h	/^    uint16_t tf_es;$/;"	m	struct:trapframe
+tf_esp	trap.h	/^    uintptr_t tf_esp;$/;"	m	struct:trapframe
+tf_padding1	trap.h	/^    uint16_t tf_padding1;$/;"	m	struct:trapframe
+tf_padding2	trap.h	/^    uint16_t tf_padding2;$/;"	m	struct:trapframe
+tf_padding3	trap.h	/^    uint16_t tf_padding3;$/;"	m	struct:trapframe
+tf_padding4	trap.h	/^    uint16_t tf_padding4;$/;"	m	struct:trapframe
+tf_regs	trap.h	/^    struct pushregs tf_regs;$/;"	m	struct:trapframe	typeref:struct:trapframe::pushregs
+tf_ss	trap.h	/^    uint16_t tf_ss;$/;"	m	struct:trapframe
+tf_trapno	trap.h	/^    uint32_t tf_trapno;$/;"	m	struct:trapframe
+trap	trap.c	/^trap(struct trapframe *tf) {$/;"	f
+trap_dispatch	trap.c	/^trap_dispatch(struct trapframe *tf) {$/;"	f
+trap_in_kernel	trap.c	/^trap_in_kernel(struct trapframe *tf) {$/;"	f
+trapframe	trap.h	/^struct trapframe {$/;"	s
+trapname	trap.c	/^trapname(int trapno) {$/;"	f
+vector0	vectors.S	/^vector0:$/;"	l
+vector1	vectors.S	/^vector1:$/;"	l
+vector10	vectors.S	/^vector10:$/;"	l
+vector100	vectors.S	/^vector100:$/;"	l
+vector101	vectors.S	/^vector101:$/;"	l
+vector102	vectors.S	/^vector102:$/;"	l
+vector103	vectors.S	/^vector103:$/;"	l
+vector104	vectors.S	/^vector104:$/;"	l
+vector105	vectors.S	/^vector105:$/;"	l
+vector106	vectors.S	/^vector106:$/;"	l
+vector107	vectors.S	/^vector107:$/;"	l
+vector108	vectors.S	/^vector108:$/;"	l
+vector109	vectors.S	/^vector109:$/;"	l
+vector11	vectors.S	/^vector11:$/;"	l
+vector110	vectors.S	/^vector110:$/;"	l
+vector111	vectors.S	/^vector111:$/;"	l
+vector112	vectors.S	/^vector112:$/;"	l
+vector113	vectors.S	/^vector113:$/;"	l
+vector114	vectors.S	/^vector114:$/;"	l
+vector115	vectors.S	/^vector115:$/;"	l
+vector116	vectors.S	/^vector116:$/;"	l
+vector117	vectors.S	/^vector117:$/;"	l
+vector118	vectors.S	/^vector118:$/;"	l
+vector119	vectors.S	/^vector119:$/;"	l
+vector12	vectors.S	/^vector12:$/;"	l
+vector120	vectors.S	/^vector120:$/;"	l
+vector121	vectors.S	/^vector121:$/;"	l
+vector122	vectors.S	/^vector122:$/;"	l
+vector123	vectors.S	/^vector123:$/;"	l
+vector124	vectors.S	/^vector124:$/;"	l
+vector125	vectors.S	/^vector125:$/;"	l
+vector126	vectors.S	/^vector126:$/;"	l
+vector127	vectors.S	/^vector127:$/;"	l
+vector128	vectors.S	/^vector128:$/;"	l
+vector129	vectors.S	/^vector129:$/;"	l
+vector13	vectors.S	/^vector13:$/;"	l
+vector130	vectors.S	/^vector130:$/;"	l
+vector131	vectors.S	/^vector131:$/;"	l
+vector132	vectors.S	/^vector132:$/;"	l
+vector133	vectors.S	/^vector133:$/;"	l
+vector134	vectors.S	/^vector134:$/;"	l
+vector135	vectors.S	/^vector135:$/;"	l
+vector136	vectors.S	/^vector136:$/;"	l
+vector137	vectors.S	/^vector137:$/;"	l
+vector138	vectors.S	/^vector138:$/;"	l
+vector139	vectors.S	/^vector139:$/;"	l
+vector14	vectors.S	/^vector14:$/;"	l
+vector140	vectors.S	/^vector140:$/;"	l
+vector141	vectors.S	/^vector141:$/;"	l
+vector142	vectors.S	/^vector142:$/;"	l
+vector143	vectors.S	/^vector143:$/;"	l
+vector144	vectors.S	/^vector144:$/;"	l
+vector145	vectors.S	/^vector145:$/;"	l
+vector146	vectors.S	/^vector146:$/;"	l
+vector147	vectors.S	/^vector147:$/;"	l
+vector148	vectors.S	/^vector148:$/;"	l
+vector149	vectors.S	/^vector149:$/;"	l
+vector15	vectors.S	/^vector15:$/;"	l
+vector150	vectors.S	/^vector150:$/;"	l
+vector151	vectors.S	/^vector151:$/;"	l
+vector152	vectors.S	/^vector152:$/;"	l
+vector153	vectors.S	/^vector153:$/;"	l
+vector154	vectors.S	/^vector154:$/;"	l
+vector155	vectors.S	/^vector155:$/;"	l
+vector156	vectors.S	/^vector156:$/;"	l
+vector157	vectors.S	/^vector157:$/;"	l
+vector158	vectors.S	/^vector158:$/;"	l
+vector159	vectors.S	/^vector159:$/;"	l
+vector16	vectors.S	/^vector16:$/;"	l
+vector160	vectors.S	/^vector160:$/;"	l
+vector161	vectors.S	/^vector161:$/;"	l
+vector162	vectors.S	/^vector162:$/;"	l
+vector163	vectors.S	/^vector163:$/;"	l
+vector164	vectors.S	/^vector164:$/;"	l
+vector165	vectors.S	/^vector165:$/;"	l
+vector166	vectors.S	/^vector166:$/;"	l
+vector167	vectors.S	/^vector167:$/;"	l
+vector168	vectors.S	/^vector168:$/;"	l
+vector169	vectors.S	/^vector169:$/;"	l
+vector17	vectors.S	/^vector17:$/;"	l
+vector170	vectors.S	/^vector170:$/;"	l
+vector171	vectors.S	/^vector171:$/;"	l
+vector172	vectors.S	/^vector172:$/;"	l
+vector173	vectors.S	/^vector173:$/;"	l
+vector174	vectors.S	/^vector174:$/;"	l
+vector175	vectors.S	/^vector175:$/;"	l
+vector176	vectors.S	/^vector176:$/;"	l
+vector177	vectors.S	/^vector177:$/;"	l
+vector178	vectors.S	/^vector178:$/;"	l
+vector179	vectors.S	/^vector179:$/;"	l
+vector18	vectors.S	/^vector18:$/;"	l
+vector180	vectors.S	/^vector180:$/;"	l
+vector181	vectors.S	/^vector181:$/;"	l
+vector182	vectors.S	/^vector182:$/;"	l
+vector183	vectors.S	/^vector183:$/;"	l
+vector184	vectors.S	/^vector184:$/;"	l
+vector185	vectors.S	/^vector185:$/;"	l
+vector186	vectors.S	/^vector186:$/;"	l
+vector187	vectors.S	/^vector187:$/;"	l
+vector188	vectors.S	/^vector188:$/;"	l
+vector189	vectors.S	/^vector189:$/;"	l
+vector19	vectors.S	/^vector19:$/;"	l
+vector190	vectors.S	/^vector190:$/;"	l
+vector191	vectors.S	/^vector191:$/;"	l
+vector192	vectors.S	/^vector192:$/;"	l
+vector193	vectors.S	/^vector193:$/;"	l
+vector194	vectors.S	/^vector194:$/;"	l
+vector195	vectors.S	/^vector195:$/;"	l
+vector196	vectors.S	/^vector196:$/;"	l
+vector197	vectors.S	/^vector197:$/;"	l
+vector198	vectors.S	/^vector198:$/;"	l
+vector199	vectors.S	/^vector199:$/;"	l
+vector2	vectors.S	/^vector2:$/;"	l
+vector20	vectors.S	/^vector20:$/;"	l
+vector200	vectors.S	/^vector200:$/;"	l
+vector201	vectors.S	/^vector201:$/;"	l
+vector202	vectors.S	/^vector202:$/;"	l
+vector203	vectors.S	/^vector203:$/;"	l
+vector204	vectors.S	/^vector204:$/;"	l
+vector205	vectors.S	/^vector205:$/;"	l
+vector206	vectors.S	/^vector206:$/;"	l
+vector207	vectors.S	/^vector207:$/;"	l
+vector208	vectors.S	/^vector208:$/;"	l
+vector209	vectors.S	/^vector209:$/;"	l
+vector21	vectors.S	/^vector21:$/;"	l
+vector210	vectors.S	/^vector210:$/;"	l
+vector211	vectors.S	/^vector211:$/;"	l
+vector212	vectors.S	/^vector212:$/;"	l
+vector213	vectors.S	/^vector213:$/;"	l
+vector214	vectors.S	/^vector214:$/;"	l
+vector215	vectors.S	/^vector215:$/;"	l
+vector216	vectors.S	/^vector216:$/;"	l
+vector217	vectors.S	/^vector217:$/;"	l
+vector218	vectors.S	/^vector218:$/;"	l
+vector219	vectors.S	/^vector219:$/;"	l
+vector22	vectors.S	/^vector22:$/;"	l
+vector220	vectors.S	/^vector220:$/;"	l
+vector221	vectors.S	/^vector221:$/;"	l
+vector222	vectors.S	/^vector222:$/;"	l
+vector223	vectors.S	/^vector223:$/;"	l
+vector224	vectors.S	/^vector224:$/;"	l
+vector225	vectors.S	/^vector225:$/;"	l
+vector226	vectors.S	/^vector226:$/;"	l
+vector227	vectors.S	/^vector227:$/;"	l
+vector228	vectors.S	/^vector228:$/;"	l
+vector229	vectors.S	/^vector229:$/;"	l
+vector23	vectors.S	/^vector23:$/;"	l
+vector230	vectors.S	/^vector230:$/;"	l
+vector231	vectors.S	/^vector231:$/;"	l
+vector232	vectors.S	/^vector232:$/;"	l
+vector233	vectors.S	/^vector233:$/;"	l
+vector234	vectors.S	/^vector234:$/;"	l
+vector235	vectors.S	/^vector235:$/;"	l
+vector236	vectors.S	/^vector236:$/;"	l
+vector237	vectors.S	/^vector237:$/;"	l
+vector238	vectors.S	/^vector238:$/;"	l
+vector239	vectors.S	/^vector239:$/;"	l
+vector24	vectors.S	/^vector24:$/;"	l
+vector240	vectors.S	/^vector240:$/;"	l
+vector241	vectors.S	/^vector241:$/;"	l
+vector242	vectors.S	/^vector242:$/;"	l
+vector243	vectors.S	/^vector243:$/;"	l
+vector244	vectors.S	/^vector244:$/;"	l
+vector245	vectors.S	/^vector245:$/;"	l
+vector246	vectors.S	/^vector246:$/;"	l
+vector247	vectors.S	/^vector247:$/;"	l
+vector248	vectors.S	/^vector248:$/;"	l
+vector249	vectors.S	/^vector249:$/;"	l
+vector25	vectors.S	/^vector25:$/;"	l
+vector250	vectors.S	/^vector250:$/;"	l
+vector251	vectors.S	/^vector251:$/;"	l
+vector252	vectors.S	/^vector252:$/;"	l
+vector253	vectors.S	/^vector253:$/;"	l
+vector254	vectors.S	/^vector254:$/;"	l
+vector255	vectors.S	/^vector255:$/;"	l
+vector26	vectors.S	/^vector26:$/;"	l
+vector27	vectors.S	/^vector27:$/;"	l
+vector28	vectors.S	/^vector28:$/;"	l
+vector29	vectors.S	/^vector29:$/;"	l
+vector3	vectors.S	/^vector3:$/;"	l
+vector30	vectors.S	/^vector30:$/;"	l
+vector31	vectors.S	/^vector31:$/;"	l
+vector32	vectors.S	/^vector32:$/;"	l
+vector33	vectors.S	/^vector33:$/;"	l
+vector34	vectors.S	/^vector34:$/;"	l
+vector35	vectors.S	/^vector35:$/;"	l
+vector36	vectors.S	/^vector36:$/;"	l
+vector37	vectors.S	/^vector37:$/;"	l
+vector38	vectors.S	/^vector38:$/;"	l
+vector39	vectors.S	/^vector39:$/;"	l
+vector4	vectors.S	/^vector4:$/;"	l
+vector40	vectors.S	/^vector40:$/;"	l
+vector41	vectors.S	/^vector41:$/;"	l
+vector42	vectors.S	/^vector42:$/;"	l
+vector43	vectors.S	/^vector43:$/;"	l
+vector44	vectors.S	/^vector44:$/;"	l
+vector45	vectors.S	/^vector45:$/;"	l
+vector46	vectors.S	/^vector46:$/;"	l
+vector47	vectors.S	/^vector47:$/;"	l
+vector48	vectors.S	/^vector48:$/;"	l
+vector49	vectors.S	/^vector49:$/;"	l
+vector5	vectors.S	/^vector5:$/;"	l
+vector50	vectors.S	/^vector50:$/;"	l
+vector51	vectors.S	/^vector51:$/;"	l
+vector52	vectors.S	/^vector52:$/;"	l
+vector53	vectors.S	/^vector53:$/;"	l
+vector54	vectors.S	/^vector54:$/;"	l
+vector55	vectors.S	/^vector55:$/;"	l
+vector56	vectors.S	/^vector56:$/;"	l
+vector57	vectors.S	/^vector57:$/;"	l
+vector58	vectors.S	/^vector58:$/;"	l
+vector59	vectors.S	/^vector59:$/;"	l
+vector6	vectors.S	/^vector6:$/;"	l
+vector60	vectors.S	/^vector60:$/;"	l
+vector61	vectors.S	/^vector61:$/;"	l
+vector62	vectors.S	/^vector62:$/;"	l
+vector63	vectors.S	/^vector63:$/;"	l
+vector64	vectors.S	/^vector64:$/;"	l
+vector65	vectors.S	/^vector65:$/;"	l
+vector66	vectors.S	/^vector66:$/;"	l
+vector67	vectors.S	/^vector67:$/;"	l
+vector68	vectors.S	/^vector68:$/;"	l
+vector69	vectors.S	/^vector69:$/;"	l
+vector7	vectors.S	/^vector7:$/;"	l
+vector70	vectors.S	/^vector70:$/;"	l
+vector71	vectors.S	/^vector71:$/;"	l
+vector72	vectors.S	/^vector72:$/;"	l
+vector73	vectors.S	/^vector73:$/;"	l
+vector74	vectors.S	/^vector74:$/;"	l
+vector75	vectors.S	/^vector75:$/;"	l
+vector76	vectors.S	/^vector76:$/;"	l
+vector77	vectors.S	/^vector77:$/;"	l
+vector78	vectors.S	/^vector78:$/;"	l
+vector79	vectors.S	/^vector79:$/;"	l
+vector8	vectors.S	/^vector8:$/;"	l
+vector80	vectors.S	/^vector80:$/;"	l
+vector81	vectors.S	/^vector81:$/;"	l
+vector82	vectors.S	/^vector82:$/;"	l
+vector83	vectors.S	/^vector83:$/;"	l
+vector84	vectors.S	/^vector84:$/;"	l
+vector85	vectors.S	/^vector85:$/;"	l
+vector86	vectors.S	/^vector86:$/;"	l
+vector87	vectors.S	/^vector87:$/;"	l
+vector88	vectors.S	/^vector88:$/;"	l
+vector89	vectors.S	/^vector89:$/;"	l
+vector9	vectors.S	/^vector9:$/;"	l
+vector90	vectors.S	/^vector90:$/;"	l
+vector91	vectors.S	/^vector91:$/;"	l
+vector92	vectors.S	/^vector92:$/;"	l
+vector93	vectors.S	/^vector93:$/;"	l
+vector94	vectors.S	/^vector94:$/;"	l
+vector95	vectors.S	/^vector95:$/;"	l
+vector96	vectors.S	/^vector96:$/;"	l
+vector97	vectors.S	/^vector97:$/;"	l
+vector98	vectors.S	/^vector98:$/;"	l
+vector99	vectors.S	/^vector99:$/;"	l

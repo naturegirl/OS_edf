@@ -1,0 +1,124 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+BreakDescription	kdebug.c	/^static const char *BreakDescription[] = {$/;"	v
+BreakLengthDescription	kdebug.c	/^static const char *BreakLengthDescription[] = {$/;"	v
+DR6_B0_BIT	kdebug.h	19;"	d
+DR6_B1_BIT	kdebug.h	20;"	d
+DR6_B2_BIT	kdebug.h	21;"	d
+DR6_B3_BIT	kdebug.h	22;"	d
+DR7_G0_BIT	kdebug.h	26;"	d
+DR7_G1_BIT	kdebug.h	28;"	d
+DR7_G2_BIT	kdebug.h	30;"	d
+DR7_G3_BIT	kdebug.h	32;"	d
+DR7_GDETECT	kdebug.h	35;"	d
+DR7_GEXACT	kdebug.h	34;"	d
+DR7_L0_BIT	kdebug.h	25;"	d
+DR7_L1_BIT	kdebug.h	27;"	d
+DR7_L2_BIT	kdebug.h	29;"	d
+DR7_L3_BIT	kdebug.h	31;"	d
+DR7_LEXACT	kdebug.h	33;"	d
+DR7_MASK	kdebug.h	36;"	d
+DR_CONTROL	kdebug.h	16;"	d
+DR_STATUS	kdebug.h	15;"	d
+MAXARGS	monitor.c	51;"	d
+MAX_DR_NUM	kdebug.h	12;"	d
+NCOMMANDS	monitor.c	47;"	d
+N_BCOMM	stab.h	39;"	d
+N_BINCL	stab.h	31;"	d
+N_BSLINE	stab.h	27;"	d
+N_DSLINE	stab.h	26;"	d
+N_ECOML	stab.h	41;"	d
+N_ECOMM	stab.h	40;"	d
+N_EINCL	stab.h	34;"	d
+N_ENTRY	stab.h	35;"	d
+N_EXCL	stab.h	37;"	d
+N_FNAME	stab.h	18;"	d
+N_FUN	stab.h	19;"	d
+N_GSYM	stab.h	17;"	d
+N_LBRAC	stab.h	36;"	d
+N_LCSYM	stab.h	21;"	d
+N_LENG	stab.h	42;"	d
+N_LSYM	stab.h	30;"	d
+N_MAIN	stab.h	22;"	d
+N_PC	stab.h	23;"	d
+N_PSYM	stab.h	33;"	d
+N_RBRAC	stab.h	38;"	d
+N_RSYM	stab.h	24;"	d
+N_SLINE	stab.h	25;"	d
+N_SO	stab.h	29;"	d
+N_SOL	stab.h	32;"	d
+N_SSYM	stab.h	28;"	d
+N_STSYM	stab.h	20;"	d
+STACKFRAME_DEPTH	kdebug.c	14;"	d
+WHITESPACE	monitor.c	52;"	d
+__KERN_DEBUG_ASSERT_H__	assert.h	2;"	d
+__KERN_DEBUG_KDEBUG_H__	kdebug.h	2;"	d
+__KERN_DEBUG_MONITOR_H__	monitor.h	2;"	d
+__KERN_DEBUG_STAB_H__	stab.h	2;"	d
+__panic	panic.c	/^__panic(const char *file, int line, const char *fmt, ...) {$/;"	f
+__warn	panic.c	/^__warn(const char *file, int line, const char *fmt, ...) {$/;"	f
+assert	assert.h	13;"	d
+command	monitor.c	/^struct command {$/;"	s
+commands	monitor.c	/^static struct command commands[] = {$/;"	v	typeref:struct:command
+control_dr	kdebug.c	/^static uint32_t local_dr[MAX_DR_NUM], status_dr, control_dr;$/;"	v
+debug_disable_dr	kdebug.c	/^debug_disable_dr(unsigned regnum) {$/;"	f
+debug_enable_dr	kdebug.c	/^debug_enable_dr(unsigned regnum, uintptr_t addr, unsigned type, unsigned len) {$/;"	f
+debug_end	kdebug.c	/^debug_end(struct trapframe *tf) {$/;"	f
+debug_init	kdebug.c	/^debug_init(void) {$/;"	f
+debug_list_dr	kdebug.c	/^debug_list_dr(void) {$/;"	f
+debug_monitor	kdebug.c	/^debug_monitor(struct trapframe *tf) {$/;"	f
+debug_start	kdebug.c	/^debug_start(struct trapframe *tf) {$/;"	f
+debuginfo_eip	kdebug.c	/^debuginfo_eip(uintptr_t addr, struct eipdebuginfo *info) {$/;"	f
+desc	monitor.c	/^    const char *desc;$/;"	m	struct:command
+eip_file	kdebug.c	/^    const char *eip_file;                   \/\/ source code filename for eip$/;"	m	struct:eipdebuginfo
+eip_fn_addr	kdebug.c	/^    uintptr_t eip_fn_addr;                  \/\/ start address of function$/;"	m	struct:eipdebuginfo
+eip_fn_name	kdebug.c	/^    const char *eip_fn_name;                \/\/ name of function containing eip$/;"	m	struct:eipdebuginfo
+eip_fn_namelen	kdebug.c	/^    int eip_fn_namelen;                     \/\/ length of function's name$/;"	m	struct:eipdebuginfo
+eip_fn_narg	kdebug.c	/^    int eip_fn_narg;                        \/\/ number of function arguments$/;"	m	struct:eipdebuginfo
+eip_line	kdebug.c	/^    int eip_line;                           \/\/ source code line number for eip$/;"	m	struct:eipdebuginfo
+eipdebuginfo	kdebug.c	/^struct eipdebuginfo {$/;"	s
+func	monitor.c	/^    int(*func)(int argc, char **argv, struct trapframe *tf);$/;"	m	struct:command
+is_dr_saved	kdebug.c	/^static bool is_dr_saved = 0;$/;"	v
+is_kernel_panic	panic.c	/^is_kernel_panic(void) {$/;"	f
+is_panic	panic.c	/^static bool is_panic = 0;$/;"	v
+local_dr	kdebug.c	/^static uint32_t local_dr[MAX_DR_NUM], status_dr, control_dr;$/;"	v
+local_dr_counter	kdebug.c	/^static unsigned int local_dr_counter[MAX_DR_NUM];$/;"	v
+mon_backtrace	monitor.c	/^mon_backtrace(int argc, char **argv, struct trapframe *tf) {$/;"	f
+mon_breakpoint	monitor.c	/^mon_breakpoint(int argc, char **argv, struct trapframe *tf) {$/;"	f
+mon_continue	monitor.c	/^mon_continue(int argc, char **argv, struct trapframe *tf) {$/;"	f
+mon_delete_dr	monitor.c	/^mon_delete_dr(int argc, char **argv, struct trapframe *tf) {$/;"	f
+mon_help	monitor.c	/^mon_help(int argc, char **argv, struct trapframe *tf) {$/;"	f
+mon_kerninfo	monitor.c	/^mon_kerninfo(int argc, char **argv, struct trapframe *tf) {$/;"	f
+mon_list_dr	monitor.c	/^mon_list_dr(int argc, char **argv, struct trapframe *tf) {$/;"	f
+mon_step	monitor.c	/^mon_step(int argc, char **argv, struct trapframe *tf) {$/;"	f
+mon_watchpoint	monitor.c	/^mon_watchpoint(int argc, char **argv, struct trapframe *tf) {$/;"	f
+monitor	monitor.c	/^monitor(struct trapframe *tf) {$/;"	f
+n_desc	stab.h	/^    uint16_t n_desc;        \/\/ description field$/;"	m	struct:stab
+n_other	stab.h	/^    uint8_t n_other;        \/\/ misc info (usually empty)$/;"	m	struct:stab
+n_strx	stab.h	/^    uint32_t n_strx;        \/\/ index into string table of name$/;"	m	struct:stab
+n_type	stab.h	/^    uint8_t n_type;         \/\/ type of symbol$/;"	m	struct:stab
+n_value	stab.h	/^    uintptr_t n_value;      \/\/ value of symbol$/;"	m	struct:stab
+name	monitor.c	/^    const char *name;$/;"	m	struct:command
+panic	assert.h	10;"	d
+parse	monitor.c	/^parse(char *buf, char **argv) {$/;"	f
+print_debuginfo	kdebug.c	/^print_debuginfo(uintptr_t eip) {$/;"	f
+print_kerninfo	kdebug.c	/^print_kerninfo(void) {$/;"	f
+print_stackframe	kdebug.c	/^print_stackframe(void) {$/;"	f
+read_eip	kdebug.c	/^read_eip(void) {$/;"	f
+restore_all_dr	kdebug.c	/^restore_all_dr(void) {$/;"	f
+runcmd	monitor.c	/^runcmd(char *buf, struct trapframe *tf) {$/;"	f
+save_all_dr	kdebug.c	/^save_all_dr(void) {$/;"	f
+stab	stab.h	/^struct stab {$/;"	s
+stab_binsearch	kdebug.c	/^stab_binsearch(const struct stab *stabs, int *region_left, int *region_right,$/;"	f
+stab_end	kdebug.c	/^    const struct stab *stab_end;$/;"	m	struct:userstabdata	typeref:struct:userstabdata::stab
+stabs	kdebug.c	/^    const struct stab *stabs;$/;"	m	struct:userstabdata	typeref:struct:userstabdata::stab
+stabstr	kdebug.c	/^    const char *stabstr;$/;"	m	struct:userstabdata
+stabstr_end	kdebug.c	/^    const char *stabstr_end;$/;"	m	struct:userstabdata
+static_assert	assert.h	21;"	d
+status_dr	kdebug.c	/^static uint32_t local_dr[MAX_DR_NUM], status_dr, control_dr;$/;"	v
+userstabdata	kdebug.c	/^struct userstabdata {$/;"	s
+warn	assert.h	7;"	d
