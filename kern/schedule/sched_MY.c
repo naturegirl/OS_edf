@@ -21,10 +21,6 @@ MY_enqueue(struct run_queue *rq, struct proc_struct *proc) {
     if (proc->time_slice == 0 || proc->time_slice > rq->max_time_slice) {
         proc->time_slice = rq->max_time_slice;
     }
-    if (proc->deadline <= 0 || proc->deadline > PROC_MAX_DEADLINE) {
-    	panic("deadline of pid %d is %d!!", proc->pid, proc->deadline);
-    }
-    //cprintf("enqueue %d\n", proc->deadline);
     proc->rq = rq;		//	running queue that contains process
     rq->proc_num ++;
 }
@@ -36,49 +32,53 @@ MY_dequeue(struct run_queue *rq, struct proc_struct *proc) {
     rq->proc_num --;
 }
 
+// called when current proc neeeds reschedule is true
 static struct proc_struct *
 MY_pick_next(struct run_queue *rq) {
     struct proc_struct *proc;			// to save the proc we get from list elm, temporary use
     list_entry_t *le;					// temporary use when iterating through list
     list_entry_t *start = list_next(&(rq->run_list));	// temporary use
-    struct proc_struct *pickNext;		// the one with closest deadline, will return this one
+    struct proc_struct *pickNext = NULL;		// the one with closest deadline, will return this one
 
     if (list_empty(&(rq->run_list)))
     	panic("sched_MY.c pick_next: list is empty!\n");
 
-    int closestDeadline = PROC_MAX_DEADLINE;
+    int ed = PROC_MAX_DEADLINE;		// earliest deadline
+    // pick the one with earliest deadline
 	for(le = list_next(&(rq->run_list)); le->next != start; le = list_next(le)) {
 		proc = le2proc(le, run_link);
-		//cprintf("PID: %d isRT %d\n", proc->pid, proc->isRT);
-		if (proc->deadline <= closestDeadline)		// has closer deadline
+		if (proc->pt <= ed) {		// pick a RT proc only! has earlier deadline
+			ed = proc->pt;
 			pickNext = proc;
+		}
+		//cprintf("PID: %d isRT %d\n", proc->pid, proc->isRT);
 	}
+	if (pickNext == NULL)
+		panic("no pickNext found! Is this an issue?");
 	//cprintf("sched_MY: picked next PID %d deadline %d\n", pickNext->pid, pickNext->deadline);
     return pickNext;
 }
 
+// do 2 things
+// 1. decrese pt of all RT procs
+// 2. increase ct of current proc
 static void
 MY_proc_tick(struct run_queue *rq, struct proc_struct *proc) {
-	if (proc->isRT == TRUE) {
+	if (proc->isRT == FALSE)
+		proc->need_resched = TRUE;
+	else {
 		if (proc->ct < proc->compute_time) {
-			cprintf("sched_MY: tick: pid %d ct %d\n", proc->pid, proc->ct);
 			proc->ct ++;		// current proc executing
+			cprintf("current proc %d ct %d\n", proc->pid, proc->ct);
 		}
-		if (proc->ct == proc->compute_time)
+		if (proc->ct == proc->compute_time)		// done with this one. Can reschedule
 			proc->need_resched = TRUE;
 	}
-
 	tick_decrease_RT_pt(rq);		// decrease pt of all RT procs in rq
-
-    if (proc->time_slice > 0) {
-        proc->time_slice --;
-    }
-    if (proc->time_slice == 0) {
-        proc->need_resched = TRUE;
-    }
 }
 
 // decrease the pt of all RT procs in runqueue
+// assume all process are RT
 static void tick_decrease_RT_pt(struct run_queue *rq) {
 	struct proc_struct *proc;			// proc iterator
 	list_entry_t *le;					// list iterator
@@ -86,10 +86,12 @@ static void tick_decrease_RT_pt(struct run_queue *rq) {
 	for(le = list_next(&(rq->run_list)); le->next != start; le = list_next(le)) {
 		proc = le2proc(le, run_link);
 		if (proc->isRT) {
-			cprintf("tick_decrease: pid %d pt %d\n", proc->pid, proc->pt);
-			proc->pt--;		// for all RT procs the pt has decreased one!
-			if (proc->pt < 0)
-				panic("pt of RT proc %d < 0! RT schedule failure!", proc->pid);
+		cprintf("tick_decrease: pid %d pt %d ct %d %d\n", proc->pid, proc->pt, proc->ct, proc->compute_time);
+		proc->pt--;		// for all RT procs the pt has decreased one!
+		if (proc->pt == 0 && proc->ct > 0)
+			panic("pt of proc %d == 0 but ct == %d", proc->pid, proc->ct);
+		if (proc->pt < 0)
+			panic("pt of RT proc %d < 0! RT schedule failure!", proc->pid);
 		}
 	}
 }

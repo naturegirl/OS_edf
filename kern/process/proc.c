@@ -427,8 +427,8 @@ do_fork(uint32_t clone_flags, uintptr_t stack, struct trapframe *tf) {
     // every one gets half of it
     proc->time_slice = current->time_slice / 2;
     current->time_slice -= proc->time_slice;
-    proc->deadline = rand() % (PROC_MAX_DEADLINE-1) + 1;		// arbitrary
     proc->isRT = FALSE;
+    proc->pt = PROC_MAX_DEADLINE;		// so that RT procs get picked with higher priority
 
     if (setup_kstack(proc) != 0) {
         goto bad_fork_cleanup_proc;
@@ -487,7 +487,6 @@ do_forkRT(uint32_t clone_flags, uintptr_t stack, struct trapframe *tf, int ct, i
     current->time_slice -= proc->time_slice;
 
     // assign my EDF related values
-    proc->deadline = rand() % (PROC_MAX_DEADLINE-1) + 1;		// arbitrary
     proc->isRT = TRUE;
     proc->compute_time = ct;
     proc->period_time = pt;
@@ -1217,7 +1216,6 @@ proc_init(void) {
     idleproc->state = PROC_RUNNABLE;
     idleproc->kstack = (uintptr_t)bootstack;
     idleproc->need_resched = 1;
-    idleproc->deadline = 4;		// arbitrary
     set_proc_name(idleproc, "idle");
     nr_process ++;
 

@@ -36,7 +36,7 @@ struct context {
 #define PROC_NAME_LEN               15
 #define MAX_PROCESS                 4096
 #define MAX_PID                     (MAX_PROCESS * 2)
-#define PROC_MAX_DEADLINE			70				// values between 1 and max deadline. Should not reach 0!
+#define PROC_MAX_DEADLINE			70				// max value for period time
 
 extern list_entry_t proc_list;
 extern list_entry_t proc_mm_list;
@@ -64,12 +64,11 @@ struct proc_struct {
     list_entry_t run_link;                      // the entry linked in run queue
     int time_slice;                             // time slice for occupying the CPU
 
-    int deadline;								// for EDF, num between 1~7. Should not be zero!
     bool isRT;								// is a real time proc. Assume in RT system there are RT and nonRT processes
     int compute_time;			// worst case computation time. Constant!
-    int period_time;			// period for arrival of this process. Periodic processes? Constant
+    int period_time;			// period for arrival of this process. MAX_PROC_DEADLINE
     int ct;				// changing ct. Increases with each period (0~compute_time)
-    int pt;				// changing pt to represent deadline. Decreases with each period (period_time~0)
+    int pt;				// changing pt to represent deadline. Decreases with each period (period_time~0).
 };
 
 #define PF_EXITING                  0x00000001      // getting shutdown
