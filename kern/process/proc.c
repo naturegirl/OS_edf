@@ -464,7 +464,6 @@ bad_fork_cleanup_proc:
 
 int
 do_forkRT(uint32_t clone_flags, uintptr_t stack, struct trapframe *tf, int ct, int pt) {
-	cprintf("in do_forkRT with ct %d pt %d\n", ct, pt);
     int ret = -E_NO_FREE_PROC;
     struct proc_struct *proc;
     if (nr_process >= MAX_PROCESS) {
@@ -811,6 +810,13 @@ do_execve(const char *name, size_t len, unsigned char *binary, size_t size) {
     }
     de_thread(current);
     set_proc_name(current, local_name);
+    // set the first execve proc also as rt proc
+    current->isRT = TRUE;
+    current->compute_time = 2;
+    current->period_time = 4;
+    current->pt = current->period_time;
+    current->ct = 0;
+
     return 0;
 
 execve_exit:
