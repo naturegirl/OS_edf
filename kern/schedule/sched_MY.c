@@ -47,6 +47,7 @@ MY_pick_next(struct run_queue *rq) {
     // pick the one with earliest deadline
 	for(le = list_next(&(rq->run_list)); le->next != start; le = list_next(le)) {
 		proc = le2proc(le, run_link);
+		//cprintf("pid %d pt %d\n", proc->pid, proc->pt);
 		if (proc->pt <= ed) {		// pick a RT proc only! has earlier deadline
 			ed = proc->pt;
 			pickNext = proc;
@@ -120,8 +121,8 @@ static void tick_decrease_RT_pt(struct run_queue *rq, struct proc_struct *curren
 				panic("pt of RT proc %d < 0! RT schedule failure!", proc->pid);
 		}
 	}
-	if (noRTprocs && currentproc->isRT == FALSE)		// init proc
-		panic("no RT procs left. Exiting");
+	//if (noRTprocs && currentproc->isRT == FALSE)		// init proc
+//		panic("no RT procs left. Exiting");
 }
 
 struct sched_class MY_sched_class = {

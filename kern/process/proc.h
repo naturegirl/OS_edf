@@ -36,7 +36,7 @@ struct context {
 #define PROC_NAME_LEN               15
 #define MAX_PROCESS                 4096
 #define MAX_PID                     (MAX_PROCESS * 2)
-#define PROC_MAX_DEADLINE			70				// max value for period time
+#define PROC_MAX_DEADLINE			7000				// max value for period time
 
 extern list_entry_t proc_list;
 extern list_entry_t proc_mm_list;

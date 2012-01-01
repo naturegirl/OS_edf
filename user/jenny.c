@@ -3,12 +3,12 @@
 
 int
 main(void) {
-	forkRT(2,4);
-	//forkRT(3,20);
+	forkRT(1,4);
+	forkRT(1,8);
 	double x = 0;
 	double y = 0;
 	double z;
-	int limit = 500;
+	int limit = 1000;
 	for (x = 0; x < limit; x++)
 		for (y = 0; y < limit; y++) {
 			z = 1;
