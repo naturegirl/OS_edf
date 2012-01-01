@@ -3,8 +3,8 @@
 
 int
 main(void) {
-	forkRT(1,4);
-	forkRT(1,8);
+	forkRT(1,5);
+	forkRT(7,20);
 	double x = 0;
 	double y = 0;
 	double z;

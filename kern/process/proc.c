@@ -812,8 +812,8 @@ do_execve(const char *name, size_t len, unsigned char *binary, size_t size) {
     set_proc_name(current, local_name);
     // set the first execve proc also as rt proc
     current->isRT = TRUE;
-    current->compute_time = 2;
-    current->period_time = 4;
+    current->compute_time = 1;
+    current->period_time = 10;
     current->pt = current->period_time;
     current->ct = 0;
 
