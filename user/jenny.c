@@ -3,8 +3,8 @@
 
 int
 main(void) {
-	forkRT(1,5);
-	forkRT(7,20);
+	forkRT(1,200);
+	forkRT(3,9);
 	double x = 0;
 	double y = 0;
 	double z;
@@ -14,7 +14,7 @@ main(void) {
 			z = 1;
 			z /= x+y+1;
 		}
-	cprintf("jenny.c exiting pid %d\n", getpid());
+	cprintf("exiting pid %d\n", getpid());
     return 0;
 }
 
