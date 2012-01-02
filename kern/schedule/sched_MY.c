@@ -11,19 +11,12 @@ static process_heap_t *heap;
 
 static void
 MY_init(struct run_queue *rq) {
-    list_init(&(rq->run_list));		// also init with a list
     heap = heap_init();
     rq->proc_num = 0;
 }
 
 static void
 MY_enqueue(struct run_queue *rq, struct proc_struct *proc) {
-    assert(list_empty(&(proc->run_link)));
-    list_add_before(&(rq->run_list), &(proc->run_link));	// add current process
-    // we should not be needing time_slice
-    if (proc->time_slice == 0 || proc->time_slice > rq->max_time_slice) {
-        proc->time_slice = rq->max_time_slice;
-    }
     proc->rq = rq;		//	running queue that contains process
     rq->proc_num ++;
 
@@ -36,8 +29,7 @@ MY_enqueue(struct run_queue *rq, struct proc_struct *proc) {
 
 static void
 MY_dequeue(struct run_queue *rq, struct proc_struct *proc) {
-    assert(!list_empty(&(proc->run_link)) && proc->rq == rq);
-    list_del_init(&(proc->run_link));
+    assert(!heap_empty(heap) && proc->rq == rq);
     rq->proc_num --;
 
     // heap part
@@ -54,21 +46,8 @@ MY_pick_next(struct run_queue *rq) {
     list_entry_t *start = list_next(&(rq->run_list));	// temporary use
     struct proc_struct *pickNext = NULL;		// the one with closest deadline, will return this one
 
-    if (list_empty(&(rq->run_list)))
-    	panic("sched_MY.c pick_next: list is empty!\n");
-
-    int ed = PROC_MAX_DEADLINE;		// earliest deadline
-    // pick the one with earliest deadline
-	for(le = list_next(&(rq->run_list)); le->next != start; le = list_next(le)) {
-		proc = le2proc(le, run_link);
-		//cprintf("pid %d pt %d\n", proc->pid, proc->pt);
-		if (proc->pt <= ed) {		// pick a RT proc only! has earlier deadline
-			ed = proc->pt;
-			pickNext = proc;
-		}
-	}
-	if (pickNext == NULL)
-		panic("no pickNext found! Is this an issue?");
+    if (heap_empty(heap))
+    	panic("sched_MY.c pick_next: heap is empty!\n");
 
 	// heap part
 	heap_entry_t elm = heap_gettop(heap);
@@ -98,9 +77,6 @@ MY_proc_tick(struct run_queue *rq, struct proc_struct *proc) {
 			proc->pt += proc->period_time;		// deadline for next cycle
 		}
 	}
-	//tick_decrease_RT_pt(rq, proc);		// decrease pt of all RT procs in rq
-	//if(rq_exist_earlier_deadline(rq, proc->pt))
-//		proc->need_resched = TRUE;
 
 	tick_decrease_pt_heap(heap);
 	if(heap_exist_earlier_deadline(heap, proc->pt))
