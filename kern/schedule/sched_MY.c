@@ -41,18 +41,11 @@ MY_dequeue(struct run_queue *rq, struct proc_struct *proc) {
 // called when current proc neeeds reschedule is true
 static struct proc_struct *
 MY_pick_next(struct run_queue *rq) {
-    struct proc_struct *proc;			// to save the proc we get from list elm, temporary use
-    list_entry_t *le;					// temporary use when iterating through list
-    list_entry_t *start = list_next(&(rq->run_list));	// temporary use
-    struct proc_struct *pickNext = NULL;		// the one with closest deadline, will return this one
-
     if (heap_empty(heap))
     	panic("sched_MY.c pick_next: heap is empty!\n");
-
 	// heap part
 	heap_entry_t elm = heap_gettop(heap);
 	struct proc_struct *heapNext = (struct proc_struct *)elm.proc;
-
     return heapNext;
 }
 
