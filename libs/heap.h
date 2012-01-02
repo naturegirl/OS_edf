@@ -25,28 +25,33 @@ struct process_heap {
 typedef struct heap_entry heap_entry_t;
 typedef struct process_heap process_heap_t;
 
-static process_heap_t*  heap_init();
+process_heap_t*  heap_init();
 
-static void heap_print(process_heap_t *heap);
+void heap_print(process_heap_t *heap);
 
 // insert element into heap
-static void heap_push(process_heap_t *heap, heap_entry_t elm);
+void heap_push(process_heap_t *heap, heap_entry_t elm);
 
 // pop element from heap
-static heap_entry_t heap_pop(process_heap_t *heap);
+heap_entry_t heap_pop(process_heap_t *heap);
+
+// only get the first element, but don't pop
+heap_entry_t heap_gettop(process_heap_t *heap);
 
 // is it empty
-static bool heap_empty(process_heap_t *heap);
+bool heap_empty(process_heap_t *heap);
+
+
 
 /* private usage functions */
-static void __rearrange_topdown(process_heap_t *heap);		// filter large value down
-static void __rearrange_bottomup(process_heap_t *heap);	// filter small value up
+void __rearrange_topdown(process_heap_t *heap);		// filter large value down
+void __rearrange_bottomup(process_heap_t *heap);	// filter small value up
 
-static int __get_father(int x);
-static int __get_lc(int x);		// left child
-static int __get_rc(int x);	// right child
-static void __exchange(process_heap_t *heap, int x, int y);	// exchange
-static int __min(int x, int y, int lc_pos);		// return child position whose value is smaller
+int __get_father(int x);
+int __get_lc(int x);		// left child
+int __get_rc(int x);	// right child
+void __exchange(process_heap_t *heap, int x, int y);	// exchange
+int __min(int x, int y, int lc_pos);		// return child position whose value is smaller
 
 
 #endif
